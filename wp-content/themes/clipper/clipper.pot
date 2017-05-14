@@ -1,0 +1,6481 @@
+# Copyright (C) 2016 AppThemes
+# This file is distributed under the GNU General Public License v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: Clipper 1.6.3\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-02-08 10:48:55+00:00\n"
+"PO-Revision-Date: 2016-MO-DA HO:MI+ZONE\n"
+"Last-Translator: AppThemes\n"
+"Language-Team: AppThemes\n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Poedit 1.8.4\n"
+"X-Poedit-KeywordsList: __;_e;_n:1,2;_nx:1,2;_x:1,2c;_ex:1,2c;esc_attr__;"
+"esc_attr_e;esc_attr_x:1,2c;esc_html__;esc_html_e;esc_html_x:1,2c;_n_noop:1,2;"
+"_nx_noop:1,2,3c\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: 404.php:20
+msgid "Page Not Found"
+msgstr ""
+
+#: 404.php:24
+msgid "Sorry, but you are looking for something that isn't here."
+msgstr ""
+
+#: archive.php:26 archive.php:28 archive.php:30 archive.php:32
+msgid "Archive for"
+msgstr ""
+
+#: archive.php:34
+msgid "Posts Tagged with"
+msgstr ""
+
+#: archive.php:36
+msgid "Author Archive"
+msgstr ""
+
+#: archive.php:38
+msgid "Archive"
+msgstr ""
+
+#: attachment.php:41
+msgid "&larr; prev"
+msgstr ""
+
+#: attachment.php:41
+msgid "next &rarr;"
+msgstr ""
+
+#: attachment.php:61
+msgid "Return to %s"
+msgstr ""
+
+#: attachment.php:62
+msgid "&larr; Return to %s"
+msgstr ""
+
+#: author.php:25 includes/actions.php:276
+msgid "About %s"
+msgstr ""
+
+#: author.php:34 sidebar-user.php:57
+msgid "Member Since:"
+msgstr ""
+
+#: author.php:35 includes/comments.php:132 includes/comments.php:291
+#: tpl-profile.php:80
+msgid "Website:"
+msgstr ""
+
+#: author.php:36 content-coupon.php:87 content-search-post.php:73 header.php:35
+#: includes/actions.php:309 includes/profile.php:22 sidebar-user.php:63
+#: single-coupon.php:127 theme-framework/kernel/social.php:108
+msgid "Twitter"
+msgstr ""
+
+#: author.php:37 content-coupon.php:86 content-search-post.php:72 header.php:31
+#: includes/actions.php:310 includes/profile.php:23 sidebar-user.php:64
+#: single-coupon.php:128 theme-framework/kernel/social.php:104
+msgid "Facebook"
+msgstr ""
+
+#: author.php:42 includes/admin/class-term-description.php:109
+#: includes/admin/class-term-description.php:130
+#: includes/admin/stores-list.php:37 includes/payments/admin/order-list.php:37
+#: includes/views-checkout.php:343
+#: theme-framework/admin/class-html-term-description.php:168
+#: theme-framework/admin/class-html-term-description.php:193
+msgid "Description"
+msgstr ""
+
+#: author.php:48
+msgid "Latest Coupons"
+msgstr ""
+
+#: author.php:68
+msgid "No coupons yet."
+msgstr ""
+
+#: author.php:77
+msgid "Recent Articles"
+msgstr ""
+
+#: author.php:97
+msgid "No articles yet."
+msgstr ""
+
+#: comments-mini.php:19
+msgid ""
+"This post is password protected. Enter the password to view the comments."
+msgstr ""
+
+#: comments.php:18
+msgid "This post is password protected. Enter the password to view comments."
+msgstr ""
+
+#: comments.php:39 comments.php:115
+msgid "One Response to %2$s"
+msgid_plural "%1$s Responses to %2$s"
+msgstr[0] ""
+msgstr[1] ""
+
+#: comments.php:81
+msgid "Trackbacks/Pingbacks"
+msgstr ""
+
+#: comments.php:124
+msgid "Sorry, we are no longer accepting new comments at this time."
+msgstr ""
+
+#: comments.php:148 includes/comments.php:262
+msgid "Leave a Reply"
+msgstr ""
+
+#: comments.php:148 includes/comments.php:262
+msgid "Leave a Reply to %s"
+msgstr ""
+
+#: content-codebox-coupon-code.php:12
+msgid "Show Coupon Code"
+msgstr ""
+
+#: content-codebox-coupon-code.php:15 content-codebox-printable-coupon.php:11
+msgid "Code:"
+msgstr ""
+
+#: content-codebox-coupon-code.php:21 content-codebox-coupon-code.php:25
+msgid "Click to copy &amp; open site"
+msgstr ""
+
+#: content-codebox-printable-coupon.php:17
+msgid "Click to Print"
+msgstr ""
+
+#: content-codebox-printable-coupon.php:17
+msgid "Print Coupon"
+msgstr ""
+
+#: content-codebox-printable-coupon.php:21
+msgid "Click to print coupon"
+msgstr ""
+
+#: content-codebox.php:11
+msgid "Promo:"
+msgstr ""
+
+#: content-codebox.php:17 content-codebox.php:21 form-popup-coupon-code.php:28
+msgid "Click to open site"
+msgstr ""
+
+#: content-codebox.php:17
+msgid "Click to Redeem"
+msgstr ""
+
+#: content-coupon.php:63 includes/admin/addons-mp/addons-mp-class.php:606
+msgid "Category:"
+msgstr ""
+
+#: content-coupon.php:64 form-listing-details.php:102 form-listing-edit.php:92
+#: includes/actions.php:238 single-coupon.php:101
+msgid "Tags:"
+msgstr ""
+
+#: content-coupon.php:74 content-search-post.php:60
+msgid "Share"
+msgstr ""
+
+#: content-coupon.php:80 single-coupon.php:120
+msgid "coupon from"
+msgstr ""
+
+#: content-coupon.php:85 content-search-post.php:71
+msgid "Email to Friend"
+msgstr ""
+
+#: content-coupon.php:88 content-search-post.php:74 includes/actions.php:311
+#: single-coupon.php:129
+msgid "Digg"
+msgstr ""
+
+#: content-coupon.php:89 content-search-post.php:75
+msgid "Reddit"
+msgstr ""
+
+#: content-coupon.php:96 content-search-post.php:82
+msgid "Comment"
+msgstr ""
+
+#: content-coupon.php:96 content-search-post.php:82
+msgid "<span>%</span> Comments"
+msgstr ""
+
+#: content-coupon.php:106 content-search-post.php:90
+msgid "Add a comment"
+msgstr ""
+
+#: content-coupon.php:106 content-search-post.php:90
+msgid "Comments closed"
+msgstr ""
+
+#: content-coupon.php:108 content-search-post.php:92
+msgid "Close comments"
+msgstr ""
+
+#: content-search-page.php:29
+msgid "View the %s page"
+msgstr ""
+
+#: content-search-page.php:29 content-search-post.php:33
+#: includes/functions.php:1262
+msgid "more &rsaquo;&rsaquo;"
+msgstr ""
+
+#: content-search-post.php:33
+msgid "View the %s post"
+msgstr ""
+
+#: content-search-post.php:66 includes/actions.php:299
+msgid "post from"
+msgstr ""
+
+#: content.php:29
+msgid "Continue reading &raquo;"
+msgstr ""
+
+#: content.php:31
+msgid "Edit Post"
+msgstr ""
+
+#: examples/clipper-child/includes/child-views.php:22
+#: examples/clipper-child/tpl-featured-coupons-home.php:36 featured.php:59
+msgid "Featured Coupons"
+msgstr ""
+
+#: examples/clipper-child/tpl-featured-coupons-home.php:24
+msgid "There are currently %s featured coupon"
+msgid_plural "There are currently %s featured coupons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: footer.php:26
+msgid "Widgetized Area"
+msgstr ""
+
+#: footer.php:27
+msgid ""
+"The footer is active and ready for you to add some widgets via the Clipper "
+"admin panel."
+msgstr ""
+
+#: footer.php:46
+msgid "Powered by"
+msgstr ""
+
+#: form-listing-details.php:20 includes/actions.php:214
+#: includes/widgets.php:234 includes/widgets.php:293
+msgid "Share a Coupon"
+msgstr ""
+
+#: form-listing-details.php:26
+msgid "Complete the form below to share your coupon with us."
+msgstr ""
+
+#: form-listing-details.php:45 form-listing-edit.php:50
+msgid "Coupon Title:"
+msgstr ""
+
+#: form-listing-details.php:50
+msgid "Store:"
+msgstr ""
+
+#: form-listing-details.php:55
+msgid "New Store Name:"
+msgstr ""
+
+#: form-listing-details.php:60
+msgid "New Store URL:"
+msgstr ""
+
+#: form-listing-details.php:65 form-listing-edit.php:55
+msgid "Coupon Category:"
+msgstr ""
+
+#: form-listing-details.php:70 form-listing-edit.php:60
+msgid "Coupon Type:"
+msgstr ""
+
+#: form-listing-details.php:75 form-listing-edit.php:65
+msgid "Coupon Code:"
+msgstr ""
+
+#: form-listing-details.php:81 form-listing-edit.php:71
+msgid "Current Coupon:"
+msgstr ""
+
+#: form-listing-details.php:87 form-listing-edit.php:77
+msgid "Printed Coupon:"
+msgstr ""
+
+#: form-listing-details.php:92 form-listing-edit.php:82
+msgid "Destination URL:"
+msgstr ""
+
+#: form-listing-details.php:97 form-listing-edit.php:87
+msgid "Expiration Date:"
+msgstr ""
+
+#: form-listing-details.php:104 form-listing-edit.php:94
+msgid "Separate tags with commas"
+msgstr ""
+
+#: form-listing-details.php:108 form-listing-edit.php:98
+msgid "Full Description:"
+msgstr ""
+
+#: form-listing-details.php:124
+msgid "Share It!"
+msgstr ""
+
+#: form-listing-details.php:126 includes/checkout/class-checkout.php:299
+#: includes/payments.php:154 order-checkout.php:27
+msgid "Continue"
+msgstr ""
+
+#: form-listing-edit.php:20
+msgid "Edit Your Coupon"
+msgstr ""
+
+#: form-listing-edit.php:26
+msgid ""
+"Edit the fields below and click save to update your coupon. Your changes "
+"will be updated instantly on the site."
+msgstr ""
+
+#: form-listing-edit.php:45
+msgid "Store Name:"
+msgstr ""
+
+#: form-listing-edit.php:107
+msgid "Update Coupon &raquo;"
+msgstr ""
+
+#: form-listing-submit-free.php:20
+msgid "Thanks for Sharing!"
+msgstr ""
+
+#: form-listing-submit-free.php:30
+msgid "Your coupon has successfully been submitted."
+msgstr ""
+
+#: form-popup-coupon-code.php:17
+msgid "Your %s coupon code:"
+msgstr ""
+
+#: form-popup-coupon-code.php:23
+msgid "Copy"
+msgstr ""
+
+#: form-popup-coupon-code.php:27
+msgid "Paste this code at checkout when you are done shopping."
+msgstr ""
+
+#: form-popup-coupon-code.php:28
+msgid "Open site"
+msgstr ""
+
+#: form-social-email.php:17
+msgid "Email to a Friend:"
+msgstr ""
+
+#: form-social-email.php:25 includes/comments.php:112 includes/comments.php:276
+msgid "Logged in as <a href=\"%1$s\">%2$s</a>."
+msgstr ""
+
+#: form-social-email.php:25 includes/comments.php:112 includes/comments.php:276
+msgid "Log out &raquo;"
+msgstr ""
+
+#: form-social-email.php:30
+msgid "Your Name:"
+msgstr ""
+
+#: form-social-email.php:35
+msgid "Your Email:"
+msgstr ""
+
+#: form-social-email.php:40
+msgid "Recipients Email:"
+msgstr ""
+
+#: form-social-email.php:45
+msgid "Your Message:"
+msgstr ""
+
+#: form-social-email.php:50
+msgid "Send Email"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:59
+msgid "AppThemes Dashboard"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:61 includes/admin/dashboard.php:26
+#: includes/views.php:489 tpl-dashboard.php:21
+msgid "Dashboard"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:70
+msgid "News"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:73
+msgid "Marketplace"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:77
+msgid "Tutorials"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:88
+msgid "Snapshot"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:93
+#: framework/admin/class-dashboard.php:246 includes/admin/dashboard.php:32
+#: includes/admin/dashboard.php:109
+msgid "Forums"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:185 includes/admin/dashboard.php:52
+msgid "New Registrations"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:187 framework/js/localization.php:40
+#: includes/admin/dashboard.php:54
+msgid "Today"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:189
+#: framework/admin/class-dashboard.php:195 includes/admin/dashboard.php:56
+#: includes/admin/dashboard.php:62
+msgid "Customers"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:193 includes/admin/dashboard.php:60
+msgid "Yesterday"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:224
+msgid "Total Users"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:232 includes/admin/dashboard.php:104
+msgid "Last 7 Days"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:233 includes/admin/dashboard.php:105
+msgid "Overall"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:241
+msgid "Installed Apps"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:246
+#: framework/admin/class-dashboard.php:247 includes/admin/dashboard.php:109
+#: includes/admin/dashboard.php:110
+msgid "Support"
+msgstr ""
+
+#: framework/admin/class-dashboard.php:247 includes/admin/dashboard.php:110
+msgid "Docs"
+msgstr ""
+
+#: framework/admin/class-meta-box.php:72
+#: framework/admin/class-tabs-page.php:155
+msgid "Click for more info"
+msgstr ""
+
+#: framework/admin/class-settings.php:14 framework/admin/class-settings.php:15
+#: framework/scb/AdminPage.php:519 includes/admin/settings.php:26
+#: includes/payments/admin/settings.php:18
+#: includes/payments/escrow/admin/settings.php:54
+msgid "Settings"
+msgstr ""
+
+#: framework/admin/class-system-info.php:19
+#: framework/admin/class-system-info.php:20
+#: framework/admin/class-system-info.php:82
+msgid "System Info"
+msgstr ""
+
+#: framework/admin/class-system-info.php:83
+#: framework/admin/class-system-info.php:387
+msgid "Cron Jobs"
+msgstr ""
+
+#: framework/admin/class-system-info.php:93
+msgid "Theme Info"
+msgstr ""
+
+#: framework/admin/class-system-info.php:96
+msgid "Theme Name"
+msgstr ""
+
+#: framework/admin/class-system-info.php:105
+msgid "Theme Version"
+msgstr ""
+
+#: framework/admin/class-system-info.php:118
+msgid "WordPress Info"
+msgstr ""
+
+#: framework/admin/class-system-info.php:121
+msgid "Home URL"
+msgstr ""
+
+#: framework/admin/class-system-info.php:130
+msgid "Site URL"
+msgstr ""
+
+#: framework/admin/class-system-info.php:139
+msgid "Theme Path"
+msgstr ""
+
+#: framework/admin/class-system-info.php:148
+msgid "WP Version"
+msgstr ""
+
+#: framework/admin/class-system-info.php:154
+msgid "Multisite"
+msgstr ""
+
+#: framework/admin/class-system-info.php:157
+msgid "WP Memory Limit"
+msgstr ""
+
+#: framework/admin/class-system-info.php:166
+msgid "WP Max Upload Size"
+msgstr ""
+
+#: framework/admin/class-system-info.php:175
+msgid "WP Debug Mode"
+msgstr ""
+
+#: framework/admin/class-system-info.php:181
+#: framework/admin/class-system-info.php:190
+#: framework/admin/class-system-info.php:199
+#: framework/admin/class-system-info.php:278
+#: framework/admin/class-system-info.php:287
+#: framework/admin/class-system-info.php:303
+#: framework/admin/class-system-info.php:328
+#: framework/admin/class-system-info.php:337
+#: framework/admin/class-system-info.php:346
+#: framework/admin/class-system-info.php:355
+#: includes/admin/listing-single.php:336 includes/admin/settings.php:735
+#: includes/admin/settings.php:798 includes/admin/stores-list.php:90
+#: includes/admin/stores-list.php:99 includes/admin/stores-list.php:184
+#: includes/admin/stores-list.php:202 includes/admin/stores-single.php:65
+#: includes/admin/stores-single.php:74 includes/payments/admin/settings.php:116
+#: includes/payments/escrow/admin/settings.php:58
+msgid "Yes"
+msgstr ""
+
+#: framework/admin/class-system-info.php:181
+#: framework/admin/class-system-info.php:190
+#: framework/admin/class-system-info.php:199
+#: framework/admin/class-system-info.php:278
+#: framework/admin/class-system-info.php:287
+#: framework/admin/class-system-info.php:303
+#: framework/admin/class-system-info.php:328
+#: framework/admin/class-system-info.php:337
+#: framework/admin/class-system-info.php:346
+#: framework/admin/class-system-info.php:355 includes/admin/settings.php:736
+#: includes/admin/settings.php:799 includes/admin/stores-list.php:88
+#: includes/admin/stores-list.php:97 includes/admin/stores-list.php:185
+#: includes/admin/stores-single.php:66
+msgid "No"
+msgstr ""
+
+#: framework/admin/class-system-info.php:184
+msgid "Force SSL Admin"
+msgstr ""
+
+#: framework/admin/class-system-info.php:193
+msgid "Child Theme"
+msgstr ""
+
+#: framework/admin/class-system-info.php:206
+msgid "Server Info"
+msgstr ""
+
+#: framework/admin/class-system-info.php:209
+msgid "Server Software"
+msgstr ""
+
+#: framework/admin/class-system-info.php:218
+msgid "PHP Version"
+msgstr ""
+
+#: framework/admin/class-system-info.php:224
+msgid "Function phpversion() is not available."
+msgstr ""
+
+#: framework/admin/class-system-info.php:227
+msgid "MySQL Version"
+msgstr ""
+
+#: framework/admin/class-system-info.php:236
+msgid "PHP Post Max Size"
+msgstr ""
+
+#: framework/admin/class-system-info.php:242
+#: framework/admin/class-system-info.php:251
+#: framework/admin/class-system-info.php:260
+#: framework/admin/class-system-info.php:269
+#: framework/admin/class-system-info.php:278
+msgid "Function ini_get() is not available."
+msgstr ""
+
+#: framework/admin/class-system-info.php:245
+msgid "PHP Max Input Vars"
+msgstr ""
+
+#: framework/admin/class-system-info.php:254
+msgid "PHP Time Limit"
+msgstr ""
+
+#: framework/admin/class-system-info.php:263
+msgid "Upload Max Filesize"
+msgstr ""
+
+#: framework/admin/class-system-info.php:272
+msgid "Display Errors"
+msgstr ""
+
+#: framework/admin/class-system-info.php:281
+msgid "SUHOSIN Installed"
+msgstr ""
+
+#: framework/admin/class-system-info.php:294
+msgid "Image Support"
+msgstr ""
+
+#: framework/admin/class-system-info.php:297
+msgid "GD Library Installed"
+msgstr ""
+
+#: framework/admin/class-system-info.php:306
+msgid "Image Upload Path"
+msgstr ""
+
+#: framework/admin/class-system-info.php:319
+msgid "Other Checks"
+msgstr ""
+
+#: framework/admin/class-system-info.php:322
+msgid "JSON Decode"
+msgstr ""
+
+#: framework/admin/class-system-info.php:331
+msgid "cURL Enabled"
+msgstr ""
+
+#: framework/admin/class-system-info.php:340
+msgid "fsockopen Enabled"
+msgstr ""
+
+#: framework/admin/class-system-info.php:349
+msgid "OpenSSL Enabled"
+msgstr ""
+
+#: framework/admin/class-system-info.php:358
+msgid "WP Remote Post"
+msgstr ""
+
+#: framework/admin/class-system-info.php:364
+msgid "wp_remote_post() test was successful."
+msgstr ""
+
+#: framework/admin/class-system-info.php:364
+msgid "wp_remote_post() test failed."
+msgstr ""
+
+#: framework/admin/class-system-info.php:371
+#: includes/admin/addons-mp/addons-mp-class.php:732
+#: includes/admin/addons-mp/addons-mp-class.php:779
+msgid "Plugins"
+msgstr ""
+
+#: framework/admin/class-system-info.php:374
+msgid "Installed Plugins"
+msgstr ""
+
+#: framework/admin/class-system-info.php:402
+msgid "Download Report"
+msgstr ""
+
+#: framework/admin/class-system-info.php:468
+msgid "One-off event"
+msgstr ""
+
+#: framework/admin/class-system-info.php:493
+msgid "You haven&#39;t created any cron job tasks yet."
+msgstr ""
+
+#: framework/admin/class-system-info.php:499
+msgid "Hook Name"
+msgstr ""
+
+#: framework/admin/class-system-info.php:500
+msgid "Frequency"
+msgstr ""
+
+#: framework/admin/class-system-info.php:501
+msgid "Next Run Date"
+msgstr ""
+
+#: framework/admin/class-tabs-page.php:134
+#: includes/payments/escrow/escrow-settings-form-class.php:58
+msgid "Save Changes"
+msgstr ""
+
+#: framework/admin/class-user-meta-box.php:296
+msgid "ERROR"
+msgstr ""
+
+#: framework/admin/class-widget.php:216 framework/p2p-core/widget.php:37
+#: includes/widgets/widget-125-ads.php:82
+#: includes/widgets/widget-breadcrumbs.php:61
+#: includes/widgets/widget-facebook.php:102
+#: includes/widgets/widget-recent-posts.php:98
+#: includes/widgets/widget-social-connect.php:84
+#: includes/widgets/widget-taxonomy-list.php:75 includes/widgets.php:92
+#: includes/widgets.php:259 includes/widgets.php:351 includes/widgets.php:485
+#: includes/widgets.php:665 includes/widgets.php:861 includes/widgets.php:991
+#: includes/widgets.php:1110 includes/widgets.php:1266
+#: includes/widgets.php:1397 includes/widgets.php:1525
+#: includes/widgets.php:1674 includes/widgets.php:1823
+#: includes/widgets.php:1954 includes/widgets.php:2337
+msgid "Title:"
+msgstr ""
+
+#: framework/admin/class-widget.php:230
+msgid "Sidebar ID can not be checked before the widget ID is set."
+msgstr ""
+
+#: framework/admin/importer.php:81
+msgid "CSV Importer"
+msgstr ""
+
+#: framework/admin/importer.php:82
+msgid "Importer"
+msgstr ""
+
+#: framework/admin/importer.php:107
+msgid ""
+"Howdy! Upload a CSV file containing your data and we'll import it into this "
+"site. The file must be in the correct format for the import to work."
+msgstr ""
+
+#: framework/admin/importer.php:118
+msgid ""
+"Before you can upload your import file, you will need to fix the following "
+"error:"
+msgstr ""
+
+#: framework/admin/importer.php:131
+msgid "Select a File"
+msgstr ""
+
+#: framework/admin/importer.php:137
+msgid "(Maximum size: %s)"
+msgstr ""
+
+#: framework/admin/importer.php:148
+msgid "Upload file and import"
+msgstr ""
+
+#: framework/admin/importer.php:160
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: framework/admin/importer.php:172
+msgid "The file could not be processed."
+msgstr ""
+
+#: framework/admin/importer.php:174
+msgid "Imported %s items."
+msgstr ""
+
+#: framework/includes/ajax/class-ajax-view-delete-post.php:24
+msgctxt "listing"
+msgid "Deleted"
+msgstr ""
+
+#: framework/includes/ajax/class-ajax-view-delete-post.php:29
+msgid "Deleted <span class=\"count\">(%s)</span>"
+msgid_plural "Deleted <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: framework/includes/ajax/class-ajax-view-delete-post.php:46
+msgid "You do not have permission to delete that listing."
+msgstr ""
+
+#: framework/includes/ajax/class-ajax-view-delete-post.php:56
+msgid "Deleted listing '%s'."
+msgstr ""
+
+#: framework/includes/ajax/class-ajax-view-delete-post.php:83
+#: includes/reports/admin/metabox.php:152
+msgid "Delete"
+msgstr ""
+
+#: framework/includes/ajax/class-ajax-view-favorites.php:93
+msgid "Favorite"
+msgstr ""
+
+#: framework/includes/ajax/class-ajax-view-favorites.php:97
+msgid "Delete Favorite"
+msgstr ""
+
+#: framework/includes/ajax/class-ajax-view-favorites.php:110
+msgid "You must <a href=\"%1$s\">login</a> to be able to favorite listings."
+msgstr ""
+
+#: framework/includes/ajax/class-ajax-view-favorites.php:122
+msgid "Added '%s' to your favorites."
+msgstr ""
+
+#: framework/includes/ajax/class-ajax-view-favorites.php:126
+msgid "Removed '%s' from your favorites."
+msgstr ""
+
+#: framework/includes/ajax/class-ajax-view-favorites.php:132
+msgid "Could not add '%s' to favorites at this time."
+msgstr ""
+
+#: framework/includes/ajax/class-ajax-view.php:195 includes/comments.php:143
+#: includes/comments.php:302 order-select.php:32
+msgid "Submit"
+msgstr ""
+
+#: framework/js/localization.php:13
+msgid "This field is required."
+msgstr ""
+
+#: framework/js/localization.php:14
+msgid "Please fix this field."
+msgstr ""
+
+#: framework/js/localization.php:15
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: framework/js/localization.php:16
+msgid "Please enter a valid URL."
+msgstr ""
+
+#: framework/js/localization.php:17
+msgid "Please enter a valid date."
+msgstr ""
+
+#: framework/js/localization.php:18
+msgid "Please enter a valid date (ISO)."
+msgstr ""
+
+#: framework/js/localization.php:19
+msgid "Please enter a valid number."
+msgstr ""
+
+#: framework/js/localization.php:20
+msgid "Please enter only digits."
+msgstr ""
+
+#: framework/js/localization.php:21
+msgid "Please enter a valid credit card number."
+msgstr ""
+
+#: framework/js/localization.php:22
+msgid "Please enter the same value again."
+msgstr ""
+
+#: framework/js/localization.php:23
+msgid "Please enter no more than {0} characters."
+msgstr ""
+
+#: framework/js/localization.php:24
+msgid "Please enter at least {0} characters."
+msgstr ""
+
+#: framework/js/localization.php:25
+msgid "Please enter a value between {0} and {1} characters long."
+msgstr ""
+
+#: framework/js/localization.php:26
+msgid "Please enter a value between {0} and {1}."
+msgstr ""
+
+#: framework/js/localization.php:27
+msgid "Please enter a value less than or equal to {0}."
+msgstr ""
+
+#: framework/js/localization.php:28
+msgid "Please enter a value greater than or equal to {0}."
+msgstr ""
+
+#: framework/js/localization.php:37
+msgid "Done"
+msgstr ""
+
+#: framework/js/localization.php:38
+msgid "Prev"
+msgstr ""
+
+#: framework/js/localization.php:39
+msgid "Next"
+msgstr ""
+
+#: framework/js/localization.php:41
+msgid "Wk"
+msgstr ""
+
+#: framework/js/localization.php:47
+msgctxt "two-letter abbreviation of the weekday"
+msgid "Su"
+msgstr ""
+
+#: framework/js/localization.php:48
+msgctxt "two-letter abbreviation of the weekday"
+msgid "Mo"
+msgstr ""
+
+#: framework/js/localization.php:49
+msgctxt "two-letter abbreviation of the weekday"
+msgid "Tu"
+msgstr ""
+
+#: framework/js/localization.php:50
+msgctxt "two-letter abbreviation of the weekday"
+msgid "We"
+msgstr ""
+
+#: framework/js/localization.php:51
+msgctxt "two-letter abbreviation of the weekday"
+msgid "Th"
+msgstr ""
+
+#: framework/js/localization.php:52
+msgctxt "two-letter abbreviation of the weekday"
+msgid "Fr"
+msgstr ""
+
+#: framework/js/localization.php:53
+msgctxt "two-letter abbreviation of the weekday"
+msgid "Sa"
+msgstr ""
+
+#: framework/kernel/functions.php:22
+msgid "APP_Core class required."
+msgstr ""
+
+#: framework/kernel/functions.php:179
+msgid ""
+"Query vars cannot be added before WP_Query is instantiated and default query "
+"vars has not been pre-filled yet."
+msgstr ""
+
+#: framework/kernel/functions.php:287
+msgid "You must first login."
+msgstr ""
+
+#: framework/kernel/functions.php:288
+msgid "You must first login or <a href=\"%s\">register</a>."
+msgstr ""
+
+#: framework/kernel/functions.php:328
+msgid "Lost password?"
+msgstr ""
+
+#. #-#-#-#-#  clipper.pot (Clipper 1.6.3)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: framework/kernel/functions.php:335 includes/functions.php:57
+#: includes/functions.php:85 theme-framework/includes/views-login.php:461
+#: theme-framework/templates/form-registration.php:43 tpl-registration.php:32
+#: tpl-registration.php:109
+msgid "Register"
+msgstr ""
+
+#: framework/kernel/functions.php:380
+msgid "Page %s of %s"
+msgstr ""
+
+#: framework/kernel/functions.php:630
+msgid "No categories"
+msgstr ""
+
+#: framework/kernel/functions.php:1328
+#: includes/payments/admin/order-list.php:151
+msgid "%s ago"
+msgstr ""
+
+#: framework/kernel/view-types.php:258
+msgid ""
+"Retrieving page id by APP_View_Page subclass name is deprecated, use "
+"APP_View_Page::_get_page_id( $template ) instead!"
+msgstr ""
+
+#: framework/load.php:170
+msgid ""
+"The %s plugin is not detected. We strongly recommend you download and "
+"activate it so you can receive the latest updates when available. It also "
+"protects your theme from being overwritten by a similarly named theme."
+msgstr ""
+
+#: framework/media-manager/media-manager.php:135
+msgid "Allowed files"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:136
+msgid "Allowed file types"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:137
+msgid "Insert Media"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:138
+msgid "Insert from URL"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:139
+msgid "Maximum upload file size"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:140
+msgid "Allowed embeds"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:141
+msgid "Clear Embeds (clears any previously added embeds)"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:142
+msgid "No more embeds allowed"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:182
+msgid "Add Media"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:183
+msgid "Manage Media"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:184
+msgid "No media added yet"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:374
+#: includes/payments/admin/order-list.php:117
+#: includes/payments/admin/order-single.php:159 includes/payments.php:256
+#: includes/payments.php:283
+msgid "Unknown"
+msgstr ""
+
+#: framework/media-manager/media-manager.php:626
+msgid "Sorry, allowed mime types do not seem to be valid."
+msgstr ""
+
+#: framework/media-manager/media-manager.php:662
+msgid "Sorry, you cannot upload this file type for this field."
+msgstr ""
+
+#: framework/media-manager/media-manager.php:675
+msgid "Sorry, the allowed file size does not seem to be valid."
+msgstr ""
+
+#: framework/media-manager/media-manager.php:682
+msgid ""
+"Sorry, you cannot upload this file as it exceeds the size limitations for "
+"this field."
+msgstr ""
+
+#: framework/media-manager/media-manager.php:705
+msgid "Sorry, you've reached the file upload limit for this field."
+msgstr ""
+
+#: framework/p2p-core/connection-type.php:91
+msgid "Create connections"
+msgstr ""
+
+#: framework/p2p-core/connection-type.php:109
+msgid "Connected %s"
+msgstr ""
+
+#: framework/p2p-core/side-user.php:16 includes/admin/dashboard.php:97
+msgid "Users"
+msgstr ""
+
+#: framework/p2p-core/side-user.php:25 includes/admin/settings.php:469
+msgid "User"
+msgstr ""
+
+#: framework/p2p-core/side-user.php:26
+msgid "Search Users"
+msgstr ""
+
+#: framework/p2p-core/side-user.php:27
+msgid "No users found."
+msgstr ""
+
+#: framework/p2p-core/widget.php:19
+msgid "Posts 2 Posts"
+msgstr ""
+
+#: framework/p2p-core/widget.php:20
+msgid "A list of posts connected to the current post"
+msgstr ""
+
+#: framework/p2p-core/widget.php:44
+msgid "Connection type:"
+msgstr ""
+
+#: framework/p2p-core/widget.php:49
+msgid "Connection listing:"
+msgstr ""
+
+#: framework/p2p-core/widget.php:55
+msgid "connected"
+msgstr ""
+
+#: framework/p2p-core/widget.php:56
+msgid "related"
+msgstr ""
+
+#: framework/scb/AdminPage.php:261
+msgid "Settings <strong>saved</strong>."
+msgstr ""
+
+#: front-page.php:27 includes/admin/admin.php:158
+msgid "New Coupons"
+msgstr ""
+
+#: front-page.php:29
+msgid "There are currently %s active coupon"
+msgid_plural "There are currently %s active coupons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: functions.php:225 includes/admin/settings.php:527
+msgid "Coupon Listing"
+msgstr ""
+
+#: header.php:28
+msgid "RSS"
+msgstr ""
+
+#: includes/actions.php:76
+msgid "Debug Mode On"
+msgstr ""
+
+#: includes/actions.php:150 single-coupon.php:54
+msgid "0 Comments"
+msgstr ""
+
+#: includes/actions.php:150 includes/comments.php:181 single-coupon.php:54
+msgid "1 Comment"
+msgstr ""
+
+#: includes/actions.php:150 includes/comments.php:185 single-coupon.php:54
+msgid "% Comments"
+msgstr ""
+
+#: includes/actions.php:170 includes/actions.php:194
+#: includes/functions.php:1100
+msgid "Top"
+msgstr ""
+
+#: includes/actions.php:215 includes/widgets.php:235
+msgid "Spread the Savings with Everyone!"
+msgstr ""
+
+#: includes/actions.php:238 single-coupon.php:101
+msgid "None"
+msgstr ""
+
+#: includes/actions.php:305 single-coupon.php:117
+msgid "Leave a comment"
+msgstr ""
+
+#: includes/actions.php:308
+msgid "Post Comments RSS"
+msgstr ""
+
+#: includes/actions.php:396
+msgid "<strong>ERROR</strong>: The reCaptcha anti-spam response was incorrect."
+msgstr ""
+
+#: includes/actions.php:453 includes/widgets/widget-125-ads.php:17
+msgid "Sponsored Ads"
+msgstr ""
+
+#: includes/admin/addons-mp/addons-mp-class.php:79
+msgid "New"
+msgstr ""
+
+#: includes/admin/addons-mp/addons-mp-class.php:80 includes/widgets.php:2082
+msgid "Popular"
+msgstr ""
+
+#: includes/admin/addons-mp/addons-mp-class.php:175
+msgid "All Products"
+msgstr ""
+
+#: includes/admin/addons-mp/addons-mp-class.php:189
+msgid "All Categories"
+msgstr ""
+
+#: includes/admin/addons-mp/addons-mp-class.php:203
+msgid "All Authors"
+msgstr ""
+
+#: includes/admin/addons-mp/addons-mp-class.php:441
+#: includes/admin/addons-mp/addons-mp-class.php:442
+#: includes/admin/addons-mp/addons-mp-class.php:444
+msgid "Search Add-ons"
+msgstr ""
+
+#: includes/admin/addons-mp/addons-mp-class.php:494
+#: includes/admin/addons-mp/addons-mp-class.php:781
+msgid "Child Themes"
+msgstr ""
+
+#: includes/admin/addons-mp/addons-mp-class.php:592
+msgid "By %1$s"
+msgstr ""
+
+#: includes/admin/addons-mp/addons-mp-class.php:602
+msgid "Last Updated:"
+msgstr ""
+
+#: includes/admin/addons-mp/addons-mp-class.php:603
+msgid "%1$s ago"
+msgstr ""
+
+#: includes/admin/addons-mp/addons-mp-class.php:609
+msgid "Requirements:"
+msgstr ""
+
+#: includes/admin/addons-mp/addons-mp-class.php:632
+msgid "Try again"
+msgstr ""
+
+#: includes/admin/addons-mp/addons-mp-class.php:634
+msgid "No add-ons match your request."
+msgstr ""
+
+#: includes/admin/addons-mp/addons-mp-class.php:731
+msgid "Themes"
+msgstr ""
+
+#: includes/admin/addons-mp/addons-mp-class.php:780
+msgid "Payment Gateways"
+msgstr ""
+
+#: includes/admin/addons-mp/addons-mp-class.php:782
+msgid "General Themes"
+msgstr ""
+
+#: includes/admin/addons-mp/admin.php:32
+msgid "Add-ons"
+msgstr ""
+
+#: includes/admin/addons-mp/admin.php:98
+msgid "Marketplace Add-ons"
+msgstr ""
+
+#: includes/admin/addons-mp/admin.php:99
+msgid "Browse Marketplace"
+msgstr ""
+
+#: includes/admin/addons-mp/admin.php:100
+msgid "Browse Themes"
+msgstr ""
+
+#: includes/admin/admin.php:163
+msgid "Total Sales"
+msgstr ""
+
+#: includes/admin/class-term-description.php:111
+#: includes/admin/class-term-description.php:132
+#: theme-framework/admin/class-html-term-description.php:170
+#: theme-framework/admin/class-html-term-description.php:195
+msgid ""
+"The description is not prominent by default, however some themes may show it."
+msgstr ""
+
+#. #-#-#-#-#  clipper.pot (Clipper 1.6.3)  #-#-#-#-#
+#. Theme Name of the plugin/theme
+#: includes/admin/dashboard.php:27 includes/emails.php:67
+#: includes/functions.php:799
+msgid "Clipper"
+msgstr ""
+
+#: includes/admin/dashboard.php:31
+msgid "Last 30 Days"
+msgstr ""
+
+#: includes/admin/dashboard.php:35
+msgid "Overview"
+msgstr ""
+
+#: includes/admin/dashboard.php:71 includes/admin/dashboard.php:76
+msgid "Valid Coupons"
+msgstr ""
+
+#: includes/admin/dashboard.php:80 includes/admin/dashboard.php:85
+#: includes/admin/settings.php:244 taxonomy-coupon_category.php:77
+#: taxonomy-coupon_tag.php:77 taxonomy-coupon_type.php:77
+#: taxonomy-stores.php:92
+msgid "Unreliable Coupons"
+msgstr ""
+
+#: includes/admin/dashboard.php:89 includes/admin/dashboard.php:94
+msgid "Pending Coupons"
+msgstr ""
+
+#: includes/admin/dashboard.php:108
+msgid "Version"
+msgstr ""
+
+#: includes/admin/enqueue.php:34
+msgid ""
+"WARNING: You are about to completely delete all Clipper database tables. Are "
+"you sure you want to proceed? (This cannot be undone)"
+msgstr ""
+
+#: includes/admin/enqueue.php:35
+msgid ""
+"WARNING: You are about to completely delete all Clipper configuration "
+"options from the wp_options database table. Are you sure you want to "
+"proceed? (This cannot be undone)"
+msgstr ""
+
+#: includes/admin/importer.php:51
+msgid "Download CSV file"
+msgstr ""
+
+#: includes/admin/importer.php:51 includes/admin/settings.php:75
+#: includes/admin/settings.php:301 includes/admin/stores-list.php:43
+#: includes/admin/users.php:24 includes/core.php:21
+msgid "Coupons"
+msgstr ""
+
+#: includes/admin/importer.php:53
+msgid "Download example CSV file: %s"
+msgstr ""
+
+#: includes/admin/install.php:278
+msgid "Header"
+msgstr ""
+
+#: includes/admin/install.php:279 includes/core.php:323
+msgid "Footer"
+msgstr ""
+
+#: includes/admin/install.php:294
+#: theme-framework/kernel/breadcrumb-trail.php:179
+msgid "Home"
+msgstr ""
+
+#: includes/admin/install.php:345
+msgid "Top Coupons"
+msgstr ""
+
+#: includes/admin/install.php:349 includes/admin/install.php:359
+#: includes/admin/install.php:401 includes/widgets/widget-facebook.php:17
+msgid "Facebook Friends"
+msgstr ""
+
+#: includes/admin/install.php:366 includes/admin/install.php:378
+msgid "AppThemes Blog"
+msgstr ""
+
+#: includes/admin/install.php:375
+#: theme-framework/kernel/breadcrumb-trail.php:183
+msgid "Archives"
+msgstr ""
+
+#: includes/admin/install.php:387 includes/admin/install.php:419
+#: includes/widgets.php:1500
+msgid "Coupon Categories"
+msgstr ""
+
+#: includes/admin/install.php:390 includes/widgets.php:1917
+msgid "Popular Searches"
+msgstr ""
+
+#: includes/admin/install.php:394 includes/widgets.php:325
+msgid "Popular Coupons"
+msgstr ""
+
+#: includes/admin/install.php:408 includes/admin/install.php:422
+#: includes/widgets.php:1241
+msgid "Popular Stores"
+msgstr ""
+
+#: includes/admin/install.php:412 includes/admin/install.php:440
+msgid "Tags"
+msgstr ""
+
+#: includes/admin/install.php:433 includes/admin/listing-list.php:42
+#: includes/core.php:82 includes/views.php:90
+msgid "Categories"
+msgstr ""
+
+#: includes/admin/install.php:436 includes/admin/settings.php:308
+#: includes/core.php:133 includes/views.php:116
+msgid "Stores"
+msgstr ""
+
+#: includes/admin/listing-list.php:39 tpl-dashboard.php:43
+msgid "Title"
+msgstr ""
+
+#: includes/admin/listing-list.php:40 includes/admin/listing-single.php:569
+#: includes/admin/listing-single.php:598
+#: includes/payments/admin/order-list.php:38
+#: includes/reports/admin/metabox.php:149
+msgid "Author"
+msgstr ""
+
+#: includes/admin/listing-list.php:41
+msgid "Store Name"
+msgstr ""
+
+#: includes/admin/listing-list.php:43 includes/admin/listing-single.php:279
+#: includes/admin/listing-single.php:358 includes/admin/listing-single.php:362
+#: includes/admin/settings.php:548 includes/core.php:160
+#: includes/views-checkout.php:311 includes/views-checkout.php:315
+msgid "Coupon Type"
+msgstr ""
+
+#: includes/admin/listing-list.php:44 includes/core.php:22
+msgid "Coupon"
+msgstr ""
+
+#: includes/admin/listing-list.php:46 includes/payments/admin/order-list.php:41
+#: includes/payments/admin/order-meta.php:153
+#: includes/reports/admin/metabox.php:151
+msgid "Date"
+msgstr ""
+
+#: includes/admin/listing-list.php:47
+msgid "Expires"
+msgstr ""
+
+#: includes/admin/listing-list.php:48
+msgid "Votes"
+msgstr ""
+
+#: includes/admin/listing-list.php:49
+msgid "Clicks / Views"
+msgstr ""
+
+#: includes/admin/listing-list.php:50 includes/admin/listing-single.php:118
+msgid "CTR"
+msgstr ""
+
+#: includes/admin/listing-list.php:119
+msgid "No code"
+msgstr ""
+
+#: includes/admin/listing-list.php:190
+msgid "All %s"
+msgstr ""
+
+#: includes/admin/listing-list.php:201
+msgid "Filter by %s"
+msgstr ""
+
+#: includes/admin/listing-list.php:256 includes/admin/listing-single.php:333
+msgid "Featured Coupon"
+msgstr ""
+
+#: includes/admin/listing-single.php:33 includes/admin/post-status.php:229
+#: includes/admin/post-status.php:230
+msgid "Publish"
+msgstr ""
+
+#: includes/admin/listing-single.php:69
+msgid "Coupon Info"
+msgstr ""
+
+#: includes/admin/listing-single.php:80
+msgid "Reference ID"
+msgstr ""
+
+#: includes/admin/listing-single.php:87 includes/admin/stores-single.php:52
+msgid "Display URL"
+msgstr ""
+
+#: includes/admin/listing-single.php:94
+msgid "Views Today"
+msgstr ""
+
+#: includes/admin/listing-single.php:102
+msgid "Views Total"
+msgstr ""
+
+#: includes/admin/listing-single.php:110 includes/admin/stores-single.php:57
+msgid "Clicks"
+msgstr ""
+
+#: includes/admin/listing-single.php:125
+msgid "Votes Up"
+msgstr ""
+
+#: includes/admin/listing-single.php:133
+msgid "Votes Down"
+msgstr ""
+
+#: includes/admin/listing-single.php:141
+msgid "Votes Percent"
+msgstr ""
+
+#: includes/admin/listing-single.php:149
+msgid "Votes Chart"
+msgstr ""
+
+#: includes/admin/listing-single.php:156
+msgid "Submitted from IP"
+msgstr ""
+
+#: includes/admin/listing-single.php:200
+msgid "Visit link"
+msgstr ""
+
+#: includes/admin/listing-single.php:217
+msgid "No votes yet"
+msgstr ""
+
+#: includes/admin/listing-single.php:257 includes/options.php:134
+#: single-coupon.php:85
+msgid "Coupon Details"
+msgstr ""
+
+#: includes/admin/listing-single.php:289 includes/admin/listing-single.php:371
+#: includes/admin/settings.php:237 includes/admin/settings.php:284
+#: includes/views-checkout.php:326
+msgid "Coupon Code"
+msgstr ""
+
+#: includes/admin/listing-single.php:295
+msgid "Printable Coupon URL"
+msgstr ""
+
+#: includes/admin/listing-single.php:300
+msgid "Upload a coupon or paste an image URL directly."
+msgstr ""
+
+#: includes/admin/listing-single.php:303
+msgid "Printable Coupon ID"
+msgstr ""
+
+#: includes/admin/listing-single.php:313 includes/admin/listing-single.php:376
+#: includes/admin/listing-single.php:378 includes/admin/stores-list.php:39
+#: includes/admin/stores-list.php:167 includes/admin/stores-single.php:44
+#: includes/views-checkout.php:331 includes/views-checkout.php:333
+msgid "Destination URL"
+msgstr ""
+
+#: includes/admin/listing-single.php:323 includes/admin/listing-single.php:383
+#: includes/views-checkout.php:321
+msgid "Expiration Date"
+msgstr ""
+
+#: includes/admin/listing-single.php:337
+msgid "Should this coupon be displayed in the home page slider?"
+msgstr ""
+
+#: includes/admin/listing-single.php:358 includes/admin/listing-single.php:371
+#: includes/admin/listing-single.php:376 includes/views-checkout.php:301
+#: includes/views-checkout.php:311 includes/views-checkout.php:326
+#: includes/views-checkout.php:331 includes/views-checkout.php:338
+#: includes/views-checkout.php:343 includes/views-checkout.php:644
+#: includes/views-checkout.php:647 includes/views-checkout.php:650
+msgid "Error: The \"%s\" field is empty."
+msgstr ""
+
+#: includes/admin/listing-single.php:362 includes/admin/listing-single.php:378
+#: includes/admin/listing-single.php:383 includes/views-checkout.php:305
+#: includes/views-checkout.php:315 includes/views-checkout.php:321
+#: includes/views-checkout.php:333 includes/views-checkout.php:652
+#: includes/views-checkout.php:657
+msgid "Error: The \"%s\" field is invalid."
+msgstr ""
+
+#: includes/admin/listing-single.php:495 includes/admin/settings.php:589
+msgid "Upload Image"
+msgstr ""
+
+#: includes/admin/listing-single.php:496 includes/admin/settings.php:590
+msgid "Clear Image"
+msgstr ""
+
+#: includes/admin/listing-single.php:595 includes/emails.php:66
+msgid "Edit: %s"
+msgstr ""
+
+#: includes/admin/listing-single.php:623
+msgid "Moderation Queue"
+msgstr ""
+
+#: includes/admin/listing-single.php:648
+msgid "You must approve this coupon before it can be published."
+msgstr ""
+
+#: includes/admin/listing-single.php:653
+msgid "Accept"
+msgstr ""
+
+#: includes/admin/listing-single.php:662
+msgid "Reject"
+msgstr ""
+
+#: includes/admin/listing-single.php:666
+msgid "Rejecting a Coupon sends it to the trash."
+msgstr ""
+
+#: includes/admin/post-status.php:26
+msgid "Save"
+msgstr ""
+
+#: includes/admin/post-status.php:32
+msgid "Save Draft"
+msgstr ""
+
+#: includes/admin/post-status.php:34
+msgid "Save as Pending"
+msgstr ""
+
+#: includes/admin/post-status.php:48
+msgid "Preview Changes"
+msgstr ""
+
+#: includes/admin/post-status.php:55
+msgid "Preview"
+msgstr ""
+
+#: includes/admin/post-status.php:67
+msgid "Status:"
+msgstr ""
+
+#: includes/admin/post-status.php:72 includes/admin/post-status.php:102
+msgid "Privately Published"
+msgstr ""
+
+#: includes/admin/post-status.php:75 includes/admin/post-status.php:100
+#: includes/admin/post-status.php:106 includes/functions.php:988
+msgid "Published"
+msgstr ""
+
+#: includes/admin/post-status.php:78 includes/admin/post-status.php:109
+#: includes/core.php:57 includes/functions.php:990
+msgid "Unreliable"
+msgstr ""
+
+#: includes/admin/post-status.php:81 includes/admin/post-status.php:104
+#: includes/functions.php:979
+msgid "Scheduled"
+msgstr ""
+
+#: includes/admin/post-status.php:84 includes/admin/post-status.php:110
+msgid "Pending Review"
+msgstr ""
+
+#: includes/admin/post-status.php:88 includes/admin/post-status.php:112
+#: includes/admin/post-status.php:114 includes/functions.php:976
+msgid "Draft"
+msgstr ""
+
+#: includes/admin/post-status.php:94 includes/admin/post-status.php:144
+#: includes/admin/post-status.php:196 includes/core.php:25
+#: includes/functions.php:1687 theme-framework/kernel/breadcrumb-trail.php:1134
+#: theme-framework/kernel/breadcrumb-trail.php:1170
+#: theme-framework/kernel/breadcrumb-trail.php:1187
+#: theme-framework/kernel/breadcrumb-trail.php:1218
+msgid "Edit"
+msgstr ""
+
+#: includes/admin/post-status.php:117 includes/admin/post-status.php:163
+msgid "OK"
+msgstr ""
+
+#: includes/admin/post-status.php:118 includes/admin/post-status.php:164
+#: tpl-profile.php:142
+msgid "Cancel"
+msgstr ""
+
+#: includes/admin/post-status.php:125
+msgid "Visibility:"
+msgstr ""
+
+#: includes/admin/post-status.php:130 includes/admin/post-status.php:160
+#: includes/functions.php:987
+msgid "Private"
+msgstr ""
+
+#: includes/admin/post-status.php:133 includes/admin/post-status.php:158
+msgid "Password protected"
+msgstr ""
+
+#: includes/admin/post-status.php:136
+msgid "Public, Sticky"
+msgstr ""
+
+#: includes/admin/post-status.php:139 includes/admin/post-status.php:154
+msgid "Public"
+msgstr ""
+
+#: includes/admin/post-status.php:156
+msgid "Stick this post to the front page"
+msgstr ""
+
+#: includes/admin/post-status.php:159
+#: theme-framework/templates/form-login.php:14
+#: theme-framework/templates/form-registration.php:22 tpl-login.php:45
+#: tpl-registration.php:68 tpl-registration.php:82
+msgid "Password:"
+msgstr ""
+
+#. translators: Publish box date format, see http:php.net/date
+#: includes/admin/post-status.php:173
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: includes/admin/post-status.php:176
+msgid "Scheduled for: <b>%1$s</b>"
+msgstr ""
+
+#: includes/admin/post-status.php:178
+msgid "Published on: <b>%1$s</b>"
+msgstr ""
+
+#: includes/admin/post-status.php:180 includes/admin/post-status.php:188
+msgid "Publish <b>immediately</b>"
+msgstr ""
+
+#: includes/admin/post-status.php:182
+msgid "Schedule for: <b>%1$s</b>"
+msgstr ""
+
+#: includes/admin/post-status.php:184
+msgid "Publish on: <b>%1$s</b>"
+msgstr ""
+
+#: includes/admin/post-status.php:212
+msgid "Delete Permanently"
+msgstr ""
+
+#: includes/admin/post-status.php:214
+msgid "Move to Trash"
+msgstr ""
+
+#: includes/admin/post-status.php:226 includes/admin/post-status.php:227
+msgid "Schedule"
+msgstr ""
+
+#: includes/admin/post-status.php:233 includes/admin/post-status.php:234
+msgid "Submit for Review"
+msgstr ""
+
+#: includes/admin/post-status.php:238 includes/admin/post-status.php:239
+msgid "Update"
+msgstr ""
+
+#: includes/admin/settings.php:25
+msgid "Clipper Settings"
+msgstr ""
+
+#: includes/admin/settings.php:45
+msgid "Expired coupons have been pruned."
+msgstr ""
+
+#: includes/admin/settings.php:50
+msgid "Votes have been reseted."
+msgstr ""
+
+#: includes/admin/settings.php:55
+msgid "Statistics have been reseted."
+msgstr ""
+
+#: includes/admin/settings.php:60
+msgid "Search statistics have been reseted."
+msgstr ""
+
+#: includes/admin/settings.php:74 includes/admin/settings.php:177
+#: includes/admin/settings.php:320 includes/admin/settings.php:661
+#: includes/payments/admin/settings.php:32
+#: includes/payments/gateways/bank-transfer/bank-transfer.php:55
+#: includes/payments/gateways/paypal/paypal.php:131
+msgid "General"
+msgstr ""
+
+#: includes/admin/settings.php:76 includes/payments/admin/settings.php:111
+msgid "Security"
+msgstr ""
+
+#: includes/admin/settings.php:77
+msgid "Advertising"
+msgstr ""
+
+#: includes/admin/settings.php:78 includes/admin/system-info.php:75
+msgid "Advanced"
+msgstr ""
+
+#: includes/admin/settings.php:81
+msgid "Appearance"
+msgstr ""
+
+#: includes/admin/settings.php:82
+msgid ""
+"Further customize the look and feel by visiting the <a href=\"%1$s"
+"\">WordPress customizer</a>."
+msgstr ""
+
+#: includes/admin/settings.php:85
+msgid "Scheme"
+msgstr ""
+
+#: includes/admin/settings.php:89
+msgid "Red Theme"
+msgstr ""
+
+#: includes/admin/settings.php:90
+msgid "Blue Theme"
+msgstr ""
+
+#: includes/admin/settings.php:91
+msgid "Orange Theme"
+msgstr ""
+
+#: includes/admin/settings.php:92
+msgid "Green Theme"
+msgstr ""
+
+#: includes/admin/settings.php:93
+msgid "Gray Theme"
+msgstr ""
+
+#: includes/admin/settings.php:98
+msgid "Slider"
+msgstr ""
+
+#: includes/admin/settings.php:101
+msgid "Show the featured slider on the home page"
+msgstr ""
+
+#: includes/admin/settings.php:102
+msgid ""
+"To make a coupon appear, check the \"Featured Coupon\" box on the edit post "
+"page under \"Coupon Meta Fields\"."
+msgstr ""
+
+#: includes/admin/settings.php:105
+msgid "Favicon"
+msgstr ""
+
+#: includes/admin/settings.php:106
+msgid ""
+"<a target=\"_blank\" href=\"%s\">Create your own</a> favicon or paste an "
+"image URL directly. Must be a 16x16 .ico file."
+msgstr ""
+
+#: includes/admin/settings.php:109
+msgid ""
+"This will replace the default favicon (i.e. http://www.yoursite.com/favicon."
+"ico)."
+msgstr ""
+
+#: includes/admin/settings.php:112
+msgid "Feedburner URL"
+msgstr ""
+
+#: includes/admin/settings.php:113
+msgid ""
+"%1$s Sign up for a free <a target=\"_blank\" href=\"%2$s\">Feedburner "
+"account</a>."
+msgstr ""
+
+#: includes/admin/settings.php:116
+msgid "Automatically redirect your default RSS feed to Feedburner."
+msgstr ""
+
+#: includes/admin/settings.php:119
+msgid "Twitter ID"
+msgstr ""
+
+#: includes/admin/settings.php:120
+msgid ""
+"%1$s Sign up for a free <a target=\"_blank\" href=\"%2$s\">Twitter account</"
+"a>."
+msgstr ""
+
+#: includes/admin/settings.php:123
+msgid "Automatically redirect your Twitter link to your Twitter page."
+msgstr ""
+
+#: includes/admin/settings.php:126
+msgid "Facebook ID"
+msgstr ""
+
+#: includes/admin/settings.php:127
+msgid ""
+"%1$s Sign up for a free <a target=\"_blank\" href=\"%2$s\">Facebook account</"
+"a>."
+msgstr ""
+
+#: includes/admin/settings.php:130
+msgid "Display a Facebook icon in the header that links to your page."
+msgstr ""
+
+#: includes/admin/settings.php:133
+msgid "Analytics Code"
+msgstr ""
+
+#: includes/admin/settings.php:134
+msgid ""
+"Sign up for a free <a target=\"_blank\" href=\"%s\">Google Analytics "
+"account</a>."
+msgstr ""
+
+#: includes/admin/settings.php:143
+msgid "You can use Google Analytics or other providers as well."
+msgstr ""
+
+#: includes/admin/settings.php:149 searchform.php:26
+msgid "Search"
+msgstr ""
+
+#: includes/admin/settings.php:152
+msgid "Pages"
+msgstr ""
+
+#: includes/admin/settings.php:155 includes/admin/settings.php:162
+msgid "Exclude from search results"
+msgstr ""
+
+#: includes/admin/settings.php:159
+msgid "Blog Posts"
+msgstr ""
+
+#: includes/admin/settings.php:166
+msgid "Search Stats"
+msgstr ""
+
+#: includes/admin/settings.php:169
+msgid "Save all search queries"
+msgstr ""
+
+#: includes/admin/settings.php:180
+msgid "Editing"
+msgstr ""
+
+#: includes/admin/settings.php:183
+msgid "Allow users to edit and republish their coupons"
+msgstr ""
+
+#: includes/admin/settings.php:184
+msgid "They can manage and edit coupons from their dashboard."
+msgstr ""
+
+#: includes/admin/settings.php:187 includes/admin/settings.php:425
+msgid "Prune Coupons"
+msgstr ""
+
+#: includes/admin/settings.php:190
+msgid "Automatically remove expired coupons"
+msgstr ""
+
+#: includes/admin/settings.php:191
+msgid ""
+"Left unchecked, coupons will remain live, be marked as expired, and moved "
+"under the \"unreliable coupons\" section. It changes the post status to "
+"draft (not delete coupons)."
+msgstr ""
+
+#: includes/admin/settings.php:194
+msgid "Registration"
+msgstr ""
+
+#: includes/admin/settings.php:197
+msgid "Require a user account before submitting coupons"
+msgstr ""
+
+#: includes/admin/settings.php:198
+msgid ""
+"If \"Charge for Coupons\" is enabled, all users are required to have an "
+"account regardless so this option will be ignored."
+msgstr ""
+
+#: includes/admin/settings.php:201
+msgid "Allowed File Types"
+msgstr ""
+
+#: includes/admin/settings.php:204
+msgid ""
+"When submitting a printable coupon, only allow these file types to be "
+"uploaded (i.e. png,gif,jpg). Comma separated, no spaces."
+msgstr ""
+
+#: includes/admin/settings.php:210
+msgid "Pricing"
+msgstr ""
+
+#: includes/admin/settings.php:211
+msgid ""
+"Once enabled, make sure to setup your <a href=\"%s\">payment settings</a>."
+msgstr ""
+
+#: includes/admin/settings.php:214
+msgid "Charge for Coupons"
+msgstr ""
+
+#: includes/admin/settings.php:217
+msgid "Start accepting payments"
+msgstr ""
+
+#: includes/admin/settings.php:218
+msgid ""
+"This activates the payments system. Left unchecked, coupons will be free to "
+"post."
+msgstr ""
+
+#: includes/admin/settings.php:221
+msgid "Coupon Price"
+msgstr ""
+
+#: includes/admin/settings.php:222
+msgid "Amount you will charge to post a coupon"
+msgstr ""
+
+#: includes/admin/settings.php:225
+msgid ""
+"Only enter numeric values or decimal points. Do not include a currency "
+"symbol or commas."
+msgstr ""
+
+#: includes/admin/settings.php:234
+msgid "Coupons Page"
+msgstr ""
+
+#: includes/admin/settings.php:240
+msgid "Don't show the coupon code until after they click on it"
+msgstr ""
+
+#: includes/admin/settings.php:247
+msgid "Exclude unreliable coupons from the home page"
+msgstr ""
+
+#: includes/admin/settings.php:251
+msgid "Unreliable Featured Coupons"
+msgstr ""
+
+#: includes/admin/settings.php:254
+msgid "Exclude unreliable coupons from the featured coupons slider"
+msgstr ""
+
+#: includes/admin/settings.php:258
+msgid "Views Counter"
+msgstr ""
+
+#: includes/admin/settings.php:261
+msgid "Show a daily and total views counter"
+msgstr ""
+
+#: includes/admin/settings.php:262
+msgid "This will appear at the bottom of each coupon page and blog post."
+msgstr ""
+
+#: includes/admin/settings.php:265
+msgid "Link to Page"
+msgstr ""
+
+#: includes/admin/settings.php:268
+msgid "Hide links to single coupon pages"
+msgstr ""
+
+#: includes/admin/settings.php:269
+msgid "These pages will not be indexed by search engines."
+msgstr ""
+
+#: includes/admin/settings.php:272
+msgid "Cloak Links"
+msgstr ""
+
+#: includes/admin/settings.php:275
+msgid "Hide coupon and store outgoing URLs"
+msgstr ""
+
+#: includes/admin/settings.php:276
+msgid "Click-thrus will be counted for each link."
+msgstr ""
+
+#: includes/admin/settings.php:279
+msgid "Direct Links"
+msgstr ""
+
+#: includes/admin/settings.php:282
+msgid "Open outbound coupon links in a new browser tab"
+msgstr ""
+
+#: includes/admin/settings.php:283
+msgid "The default is to use a popup window."
+msgstr ""
+
+#: includes/admin/settings.php:284
+msgid ""
+"NOTE: This option will be ignored in case that Flash object is disabled in a "
+"user's browser or if option %s is enabled."
+msgstr ""
+
+#: includes/admin/settings.php:287 includes/admin/settings.php:731
+#: includes/admin/settings.php:794
+msgid "Allow HTML"
+msgstr ""
+
+#: includes/admin/settings.php:290
+msgid "Permit users to use HTML within their coupon listings"
+msgstr ""
+
+#: includes/admin/settings.php:291
+msgid ""
+"Turns on the TinyMCE editor on text area fields and allows the coupon owner "
+"to use html markup. Other fields do not allow html by default."
+msgstr ""
+
+#: includes/admin/settings.php:297
+msgid "Moderate"
+msgstr ""
+
+#: includes/admin/settings.php:304
+msgid "Manually approve and publish each new coupon"
+msgstr ""
+
+#: includes/admin/settings.php:305
+msgid ""
+"Left unchecked, coupons go live immediately without being moderated (unless "
+"it has not been paid for)."
+msgstr ""
+
+#: includes/admin/settings.php:311
+msgid "Manually approve and publish each new store"
+msgstr ""
+
+#: includes/admin/settings.php:312
+msgid ""
+"Left unchecked, new stores submitted with coupons will go live immediately "
+"without being moderated. Note: the moderate new coupons option above must be "
+"checked for this to work."
+msgstr ""
+
+#: includes/admin/settings.php:323
+msgid "WP-Admin"
+msgstr ""
+
+#: includes/admin/settings.php:324
+msgid "Restrict access by <a target='_blank' href='%s'>specific role</a>."
+msgstr ""
+
+#: includes/admin/settings.php:328
+msgid "Admins Only"
+msgstr ""
+
+#: includes/admin/settings.php:329
+msgid "Admins, Editors"
+msgstr ""
+
+#: includes/admin/settings.php:330
+msgid "Admins, Editors, Authors"
+msgstr ""
+
+#: includes/admin/settings.php:331
+msgid "Admins, Editors, Authors, Contributors"
+msgstr ""
+
+#: includes/admin/settings.php:332
+msgid "All Access"
+msgstr ""
+
+#: includes/admin/settings.php:333
+msgid "Disable"
+msgstr ""
+
+#: includes/admin/settings.php:341
+msgid "reCaptcha"
+msgstr ""
+
+#: includes/admin/settings.php:344 includes/admin/settings.php:384
+#: includes/admin/settings.php:706 includes/admin/settings.php:769
+#: includes/payments/admin/settings.php:194
+#: includes/payments/escrow/admin/settings.php:176
+msgid "Enable"
+msgstr ""
+
+#: includes/admin/settings.php:347
+msgid ""
+"A free <a target='_blank' href='%s'>anti-spam service</a> provided by Google"
+msgstr ""
+
+#: includes/admin/settings.php:348
+msgid ""
+"Displays a verification box on your registration page to prevent your "
+"website from spam and abuse."
+msgstr ""
+
+#: includes/admin/settings.php:351
+msgid "Public Key"
+msgstr ""
+
+#: includes/admin/settings.php:358
+msgid "Private Key"
+msgstr ""
+
+#: includes/admin/settings.php:365
+msgid "Theme"
+msgstr ""
+
+#: includes/admin/settings.php:369
+msgid "Red"
+msgstr ""
+
+#: includes/admin/settings.php:370
+msgid "White"
+msgstr ""
+
+#: includes/admin/settings.php:371
+msgid "Black"
+msgstr ""
+
+#: includes/admin/settings.php:372
+msgid "Clean"
+msgstr ""
+
+#: includes/admin/settings.php:381
+msgid "Content Ad (336x280)"
+msgstr ""
+
+#: includes/admin/settings.php:387
+msgid "Displayed on single coupon, category, and search result pages"
+msgstr ""
+
+#: includes/admin/settings.php:391
+msgid "Code"
+msgstr ""
+
+#: includes/admin/settings.php:392
+msgid ""
+"Supports many popular providers such as <a target=\"_blank\" href=\"%s"
+"\">Google AdSense</a> and <a target=\"_blank\" href=\"%s\">BuySellAds</a>."
+msgstr ""
+
+#: includes/admin/settings.php:404 includes/admin/stores-list.php:35
+msgid "Image"
+msgstr ""
+
+#: includes/admin/settings.php:405
+msgid "Enter the URL to your ad creative."
+msgstr ""
+
+#: includes/admin/settings.php:408
+msgid ""
+"If you would rather use an image ad instead of code provided by your "
+"advertiser, use this field."
+msgstr ""
+
+#: includes/admin/settings.php:411
+msgid "Destination"
+msgstr ""
+
+#: includes/admin/settings.php:412
+msgid "The URL of your landing page."
+msgstr ""
+
+#: includes/admin/settings.php:415
+msgid ""
+"When a visitor clicks on your ad image, this is the destination they will be "
+"sent to."
+msgstr ""
+
+#: includes/admin/settings.php:422
+msgid "Maintenance"
+msgstr ""
+
+#: includes/admin/settings.php:428
+msgid "Prune <a href=\"%s\">expired coupons</a>"
+msgstr ""
+
+#: includes/admin/settings.php:432
+msgid ""
+"Click the link to manually run the function that checks all coupons "
+"expiration and prunes any coupons that are expired. This event will run only "
+"one time."
+msgstr ""
+
+#: includes/admin/settings.php:435 includes/voting.php:273
+msgid "Reset Votes"
+msgstr ""
+
+#: includes/admin/settings.php:438
+msgid "Reset <a href=\"%s\">vote counters</a>"
+msgstr ""
+
+#: includes/admin/settings.php:442
+msgid "Resets the vote counters for all coupons."
+msgstr ""
+
+#: includes/admin/settings.php:445
+msgid "Reset Stats"
+msgstr ""
+
+#: includes/admin/settings.php:448
+msgid "Reset <a href=\"%s\">stats counters</a>"
+msgstr ""
+
+#: includes/admin/settings.php:452
+msgid "Resets the stat counters for all coupons and posts."
+msgstr ""
+
+#: includes/admin/settings.php:455
+msgid "Reset Search"
+msgstr ""
+
+#: includes/admin/settings.php:458
+msgid "Reset <a href=\"%s\">search counters</a>"
+msgstr ""
+
+#: includes/admin/settings.php:462
+msgid "Resets the search engine stats."
+msgstr ""
+
+#: includes/admin/settings.php:472
+msgid "Disable Toolbar"
+msgstr ""
+
+#: includes/admin/settings.php:475
+msgid "Hide the WordPress toolbar for logged in users"
+msgstr ""
+
+#: includes/admin/settings.php:479
+msgid "Disable Login Page"
+msgstr ""
+
+#: includes/admin/settings.php:482
+msgid "Prevents users from accessing <code>wp-login.php</code> directly"
+msgstr ""
+
+#: includes/admin/settings.php:489
+msgid "Developer"
+msgstr ""
+
+#: includes/admin/settings.php:492
+msgid "Disable Stylesheets"
+msgstr ""
+
+#: includes/admin/settings.php:495
+msgid "Turn off all styles (advanced users only)"
+msgstr ""
+
+#: includes/admin/settings.php:496
+msgid ""
+"If you are interested in creating a child theme or just want to completely "
+"disable the core theme styles, enable this option."
+msgstr ""
+
+#: includes/admin/settings.php:499
+msgid "Enable Debug Mode"
+msgstr ""
+
+#: includes/admin/settings.php:502
+msgid ""
+"Print out the <code>$wp_query->query_vars</code> array at the top of your "
+"website"
+msgstr ""
+
+#: includes/admin/settings.php:506
+msgid "Use Google CDN"
+msgstr ""
+
+#: includes/admin/settings.php:509
+msgid "Speed up your website and save bandwidth by using their hosted jQuery"
+msgstr ""
+
+#: includes/admin/settings.php:513
+msgid "Hide Version"
+msgstr ""
+
+#: includes/admin/settings.php:516
+msgid "Remove the WordPress version meta tag from your website"
+msgstr ""
+
+#: includes/admin/settings.php:517
+msgid ""
+"An added security measure so snoopers won't be able to tell what version of "
+"WordPress you're running."
+msgstr ""
+
+#: includes/admin/settings.php:523
+msgid "Custom URLs"
+msgstr ""
+
+#: includes/admin/settings.php:524
+msgid ""
+"This controls the base names of your website urls. Do not change this once "
+"your site is established. You must resave your <a target=\"_blank\" href=\"%s"
+"\">permalinks</a> for any changes to take effect."
+msgstr ""
+
+#: includes/admin/settings.php:531
+msgid ""
+"Base name of your coupon listing urls. The default is 'coupon' (http://www."
+"yoursite.com/coupons/coupon-title-here/). Only use alpha and/or numeric "
+"values (no slashes)."
+msgstr ""
+
+#: includes/admin/settings.php:534 includes/core.php:83
+#: includes/views-checkout.php:301 includes/views-checkout.php:305
+msgid "Coupon Category"
+msgstr ""
+
+#: includes/admin/settings.php:538
+msgid ""
+"Base name of your coupon category urls. The default is 'coupon-"
+"category' (http://www.yoursite.com/coupon-category/category-name/). Only use "
+"alpha and/or numeric values (no slashes)."
+msgstr ""
+
+#: includes/admin/settings.php:541
+msgid "Coupon Store"
+msgstr ""
+
+#: includes/admin/settings.php:545
+msgid ""
+"Base name of your coupon store urls. The default is 'store' (http://www."
+"yoursite.com/store/store-name/). Only use alpha and/or numeric values (no "
+"slashes)."
+msgstr ""
+
+#: includes/admin/settings.php:552
+msgid ""
+"Base name of your coupon type urls. The default is 'coupon-type' (http://www."
+"yoursite.com/coupon-type/type-name/). Only use alpha and/or numeric values "
+"(no slashes)."
+msgstr ""
+
+#: includes/admin/settings.php:555 includes/core.php:108
+msgid "Coupon Tag"
+msgstr ""
+
+#: includes/admin/settings.php:559
+msgid ""
+"Base name of your coupon tag urls. The default is 'coupon-tag' (http://www."
+"yoursite.com/coupon-tag/tag-name/). Only use alpha and/or numeric values (no "
+"slashes)."
+msgstr ""
+
+#: includes/admin/settings.php:562
+msgid "Coupon Redirect"
+msgstr ""
+
+#: includes/admin/settings.php:566
+msgid ""
+"Base name of your display url. If you have a destination url setup for a "
+"coupon, it will look something like this when you hover over the link: "
+"http://www.yoursite.com/go/coupon-name/23. The '/go/' is what is controlled "
+"here. Only use alpha and/or numeric values (no slashes)."
+msgstr ""
+
+#: includes/admin/settings.php:569
+msgid "Store Redirect"
+msgstr ""
+
+#: includes/admin/settings.php:573
+msgid ""
+"Base name of your display url. If you have a destination url setup for a "
+"store, it will look something like this when you hover over the link: http://"
+"www.yoursite.com/go-store/store-name/23. The '/go-store/' is what is "
+"controlled here. Only use alpha and/or numeric values (no slashes)."
+msgstr ""
+
+#: includes/admin/settings.php:645
+msgid "Clipper Emails"
+msgstr ""
+
+#: includes/admin/settings.php:646
+msgid "Emails"
+msgstr ""
+
+#: includes/admin/settings.php:662 includes/admin/settings.php:692
+msgid "New User"
+msgstr ""
+
+#: includes/admin/settings.php:663 includes/admin/settings.php:678
+#: includes/core.php:27
+msgid "New Coupon"
+msgstr ""
+
+#: includes/admin/settings.php:666
+msgid "Admin"
+msgstr ""
+
+#: includes/admin/settings.php:669
+msgid "Recipient"
+msgstr ""
+
+#: includes/admin/settings.php:672
+msgid "%1$s (<a href=\"%2$s\">change</a>)"
+msgstr ""
+
+#: includes/admin/settings.php:681
+msgid "Send an email when a new coupon has been submitted"
+msgstr ""
+
+#: includes/admin/settings.php:685
+msgid "Pruned Coupons"
+msgstr ""
+
+#: includes/admin/settings.php:688
+msgid "Send an email every time the system prunes expired coupons"
+msgstr ""
+
+#: includes/admin/settings.php:695
+msgid "Send an email when a user registers on my site"
+msgstr ""
+
+#: includes/admin/settings.php:709
+msgid ""
+"Send a custom new user notification email instead of the WordPress default "
+"one"
+msgstr ""
+
+#: includes/admin/settings.php:713 includes/admin/settings.php:776
+#: includes/admin/stores-list.php:36
+msgid "Name"
+msgstr ""
+
+#: includes/admin/settings.php:716 includes/admin/settings.php:779
+msgid "This is what your users will see as the &quot;from&quot; name."
+msgstr ""
+
+#: includes/admin/settings.php:719 includes/admin/settings.php:782
+msgid "Email"
+msgstr ""
+
+#: includes/admin/settings.php:722 includes/admin/settings.php:785
+msgid "This is what your users will see as the &quot;from&quot; email address."
+msgstr ""
+
+#: includes/admin/settings.php:725 includes/admin/settings.php:788
+msgid "Subject"
+msgstr ""
+
+#: includes/admin/settings.php:738 includes/admin/settings.php:801
+msgid ""
+"Allow html markup in the email body below. If you have delivery problems, "
+"keep this option disabled."
+msgstr ""
+
+#: includes/admin/settings.php:741 includes/admin/settings.php:804
+msgid "Body"
+msgstr ""
+
+#: includes/admin/settings.php:742 includes/admin/settings.php:805
+msgid ""
+"You may use the following variables within the email body and/or subject "
+"line."
+msgstr ""
+
+#: includes/admin/settings.php:743 includes/admin/settings.php:806
+msgid "%s - prints out the username"
+msgstr ""
+
+#: includes/admin/settings.php:744 includes/admin/settings.php:807
+msgid "%s - prints out the users email address"
+msgstr ""
+
+#: includes/admin/settings.php:745
+msgid "%s - prints out the users text password"
+msgstr ""
+
+#: includes/admin/settings.php:746 includes/admin/settings.php:808
+msgid "%s - prints out your website url"
+msgstr ""
+
+#: includes/admin/settings.php:747 includes/admin/settings.php:809
+msgid "%s - prints out your site name"
+msgstr ""
+
+#: includes/admin/settings.php:748
+msgid "%s - prints out your sites login url"
+msgstr ""
+
+#: includes/admin/settings.php:749 includes/admin/settings.php:817
+msgid ""
+"Each variable MUST have the percentage signs wrapped around it with no "
+"spaces."
+msgstr ""
+
+#: includes/admin/settings.php:750 includes/admin/settings.php:818
+msgid ""
+"Always test your new email after making any changes (register) to make sure "
+"it is working and formatted correctly. If you do not receive an email, "
+"chances are something is wrong with your email body."
+msgstr ""
+
+#: includes/admin/settings.php:772
+msgid "Send a custom coupon notification email to your users"
+msgstr ""
+
+#: includes/admin/settings.php:773
+msgid ""
+"Triggered when a new coupon is submitted. If you do not require user "
+"registration to submit coupons, no email will be sent out."
+msgstr ""
+
+#: includes/admin/settings.php:810
+msgid "%s - prints out your login url"
+msgstr ""
+
+#: includes/admin/settings.php:811
+msgid "%s - prints out the coupon title"
+msgstr ""
+
+#: includes/admin/settings.php:812
+msgid "%s - prints out the coupon code"
+msgstr ""
+
+#: includes/admin/settings.php:813
+msgid "%s - prints out the coupon category"
+msgstr ""
+
+#: includes/admin/settings.php:814
+msgid "%s - prints out the coupon store name"
+msgstr ""
+
+#: includes/admin/settings.php:815
+msgid "%s - prints out the coupon description"
+msgstr ""
+
+#: includes/admin/settings.php:816
+msgid "%s - prints out the dashboard url"
+msgstr ""
+
+#: includes/admin/stores-list.php:38 includes/admin/stores-list.php:153
+#: includes/admin/stores-list.php:240 includes/admin/stores-single.php:36
+msgid "Store URL"
+msgstr ""
+
+#: includes/admin/stores-list.php:40
+msgid "Slug"
+msgstr ""
+
+#: includes/admin/stores-list.php:41 includes/admin/stores-list.php:200
+msgid "Featured"
+msgstr ""
+
+#: includes/admin/stores-list.php:42 includes/admin/stores-list.php:181
+msgid "Active"
+msgstr ""
+
+#: includes/admin/stores-list.php:242 includes/admin/stores-single.php:39
+msgid "The URL for the store (i.e. http://www.website.com)"
+msgstr ""
+
+#: includes/admin/stores-list.php:246 includes/admin/stores-single.php:88
+msgid "Store Image"
+msgstr ""
+
+#: includes/admin/stores-list.php:250 includes/admin/stores-single.php:93
+msgid "Add Image"
+msgstr ""
+
+#: includes/admin/stores-list.php:251 includes/admin/stores-single.php:94
+msgid "Remove Image"
+msgstr ""
+
+#: includes/admin/stores-list.php:254 includes/admin/stores-single.php:97
+msgid "Choose custom image for the store."
+msgstr ""
+
+#: includes/admin/stores-list.php:255 includes/admin/stores-single.php:98
+msgid "Leave blank if you want use image generated by store URL."
+msgstr ""
+
+#: includes/admin/stores-single.php:47
+msgid ""
+"The affiliate URL for the store (i.e. http://www.website.com/?affid=12345)"
+msgstr ""
+
+#: includes/admin/stores-single.php:62
+msgid "Store Active"
+msgstr ""
+
+#: includes/admin/stores-single.php:72
+msgid "Store Featured"
+msgstr ""
+
+#: includes/admin/stores-single.php:79
+msgid "Store Screenshot"
+msgstr ""
+
+#: includes/admin/system-info.php:78
+msgid "Uninstall Theme"
+msgstr ""
+
+#: includes/admin/system-info.php:81
+msgid "Database Tables"
+msgstr ""
+
+#: includes/admin/system-info.php:88
+msgid "Delete Clipper Tables"
+msgstr ""
+
+#: includes/admin/system-info.php:89
+msgid "You will lose any custom fields and stores meta that you have created."
+msgstr ""
+
+#: includes/admin/system-info.php:92
+msgid "Config Options"
+msgstr ""
+
+#: includes/admin/system-info.php:99
+msgid "Delete Clipper Options"
+msgstr ""
+
+#: includes/admin/system-info.php:100
+msgid ""
+"All values saved on the settings, pricing, etc admin pages will be erased "
+"from the wp_options table."
+msgstr ""
+
+#: includes/admin/updates.php:104 includes/admin/updates.php:206
+#: includes/admin/updates.php:493
+msgid "Continue Upgrading"
+msgstr ""
+
+#: includes/admin/updates.php:608
+msgid "Orders Update Progress: %d orders left."
+msgstr ""
+
+#: includes/admin/users.php:53
+msgid "View coupons by this author"
+msgstr ""
+
+#: includes/appthemes-functions.php:29
+msgid "Type the two words:"
+msgstr ""
+
+#: includes/appthemes-functions.php:30
+msgid "Type what you hear:"
+msgstr ""
+
+#: includes/appthemes-functions.php:31
+msgid "Play sound again"
+msgstr ""
+
+#: includes/appthemes-functions.php:32
+msgid "Download sound as MP3"
+msgstr ""
+
+#: includes/appthemes-functions.php:33
+msgid "Visual challenge"
+msgstr ""
+
+#: includes/appthemes-functions.php:34
+msgid "Audio challenge"
+msgstr ""
+
+#: includes/appthemes-functions.php:35
+msgid "Get two new words"
+msgstr ""
+
+#: includes/appthemes-functions.php:36
+msgid "Help"
+msgstr ""
+
+#: includes/appthemes-functions.php:37
+msgid "Incorrect. Try again."
+msgstr ""
+
+#: includes/appthemes-functions.php:62
+msgid "total views"
+msgstr ""
+
+#: includes/appthemes-functions.php:62
+msgid "today"
+msgstr ""
+
+#: includes/appthemes-functions.php:64
+msgid "no views yet"
+msgstr ""
+
+#: includes/appthemes-functions.php:244 includes/appthemes-functions.php:246
+msgid "Perhaps you meant"
+msgstr ""
+
+#: includes/appthemes-functions.php:264
+msgid "Table '%s' has been deleted."
+msgstr ""
+
+#: includes/appthemes-functions.php:278
+msgid "All theme options have been deleted."
+msgstr ""
+
+#: includes/categories.php:27 includes/categories.php:86
+#: includes/categories.php:161
+msgid "-- Select One --"
+msgstr ""
+
+#: includes/categories.php:122 includes/core.php:139
+msgid "Add New Store"
+msgstr ""
+
+#: includes/comments.php:36
+msgid "%s <span class=\"says\">says:</span>"
+msgstr ""
+
+#: includes/comments.php:57
+msgid "Reply"
+msgstr ""
+
+#: includes/comments.php:78
+msgid "(Edit)"
+msgstr ""
+
+#: includes/comments.php:100
+msgid "Click here to cancel reply"
+msgstr ""
+
+#: includes/comments.php:106 includes/comments.php:270
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: includes/comments.php:122 includes/comments.php:281
+msgid "Name:"
+msgstr ""
+
+#: includes/comments.php:127 includes/comments.php:286
+#: theme-framework/templates/form-registration.php:15 tpl-profile.php:75
+#: tpl-registration.php:59
+msgid "Email:"
+msgstr ""
+
+#: includes/comments.php:177
+msgid "No Comments"
+msgstr ""
+
+#: includes/comments.php:189
+msgid "Comments Off"
+msgstr ""
+
+#: includes/comments.php:201
+msgid "Enter your password to view comments."
+msgstr ""
+
+#: includes/comments.php:214
+msgid "Comment on %s"
+msgstr ""
+
+#: includes/comments.php:334 includes/reports/report-handle.php:235
+#: includes/reports/report-handle.php:259
+msgid "Sorry, only post method allowed."
+msgstr ""
+
+#: includes/comments.php:341 includes/functions.php:503
+#: includes/functions.php:509 includes/functions.php:559
+#: includes/functions.php:564 includes/functions.php:1434
+#: includes/functions.php:1440 includes/reports/report-handle.php:240
+#: includes/reports/report-handle.php:264
+#: includes/reports/report-handle.php:285
+msgid "Sorry, item does not exist."
+msgstr ""
+
+#: includes/comments.php:350
+msgid "Sorry, comments are closed for this item."
+msgstr ""
+
+#: includes/comments.php:352
+msgid "Sorry, this item is in trash."
+msgstr ""
+
+#: includes/comments.php:354
+msgid "Sorry, this item is not public."
+msgstr ""
+
+#: includes/comments.php:356
+msgid "Sorry, this item is password protected."
+msgstr ""
+
+#: includes/comments.php:375
+msgid "Sorry, you must be logged in to post a comment."
+msgstr ""
+
+#: includes/comments.php:383
+msgid "Error: please fill the required fields (name, email)."
+msgstr ""
+
+#: includes/comments.php:385
+msgid "Error: please enter a valid email address."
+msgstr ""
+
+#: includes/comments.php:390
+msgid "Error: please type a comment."
+msgstr ""
+
+#: includes/comments.php:443
+msgid "Posted by"
+msgstr ""
+
+#: includes/core.php:23 includes/payments/order-functions.php:43
+msgid "Add New"
+msgstr ""
+
+#: includes/core.php:24
+msgid "Add New Coupon"
+msgstr ""
+
+#: includes/core.php:26 includes/dashboard.php:64 includes/functions.php:254
+#: includes/functions.php:257 includes/views.php:357
+msgid "Edit Coupon"
+msgstr ""
+
+#: includes/core.php:28
+msgid "View Coupons"
+msgstr ""
+
+#: includes/core.php:29
+msgid "View Coupon"
+msgstr ""
+
+#: includes/core.php:30
+msgid "Search Coupons"
+msgstr ""
+
+#: includes/core.php:31
+msgid "No coupons found"
+msgstr ""
+
+#: includes/core.php:32
+msgid "No coupons found in trash"
+msgstr ""
+
+#: includes/core.php:33
+msgid "Parent Coupon"
+msgstr ""
+
+#: includes/core.php:38
+msgid "This is where you can create new coupon listings on your site."
+msgstr ""
+
+#: includes/core.php:58
+msgid "Unreliable <span class=\"count\">(%s)</span>"
+msgid_plural "Unreliable <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/core.php:84
+msgid "Search Coupon Categories"
+msgstr ""
+
+#: includes/core.php:85
+msgid "All Coupon Categories"
+msgstr ""
+
+#: includes/core.php:86
+msgid "Parent Coupon Category"
+msgstr ""
+
+#: includes/core.php:87
+msgid "Parent Coupon Category:"
+msgstr ""
+
+#: includes/core.php:88
+msgid "Edit Coupon Category"
+msgstr ""
+
+#: includes/core.php:89
+msgid "Update Coupon Category"
+msgstr ""
+
+#: includes/core.php:90
+msgid "Add New Coupon Category"
+msgstr ""
+
+#: includes/core.php:91
+msgid "New Coupon Category Name"
+msgstr ""
+
+#: includes/core.php:107 includes/widgets.php:1797
+msgid "Coupon Tags"
+msgstr ""
+
+#: includes/core.php:109
+msgid "Search Coupon Tags"
+msgstr ""
+
+#: includes/core.php:110
+msgid "All Coupon Tags"
+msgstr ""
+
+#: includes/core.php:111
+msgid "Edit Coupon Tag"
+msgstr ""
+
+#: includes/core.php:112
+msgid "Update Coupon Tag"
+msgstr ""
+
+#: includes/core.php:113
+msgid "Add New Coupon Tag"
+msgstr ""
+
+#: includes/core.php:114
+msgid "Add or remove Coupon Tags"
+msgstr ""
+
+#: includes/core.php:115
+msgid "Separate Coupon Tags with commas"
+msgstr ""
+
+#: includes/core.php:116
+msgid "Choose from the most common Coupon Tags"
+msgstr ""
+
+#: includes/core.php:117
+msgid "New Coupon Tag Name"
+msgstr ""
+
+#: includes/core.php:134 includes/views-checkout.php:644
+#: includes/views-checkout.php:657
+msgid "Store"
+msgstr ""
+
+#: includes/core.php:135
+msgid "Search Stores"
+msgstr ""
+
+#: includes/core.php:136
+msgid "All Stores"
+msgstr ""
+
+#: includes/core.php:137
+msgid "Edit Store"
+msgstr ""
+
+#: includes/core.php:138
+msgid "Update Store"
+msgstr ""
+
+#: includes/core.php:140
+msgid "Add or remove Stores"
+msgstr ""
+
+#: includes/core.php:141
+msgid "Separate Stores with commas"
+msgstr ""
+
+#: includes/core.php:142
+msgid "Choose from the most common Stores"
+msgstr ""
+
+#: includes/core.php:143 includes/views-checkout.php:647
+msgid "New Store Name"
+msgstr ""
+
+#: includes/core.php:159
+msgid "Coupon Types"
+msgstr ""
+
+#: includes/core.php:161
+msgid "Search Coupon Types"
+msgstr ""
+
+#: includes/core.php:162
+msgid "All Coupon Types"
+msgstr ""
+
+#: includes/core.php:163
+msgid "Parent Coupon Type"
+msgstr ""
+
+#: includes/core.php:164
+msgid "Parent Coupon Type:"
+msgstr ""
+
+#: includes/core.php:165
+msgid "Edit Coupon Type"
+msgstr ""
+
+#: includes/core.php:166
+msgid "Update Coupon Type"
+msgstr ""
+
+#: includes/core.php:167
+msgid "Add New Coupon Type"
+msgstr ""
+
+#: includes/core.php:168
+msgid "New Coupon Type Name"
+msgstr ""
+
+#: includes/core.php:184
+msgid "Coupon Images"
+msgstr ""
+
+#: includes/core.php:185
+msgid "Coupon Image"
+msgstr ""
+
+#: includes/core.php:186
+msgid "Search Coupon Images"
+msgstr ""
+
+#: includes/core.php:187
+msgid "All Coupon Images"
+msgstr ""
+
+#: includes/core.php:188
+msgid "Parent Coupon Image"
+msgstr ""
+
+#: includes/core.php:189
+msgid "Parent Coupon Image:"
+msgstr ""
+
+#: includes/core.php:190
+msgid "Edit Coupon Image"
+msgstr ""
+
+#: includes/core.php:191
+msgid "Update Coupon Image"
+msgstr ""
+
+#: includes/core.php:192
+msgid "Add New Coupon Image"
+msgstr ""
+
+#: includes/core.php:193
+msgid "New Coupon Image Name"
+msgstr ""
+
+#: includes/core.php:219
+msgid "Primary Navigation"
+msgstr ""
+
+#: includes/core.php:220
+msgid "Footer Navigation"
+msgstr ""
+
+#: includes/core.php:235
+msgid "Home Page Sidebar"
+msgstr ""
+
+#: includes/core.php:246
+msgid "Page Sidebar"
+msgstr ""
+
+#: includes/core.php:257
+msgid "Blog Sidebar"
+msgstr ""
+
+#: includes/core.php:268
+msgid "Coupon Sidebar"
+msgstr ""
+
+#: includes/core.php:279
+msgid "Store Sidebar"
+msgstr ""
+
+#: includes/core.php:290
+msgid "Submit Coupon Sidebar"
+msgstr ""
+
+#: includes/core.php:301
+msgid "Login Sidebar"
+msgstr ""
+
+#: includes/core.php:312
+msgid "User Sidebar"
+msgstr ""
+
+#: includes/dashboard.php:74
+msgid "Delete Coupon"
+msgstr ""
+
+#: includes/dashboard.php:82
+msgid "Pause Coupon"
+msgstr ""
+
+#: includes/dashboard.php:90
+msgid "Restart Coupon"
+msgstr ""
+
+#: includes/dashboard.php:98
+msgid "Relist"
+msgstr ""
+
+#: includes/dashboard.php:108 includes/dashboard.php:205
+msgid "Pay now"
+msgstr ""
+
+#: includes/dashboard.php:114 includes/dashboard.php:211
+#: includes/payments/admin/order-single.php:303
+msgid "Reset Gateway"
+msgstr ""
+
+#: includes/emails.php:50
+msgid "New Coupon Submission"
+msgstr ""
+
+#: includes/emails.php:52 includes/emails.php:431
+#: includes/reports/report-notify-class.php:151
+msgid "Dear Admin,"
+msgstr ""
+
+#: includes/emails.php:53
+msgid "The following coupon has just been submitted on your %s website."
+msgstr ""
+
+#: includes/emails.php:55
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:378
+msgid "Details"
+msgstr ""
+
+#: includes/emails.php:57 includes/options.php:136
+msgid "Title: %s"
+msgstr ""
+
+#: includes/emails.php:58 includes/options.php:137
+msgid "Coupon Code: %s"
+msgstr ""
+
+#: includes/emails.php:59 includes/options.php:138
+msgid "Category: %s"
+msgstr ""
+
+#: includes/emails.php:60 includes/options.php:139
+msgid "Store: %s"
+msgstr ""
+
+#: includes/emails.php:61
+msgid "Author: %s"
+msgstr ""
+
+#: includes/emails.php:62 includes/options.php:140
+msgid "Description: %s"
+msgstr ""
+
+#: includes/emails.php:65
+msgid "Preview: %s"
+msgstr ""
+
+#: includes/emails.php:67 includes/emails.php:188 includes/emails.php:244
+#: includes/functions.php:633 includes/functions.php:799
+#: includes/reports/report-notify-class.php:163
+msgid "Regards,"
+msgstr ""
+
+#: includes/emails.php:182
+msgid "Your Coupon Has Been Approved"
+msgstr ""
+
+#: includes/emails.php:184 includes/emails.php:238 includes/options.php:110
+#: includes/options.php:130
+msgid "Hi %s,"
+msgstr ""
+
+#: includes/emails.php:185
+msgid "Your coupon, \"%s\" has been approved and is now live on our site."
+msgstr ""
+
+#: includes/emails.php:186 includes/emails.php:242
+msgid "You can view your coupon by clicking on the following link:"
+msgstr ""
+
+#: includes/emails.php:189 includes/emails.php:245 includes/functions.php:634
+#: includes/options.php:120 includes/options.php:145
+#: includes/reports/report-notify-class.php:163
+msgid "Your %s Team"
+msgstr ""
+
+#: includes/emails.php:236 includes/options.php:127
+msgid "Your coupon submission on %s"
+msgstr ""
+
+#: includes/emails.php:239 includes/options.php:131
+msgid "Thank you for your recent submission."
+msgstr ""
+
+#: includes/emails.php:240
+msgid "Your coupon, \"%s\" has been published and is now live on our site."
+msgstr ""
+
+#: includes/emails.php:286
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: includes/emails.php:288
+msgid "New user registration on your site %s:"
+msgstr ""
+
+#: includes/emails.php:289 includes/emails.php:334 includes/options.php:114
+#: theme-framework/includes/views-login.php:332
+msgid "Username: %s"
+msgstr ""
+
+#: includes/emails.php:290
+msgid "E-mail: %s"
+msgstr ""
+
+#: includes/emails.php:332
+msgid "[%s] Your username and password"
+msgstr ""
+
+#: includes/emails.php:335 includes/options.php:115
+msgid "Password: %s"
+msgstr ""
+
+#: includes/emails.php:378
+msgid "Hello %s,"
+msgstr ""
+
+#: includes/emails.php:379
+msgid "This email confirms that you have purchased the following items:"
+msgstr ""
+
+#: includes/emails.php:381 includes/emails.php:437
+msgid "Order Summary:"
+msgstr ""
+
+#: includes/emails.php:385
+msgid "[%1$s] Receipt for your order #%2$d"
+msgstr ""
+
+#: includes/emails.php:432
+msgid "You have received payment for the following items:"
+msgstr ""
+
+#: includes/emails.php:435
+msgid "Please review submitted coupon listing, and approve it."
+msgstr ""
+
+#: includes/emails.php:441
+msgid "[%1$s] Received payment for order #%2$d"
+msgstr ""
+
+#: includes/emails.php:465
+msgid "[%s] Failed Order #%s"
+msgstr ""
+
+#: includes/emails.php:468
+msgid "Payment for the order #%s has failed."
+msgstr ""
+
+#: includes/emails.php:469
+msgid ""
+"Please <a href=\"%s\">review this order</a>, and if necessary disable "
+"assigned services."
+msgstr ""
+
+#: includes/enqueue.php:68
+msgid "Copied"
+msgstr ""
+
+#: includes/enqueue.php:69
+msgid "Navigation"
+msgstr ""
+
+#: includes/enqueue.php:70
+msgid "Are you sure you want to delete this coupon?"
+msgstr ""
+
+#: includes/enqueue.php:71
+msgid "Your email has been sent!"
+msgstr ""
+
+#: includes/enqueue.php:72
+msgid "This coupon was successfully shared with"
+msgstr ""
+
+#: includes/enqueue.php:73
+msgid "There was a problem sharing this coupon with"
+msgstr ""
+
+#: includes/functions.php:62 includes/functions.php:81 sidebar-user.php:29
+msgid "My Dashboard"
+msgstr ""
+
+#: includes/functions.php:82 includes/functions.php:150
+msgid "Log out"
+msgstr ""
+
+#. #-#-#-#-#  clipper.pot (Clipper 1.6.3)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: includes/functions.php:87 theme-framework/includes/views-login.php:78
+#: theme-framework/templates/form-login.php:20 tpl-login.php:20
+#: tpl-login.php:50
+msgid "Login"
+msgstr ""
+
+#: includes/functions.php:540 includes/functions.php:1460
+msgid "Error: template \"%s\" not found."
+msgstr ""
+
+#: includes/functions.php:587
+msgid "Your Name"
+msgstr ""
+
+#: includes/functions.php:588 includes/functions.php:601
+msgid "Your Email"
+msgstr ""
+
+#: includes/functions.php:589
+msgid "Recipients"
+msgstr ""
+
+#: includes/functions.php:590 includes/payments/admin/order-single.php:429
+#: includes/payments/gateways/bank-transfer/bank-transfer.php:41
+msgid "Message"
+msgstr ""
+
+#: includes/functions.php:595
+msgid "<strong>ERROR</strong>: \"%s\" is a required field."
+msgstr ""
+
+#: includes/functions.php:601
+msgid "<strong>ERROR</strong>: \"%s\" is a invalid field."
+msgstr ""
+
+#: includes/functions.php:626
+msgid "%1$s shared a coupon with you from %2$s"
+msgstr ""
+
+#: includes/functions.php:628
+msgid "Hi,"
+msgstr ""
+
+#: includes/functions.php:629
+msgid "%s thought you might be interested in the following coupon."
+msgstr ""
+
+#: includes/functions.php:630
+msgid "View coupon: %s"
+msgstr ""
+
+#: includes/functions.php:631
+msgid "Message: %s"
+msgstr ""
+
+#: includes/functions.php:761
+msgid "Clipper Coupons Expired"
+msgstr ""
+
+#: includes/functions.php:791
+msgid "Your cron job has run successfully. "
+msgstr ""
+
+#: includes/functions.php:793
+msgid "No expired coupons were found."
+msgstr ""
+
+#: includes/functions.php:795
+msgid ""
+"The following coupons expired and have been taken down from your website: "
+msgstr ""
+
+#: includes/functions.php:977
+msgid "Ended"
+msgstr ""
+
+#: includes/functions.php:978
+msgid "Expired"
+msgstr ""
+
+#: includes/functions.php:980
+msgid "Live"
+msgstr ""
+
+#: includes/functions.php:981
+msgid "Live-Expired"
+msgstr ""
+
+#: includes/functions.php:982
+msgid "Live-Unreliable"
+msgstr ""
+
+#: includes/functions.php:983
+msgid "Offline"
+msgstr ""
+
+#: includes/functions.php:984 includes/payments/order-class.php:665
+msgid "Pending"
+msgstr ""
+
+#: includes/functions.php:985
+msgid "Awaiting approval"
+msgstr ""
+
+#: includes/functions.php:986
+msgid "Awaiting payment"
+msgstr ""
+
+#: includes/functions.php:989
+msgid "Trash"
+msgstr ""
+
+#: includes/functions.php:1067
+msgid "Sorry, but no terms were found."
+msgstr ""
+
+#: includes/functions.php:1186
+msgid "Report a Problem"
+msgstr ""
+
+#: includes/functions.php:1217
+msgid "This offer has expired."
+msgstr ""
+
+#: includes/functions.php:1237 includes/functions.php:1261
+msgid "View the \"%s\" coupon page"
+msgstr ""
+
+#: includes/functions.php:1428 includes/search.php:34
+msgid "Sorry, only get method allowed."
+msgstr ""
+
+#: includes/functions.php:1445 includes/functions.php:1451
+msgid "Sorry, wrong item type."
+msgstr ""
+
+#: includes/functions.php:1495 includes/links.php:311
+msgid "Auto Draft"
+msgstr ""
+
+#: includes/functions.php:1637
+msgid "By:"
+msgstr ""
+
+#: includes/functions.php:1639
+msgid "View all coupons by %s"
+msgstr ""
+
+#: includes/functions.php:1651
+msgid "<span class=\"posted-on\">%1$s %2$s</span>"
+msgstr ""
+
+#: includes/functions.php:1652
+msgid "Uploaded:"
+msgstr ""
+
+#: includes/functions.php:1661
+msgid "Full size:"
+msgstr ""
+
+#: includes/functions.php:1673
+msgid "File type:"
+msgstr ""
+
+#: includes/functions.php:1678
+msgid "File size:"
+msgstr ""
+
+#: includes/options.php:60
+msgid "Invalid Coupon Code"
+msgstr ""
+
+#: includes/options.php:61
+msgid "Expired Coupon"
+msgstr ""
+
+#: includes/options.php:62 includes/reports/load.php:81
+#: includes/reports/load.php:85
+msgid "Offensive Content"
+msgstr ""
+
+#: includes/options.php:63
+msgid "Invalid Link"
+msgstr ""
+
+#: includes/options.php:64 includes/reports/load.php:82
+#: includes/reports/load.php:86
+msgid "Spam"
+msgstr ""
+
+#: includes/options.php:65 includes/reports/load.php:83
+#: includes/reports/load.php:87
+msgid "Other"
+msgstr ""
+
+#: includes/options.php:107
+msgid "Thank you for registering, %s"
+msgstr ""
+
+#: includes/options.php:111
+msgid "Welcome to %s!"
+msgstr ""
+
+#: includes/options.php:112
+msgid ""
+"Below you will find your username and password which allows you to login to "
+"your user account."
+msgstr ""
+
+#: includes/options.php:118
+msgid "If you have any questions, please just let us know."
+msgstr ""
+
+#: includes/options.php:119 includes/options.php:144
+msgid "Best regards,"
+msgstr ""
+
+#: includes/options.php:132
+msgid ""
+"Your coupon has been received and will not appear live on our site until it "
+"has been approved."
+msgstr ""
+
+#: includes/options.php:133
+msgid "Below you will find a summary of your submission."
+msgstr ""
+
+#: includes/options.php:142
+msgid ""
+"You may check the status of your coupon(s) at anytime by logging into your "
+"dashboard."
+msgstr ""
+
+#: includes/payments/admin/admin.php:44
+#: includes/payments/order-functions.php:41
+#: includes/payments/order-functions.php:52 tpl-user-orders.php:23
+msgid "Orders"
+msgstr ""
+
+#: includes/payments/admin/admin.php:44
+#: includes/payments/admin/order-meta.php:114
+msgid "Payments"
+msgstr ""
+
+#: includes/payments/admin/order-list.php:36
+#: includes/payments/order-functions.php:42
+msgid "Order"
+msgstr ""
+
+#: includes/payments/admin/order-list.php:39
+msgid "Item"
+msgstr ""
+
+#: includes/payments/admin/order-list.php:40
+#: includes/payments/admin/order-meta.php:151
+#: includes/payments/admin/order-single.php:64 tpl-user-orders.php:56
+msgid "Price"
+msgstr ""
+
+#: includes/payments/admin/order-list.php:42
+msgid "Payment"
+msgstr ""
+
+#: includes/payments/admin/order-list.php:94
+msgid "Purchased %s item"
+msgid_plural "Purchased %s items"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/payments/admin/order-list.php:120
+#: includes/payments/admin/order-single.php:162 includes/payments.php:259
+msgid "Undecided"
+msgstr ""
+
+#: includes/payments/admin/order-list.php:141
+msgid "Unpublished"
+msgstr ""
+
+#: includes/payments/admin/order-list.php:144
+msgctxt "Order Date Format"
+msgid "Y/m/d g:i:s A"
+msgstr ""
+
+#: includes/payments/admin/order-list.php:153
+msgctxt "Order Date Format"
+msgid "Y/m/d"
+msgstr ""
+
+#: includes/payments/admin/order-meta.php:72
+#: includes/payments/admin/order-meta.php:122
+msgid "Connected Orders"
+msgstr ""
+
+#: includes/payments/admin/order-meta.php:150
+msgid "Last 10 Orders"
+msgstr ""
+
+#: includes/payments/admin/order-meta.php:152
+#: includes/payments/admin/order-single.php:145
+#: includes/search-index/class-search-index.php:68 tpl-dashboard.php:47
+msgid "Status"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:63 order-select.php:19
+#: order-summary.php:19 tpl-user-orders.php:55
+msgid "Order Summary"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:65
+msgid "Affects"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:75
+#: includes/payments/order-templates.php:465
+msgid "Total"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:90
+msgid ""
+"This item could not be recognized. It might be from another theme or an "
+"uninstalled plugin."
+msgstr ""
+
+#: includes/payments/admin/order-single.php:119
+msgid "Order Status"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:141 tpl-user-orders.php:54
+msgid "ID"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:149
+msgid "Gateway"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:168
+#: includes/payments/admin/settings.php:39
+msgid "Currency"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:176
+msgid "Recurs:"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:177
+msgid "Every %d %s"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:180
+msgid "Payment Date:"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:186
+msgid "Previously"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:209
+msgid "Order Author"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:271
+msgid "Order Actions"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:291
+#: includes/payments/admin/order-single.php:301
+#: includes/payments/gateways/bank-transfer/bt-admin.php:38
+msgid "Mark as Completed"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:295
+#: includes/payments/admin/order-single.php:302
+msgid "Mark as Failed"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:297
+msgid "Mark as Failed (Refund)"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:309
+msgid "Reset Order"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:312
+msgid "Activate Order"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:315
+msgid "No actions available"
+msgstr ""
+
+#: includes/payments/admin/order-single.php:429
+msgid "Logged Date"
+msgstr ""
+
+#: includes/payments/admin/security.php:93
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/payments/admin/settings.php:17
+msgid "Payments Settings"
+msgstr ""
+
+#: includes/payments/admin/settings.php:35
+msgid "Regional"
+msgstr ""
+
+#: includes/payments/admin/settings.php:36
+msgid "The following options affect how prices are displayed on your website."
+msgstr ""
+
+#: includes/payments/admin/settings.php:45
+msgid "Identifier"
+msgstr ""
+
+#: includes/payments/admin/settings.php:49
+msgid "Symbol (%s)"
+msgstr ""
+
+#: includes/payments/admin/settings.php:50
+msgid "Code (%s)"
+msgstr ""
+
+#: includes/payments/admin/settings.php:54
+msgid "Position"
+msgstr ""
+
+#: includes/payments/admin/settings.php:65
+msgid "Thousand Separator"
+msgstr ""
+
+#: includes/payments/admin/settings.php:68
+msgid "The thousand separator of displayed prices."
+msgstr ""
+
+#: includes/payments/admin/settings.php:75
+msgid "Decimal Separator"
+msgstr ""
+
+#: includes/payments/admin/settings.php:78
+msgid "The decimal separator of displayed prices."
+msgstr ""
+
+#: includes/payments/admin/settings.php:88
+msgid "Tax"
+msgstr ""
+
+#: includes/payments/admin/settings.php:89
+msgid "The following options affect how taxes are applied to all purchases."
+msgstr ""
+
+#: includes/payments/admin/settings.php:92
+msgid "Rate"
+msgstr ""
+
+#: includes/payments/admin/settings.php:95
+msgid "%"
+msgstr ""
+
+#: includes/payments/admin/settings.php:96
+msgid "Set to zero to disable taxes."
+msgstr ""
+
+#: includes/payments/admin/settings.php:106
+msgid "Installed Gateways"
+msgstr ""
+
+#: includes/payments/admin/settings.php:114
+msgid "Allow users view their orders list"
+msgstr ""
+
+#: includes/payments/admin/settings.php:115
+msgid ""
+"Enable this option if you allow users view their orders list in back-end, "
+"otherwise only editors and administrators can do that."
+msgstr ""
+
+#: includes/payments/admin/settings.php:140
+msgid ""
+"This gateway is currently <strong>disabled</strong>. Users cannot use it as "
+"a purchasing option. Go to the <a href=\"?page=app-payments-settings"
+"\">General</a> tab to enable it."
+msgstr ""
+
+#: includes/payments/escrow/admin/settings.php:51
+msgid "Escrow"
+msgstr ""
+
+#: includes/payments/escrow/admin/settings.php:57
+msgid "Enable escrow"
+msgstr ""
+
+#: includes/payments/escrow/admin/settings.php:59
+msgid ""
+"A premier/business account is required for allowing customers to process "
+"recurring payments via PayPal"
+msgstr ""
+
+#: includes/payments/escrow/admin/settings.php:64
+msgid "Retained Amount"
+msgstr ""
+
+#: includes/payments/escrow/admin/settings.php:65
+msgid "The amount to retain on each escrow transaction."
+msgstr ""
+
+#: includes/payments/escrow/admin/settings.php:73
+msgid "Retain Type"
+msgstr ""
+
+#: includes/payments/escrow/admin/settings.php:74
+msgid ""
+"Choose whether you want to receive a flat amount or a percentage based "
+"amount."
+msgstr ""
+
+#: includes/payments/escrow/admin/settings.php:79
+msgid "Flat"
+msgstr ""
+
+#: includes/payments/escrow/admin/settings.php:80
+msgid "Percentage"
+msgstr ""
+
+#: includes/payments/escrow/admin/settings.php:87
+msgid "Installed Escrow Gateways"
+msgstr ""
+
+#: includes/payments/escrow/admin/settings.php:110
+msgid ""
+"This gateway is currently <strong>disabled</strong>. It cannot be used on "
+"escrow transactions. Go to the <a href=\"?page=app-payments-"
+"settings&tab=escrow\">Escrow</a> tab to enable it."
+msgstr ""
+
+#: includes/payments/escrow/admin/settings.php:122
+msgid ""
+"<strong>Important:</strong> You need a Premier or Verified Business PayPal "
+"account to be able to use the PayPal Adaptive service."
+msgstr ""
+
+#: includes/payments/escrow/escrow-settings-form-class.php:82
+msgid "Settings Saved."
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive-request.php:55
+msgid "[%1$s] Funds for \"%2$s\" (Order ID #%3$s)"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive-request.php:202
+msgid ""
+"PayPal was unable to verify the payment receivers. Please contact site owner."
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive-request.php:227
+msgid "Added user '%1$s' with email '%2$s' as receiver"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:79
+msgid ""
+"PayPal was not able to execute the payment request. Please contact site "
+"owner."
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:81
+msgid ""
+"The following error ocurred while trying to make the pay request: \"%s\""
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:83
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:127
+msgid "No response code from PayPal while trying to execute the payment."
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:100
+#: includes/payments/gateways/paypal/paypal.php:106
+msgid "You are now being redirected to PayPal."
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:123
+msgid "PayPal was not able to execute the payment. Please contact site owner."
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:125
+msgid "The following error ocurred while trying to execute the payment: \"%s\""
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:132
+msgid "Funds transferred to receivers"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:155
+msgid "PayPal was not able to execute the refund. Please contact site owner."
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:157
+msgid "The following error ocurred while trying to execute the refund: \"%s\""
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:159
+msgid "No response code from PayPal while trying to execute the refund."
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:189
+msgid "PayPal Escrow Information"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:192
+#: includes/payments/gateways/paypal/paypal.php:135
+msgid "PayPal Email"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:198
+msgid "Money transfers will be made to this PayPal email address."
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:222
+msgid "Adaptive Payments SANDBOX API Credentials (Escrow)"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:225
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:255
+msgid "Username"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:226
+msgid ""
+"Your sandbox account API credentials username. You can find more info on "
+"creating/managing API credentials <a href=\"%s\">here</a>."
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:231
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:261
+msgid "Password"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:232
+msgid ""
+"Your sandbox account API credentials password. You can find more info on "
+"creating/managing API credentials <a href=\"%s\">here</a>."
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:237
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:267
+msgid "Signature"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:238
+msgid ""
+"Your sandbox account API credentials signature. You can find more info on "
+"creating/managing API credentials <a href=\"%s\">here</a>."
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:252
+msgid "Adaptive Payments LIVE API Credentials (Escrow)"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:256
+msgid ""
+"Your LIVE API credentials username. You can find more info on creating/"
+"managing API credentials <a href=\"%s\">here</a>."
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:262
+msgid ""
+"Your LIVE API credentials password. You can find more info on creating/"
+"managing API credentials <a href=\"%s\">here</a>."
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:268
+msgid ""
+"Your LIVE API credentials signature. You can find more info on creating/"
+"managing API credentials <a href=\"%s\">here</a>."
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:273
+msgid "AppID"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:274
+msgid ""
+"Your Application ID. This should be your LIVE AppID <u>NOT</u> the generic "
+"AppID <code>APP-80W284485P519543</code> used for testing. You can find more "
+"info on creating/managing PayPal applications <a href=\"%s\">here</a>."
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:275
+msgid ""
+"<strong>Important:</strong> You can only start accepting 'escrow' "
+"transactions after your AppID is fully approved by PayPal. Applications with "
+"status 'Approved Conditionally' are not considered approved for 'escrow' "
+"transactions. "
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:289
+msgid "Adaptive Payments Fees"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:292
+msgid "Payer"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:293
+msgid "Who should pay any applicable fees?"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:297
+msgid "Primary Receiver (You)"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:298
+msgid "Secondary Receiver"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:324
+msgid "<a href=\"%s\">Obtain Sandbox API Credentials</a>"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:329
+msgid ""
+"<strong>Important:</strong> To obtain live PayPal credentials, you must have "
+"a verified Premier or verified Business PayPal account. Also, make sure your "
+"PayPal account is able to receive money on every currency accepted on your "
+"site. Otherwise, users will not be able to transfer money to you."
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:330
+msgid "<a href=\"%s\">Obtain Live API Credentials</a>"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:406
+msgid "Funds"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:413
+msgid "Receiver"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:417
+msgid "Amount"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:422
+msgid "Retained"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:423
+msgid "(when completed)"
+msgstr ""
+
+#: includes/payments/escrow/gateways/paypal-adaptive/paypal-adaptive.php:431
+#: sidebar-user.php:63 sidebar-user.php:64 sidebar-user.php:65
+msgid "N/A"
+msgstr ""
+
+#: includes/payments/escrow/load.php:42
+msgid "Paid <span class=\"count\">(%s)</span>"
+msgid_plural "Paid <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/payments/escrow/load.php:49
+msgid "Refunded <span class=\"count\">(%s)</span>"
+msgid_plural "Refunded <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/payments/escrow/order-escrow-class.php:96
+msgid "Pending (Waiting for Funds)"
+msgstr ""
+
+#: includes/payments/escrow/order-escrow-class.php:97
+#: includes/payments/gateways/paypal/paypal.php:203
+#: includes/payments/order-class.php:666
+msgid "Failed"
+msgstr ""
+
+#: includes/payments/escrow/order-escrow-class.php:98
+msgid "Paid (Funds in Escrow)"
+msgstr ""
+
+#: includes/payments/escrow/order-escrow-class.php:99
+msgid "Refunded"
+msgstr ""
+
+#: includes/payments/escrow/order-escrow-class.php:100
+#: includes/payments/gateways/paypal/paypal.php:200
+#: includes/payments/order-class.php:667
+msgid "Completed"
+msgstr ""
+
+#: includes/payments/escrow/order-escrow-factory.php:23
+#: includes/payments/order-draft-class.php:49
+#: includes/payments/order-factory.php:36
+msgid "Transaction"
+msgstr ""
+
+#: includes/payments/escrow/order-escrow-factory.php:28
+#: includes/payments/order-factory.php:41
+msgid "Transaction Data"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bank-transfer.php:26
+#: includes/payments/gateways/bank-transfer/bank-transfer.php:27
+#: includes/payments/gateways/bank-transfer/bt-admin.php:10
+#: includes/payments/gateways/bank-transfer/template/order-bank-transfer.php:16
+msgid "Bank Transfer"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bank-transfer.php:44
+msgid ""
+"This content will be displayed once checkout has been completed. It will be "
+"up to the purchaser to follow the instructions."
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-admin.php:33
+msgid ""
+"You must mark this transfer as completed before the purchase can proceed."
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-emails.php:11
+msgid ""
+"A new order is waiting to be processed. Once you receive payment, you should "
+"mark the order as completed."
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-emails.php:13
+msgid "Review this order"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-emails.php:17
+msgid "review all pending orders"
+msgstr ""
+
+#. translators: <Single Order Link> or <Link to All Orders>
+#: includes/payments/gateways/bank-transfer/bt-emails.php:20
+msgid "%1$s or %2$s"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/bt-emails.php:24
+msgid "[%1$s] Pending Order #%2$d"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/template/order-bank-transfer.php:19
+msgid "Instructions:"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/template/order-bank-transfer.php:26
+msgid "Order Information:"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/template/order-bank-transfer.php:29
+msgid "Order ID:"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/template/order-bank-transfer.php:30
+msgid "Order Total:"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/template/order-bank-transfer.php:33
+msgid "For questions or problems, please contact us directly at"
+msgstr ""
+
+#: includes/payments/gateways/bank-transfer/template/order-bank-transfer.php:36
+msgid ""
+"To cancel this request and use a regular gateway instead, <a href=\"%s"
+"\">click here</a>."
+msgstr ""
+
+#: includes/payments/gateways/boomerang-class.php:52
+msgid "You are now being redirected."
+msgstr ""
+
+#: includes/payments/gateways/gateway-functions.php:103
+msgid ""
+"No payment gateways are available. Please contact your site administrator"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal-form.php:64
+msgid "Continue to %s"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal-form.php:134
+msgid "Your Order is still being processed. Please wait a few seconds..."
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal-form.php:135
+msgid ""
+"If your Order does not complete soon, please contact us and refer to your "
+"Order ID - #%d."
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:39
+#: includes/payments/gateways/paypal/paypal.php:40
+msgid "PayPal"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:76
+msgid ""
+"PayPal has responded to your transaction as invalid. Please contact site "
+"owner."
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:132
+msgid ""
+"Complete the fields below so you can start accepting payments via PayPal."
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:136
+msgid ""
+"Enter your PayPal account email address. This is where your money gets sent."
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:141
+msgid "Account Type"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:142
+msgid "I have a Premier or Business account"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:143
+msgid ""
+"Having a Premier or Business account is recommended and required for "
+"recurring payments. <a target=\"_new\" href=\"%s\">Learn more</a> about the "
+"account type differences."
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:148
+msgid "Sandbox Mode"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:149
+msgid "Enable sandbox mode so I can test PayPal"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:150
+msgid ""
+"A <a target='_blank' href='%s'>PayPal Sandbox</a> account is required to use "
+"this feature. Enabling this allows you to confirm that payments are being "
+"processed correctly. Make sure to disable this option once you're done "
+"testing."
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:158
+msgid "Payment Data Transfer (PDT)"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:159
+msgid ""
+"PDT sends a transaction notice back to your website so you can display order-"
+"related details on your completed purchase page. <a target=\"_blank\" href="
+"\"%s\">Learn more.</a>"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:162
+msgid "PDT System"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:163
+msgid "Enable Payment Data Transfer (PDT)"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:164
+msgid ""
+"Make sure you understand the <a target=\"_blank\" href=\"%s\">benefits and "
+"limitations</a> of PDT before you enable this feature. See our <a target="
+"\"_blank\" href=\"%s\">tutorial</a> on enabling PDT."
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:169
+msgid "Identity Token"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:172
+msgid "Enter your unique PDT identity token"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:173
+msgid ""
+"This will be provided after you activate PDT from within your PayPal account."
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:179
+msgid "Instant Payment Notification (IPN)"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:180
+msgid ""
+"IPN is a messaging service that automatically notifies your website of "
+"events related to transactions. <a target=\"_blank\" href=\"%s\">Learn more."
+"</a>"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:183
+msgid "IPN System"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:186
+msgid "Enable Instant Payment Notification (IPN)"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:187
+msgid ""
+"Make sure you understand the <a target=\"_blank\" href=\"%s\">benefits and "
+"limitations</a> of IPN before you enable this feature. If any of your "
+"payment plans use recurring payments, this option must be checked. See our "
+"<a target=\"_blank\" href=\"%s\">tutorial</a> on enabling IPN."
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:193
+msgid "Notifications"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:196
+msgid "Notify me when a payment is.."
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:201
+msgid "Reversed"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:202
+msgid "Denied"
+msgstr ""
+
+#: includes/payments/gateways/paypal/paypal.php:204
+msgid "Voided"
+msgstr ""
+
+#: includes/payments/order-class.php:668
+msgid "Activated"
+msgstr ""
+
+#: includes/payments/order-functions.php:44
+msgid "Add New Order"
+msgstr ""
+
+#: includes/payments/order-functions.php:45
+msgid "Edit Order"
+msgstr ""
+
+#: includes/payments/order-functions.php:46
+msgid "New Order"
+msgstr ""
+
+#: includes/payments/order-functions.php:47
+msgid "View Order"
+msgstr ""
+
+#: includes/payments/order-functions.php:48
+msgid "Search Orders"
+msgstr ""
+
+#: includes/payments/order-functions.php:49
+msgid "No orders found"
+msgstr ""
+
+#: includes/payments/order-functions.php:50
+msgid "No orders found in Trash"
+msgstr ""
+
+#: includes/payments/order-functions.php:51
+msgid "Parent Order:"
+msgstr ""
+
+#: includes/payments/order-functions.php:66
+msgid "Pending <span class=\"count\">(%s)</span>"
+msgid_plural "Pending <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/payments/order-functions.php:67
+msgid "Failed <span class=\"count\">(%s)</span>"
+msgid_plural "Failed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/payments/order-functions.php:68
+msgid "Completed <span class=\"count\">(%s)</span>"
+msgid_plural "Completed <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/payments/order-functions.php:69
+msgid "Activated <span class=\"count\">(%s)</span>"
+msgid_plural "Activated <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/payments/order-functions.php:100
+msgid "Regional Taxes"
+msgstr ""
+
+#: includes/payments/order-functions.php:263
+msgid "year"
+msgid_plural "years"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/payments/order-functions.php:267
+msgid "week"
+msgid_plural "weeks"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/payments/order-functions.php:271
+msgid "month"
+msgid_plural "months"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/payments/order-functions.php:276
+msgid "day"
+msgid_plural "days"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/payments/utils/currencies.php:30
+msgid "US Dollars"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:34
+msgid "Euros"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:38
+msgid "Pounds Sterling"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:42
+msgid "Australian Dollars"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:46
+msgid "Brazilian Real"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:50
+msgid "Canadian Dollars"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:54
+msgid "Czech Koruna"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:58
+msgid "Danish Krone"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:62
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:66
+msgid "Hungarian Forint"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:70
+msgid "Israeli Shekel"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:74
+msgid "Japanese Yen"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:78
+msgid "Malaysian Ringgits"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:82
+msgid "Mexican Peso"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:86
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:90
+msgid "Norwegian Krone"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:94
+msgid "Philippine Pesos"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:98
+msgid "Polish Zloty"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:102
+msgid "Russian Ruble"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:106
+msgid "Singapore Dollar"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:110
+msgid "Swedish Krona"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:114
+msgid "Swiss Franc"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:118
+msgid "Taiwan New Dollar"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:122
+msgid "Thai Baht"
+msgstr ""
+
+#: includes/payments/utils/currencies.php:126
+msgid "Turkish Lira"
+msgstr ""
+
+#: includes/payments.php:305
+msgid "Listing Fee"
+msgstr ""
+
+#: includes/payments.php:306
+msgid "%s for submitting coupon."
+msgstr ""
+
+#: includes/payments.php:331
+msgid "Continue to coupon"
+msgstr ""
+
+#: includes/payments.php:336
+msgid "Your order has been completed."
+msgstr ""
+
+#: includes/profile.php:39
+msgid "Enter your Twitter username without the URL."
+msgstr ""
+
+#: includes/profile.php:40
+msgid ""
+"Enter your Facebook username without the URL. <br />Don't have one yet? <a "
+"target='_blank' href='%s'>Get a custom URL.</a>"
+msgstr ""
+
+#: includes/reports/admin/admin.php:52 includes/reports/admin/admin.php:131
+#: includes/reports/admin/metabox.php:19 includes/reports/admin/metabox.php:57
+#: includes/reports/admin/metabox.php:69 includes/reports/admin/settings.php:54
+msgid "Reports"
+msgstr ""
+
+#: includes/reports/admin/metabox.php:35 includes/reports/admin/metabox.php:75
+msgid "No reports yet."
+msgstr ""
+
+#: includes/reports/admin/metabox.php:150
+#: includes/reports/report-functions.php:298
+msgid "Report"
+msgstr ""
+
+#: includes/reports/admin/metabox.php:222
+msgid "Are you sure you want to delete this report?"
+msgstr ""
+
+#: includes/reports/admin/settings.php:18
+#: includes/reports/admin/settings.php:19
+msgid "Reports Settings"
+msgstr ""
+
+#: includes/reports/admin/settings.php:58
+msgid "Registered Users Only"
+msgstr ""
+
+#: includes/reports/admin/settings.php:61
+msgid "Only allow registered users to report problems."
+msgstr ""
+
+#: includes/reports/admin/settings.php:65
+msgid "Notification Email"
+msgstr ""
+
+#: includes/reports/admin/settings.php:68
+msgid "Send me an email when a problem has been reported."
+msgstr ""
+
+#: includes/reports/admin/settings.php:72
+msgid "Report Post Values"
+msgstr ""
+
+#: includes/reports/admin/settings.php:73
+#: includes/reports/admin/settings.php:89
+msgid ""
+"Enter the different options you want available for the report feature. Enter "
+"one per line."
+msgstr ""
+
+#: includes/reports/admin/settings.php:88
+msgid "Report User Options"
+msgstr ""
+
+#: includes/reports/report-functions.php:294
+msgid "Processing your request, Please wait...."
+msgstr ""
+
+#: includes/reports/report-handle.php:244
+#: includes/reports/report-handle.php:280
+msgid "Sorry, invalid request."
+msgstr ""
+
+#: includes/reports/report-handle.php:248
+msgid "Report has been removed."
+msgstr ""
+
+#: includes/reports/report-handle.php:268
+#: includes/reports/report-handle.php:272
+msgid "Sorry, invalid item type."
+msgstr ""
+
+#: includes/reports/report-handle.php:276
+msgid "Sorry, invalid report message."
+msgstr ""
+
+#: includes/reports/report-handle.php:291
+msgid "Sorry, only registered users can report."
+msgstr ""
+
+#: includes/reports/report-handle.php:299
+#: includes/reports/report-handle.php:305
+msgid "Sorry, could not create report."
+msgstr ""
+
+#: includes/reports/report-handle.php:309
+msgid "Thank you. Report has been submitted."
+msgstr ""
+
+#: includes/reports/report-notify-class.php:116
+msgid "[%1$s] New report on \"%2$s\""
+msgstr ""
+
+#: includes/reports/report-notify-class.php:152
+msgid "A new report has been submitted on \"%1$s\" by %2$s."
+msgstr ""
+
+#: includes/reports/report-notify-class.php:153
+msgid "Reported as: %s"
+msgstr ""
+
+#: includes/reports/report-notify-class.php:154
+msgid "Edit post: %s"
+msgstr ""
+
+#: includes/reports/report-notify-class.php:157
+msgid "Trash it: %s"
+msgstr ""
+
+#: includes/reports/report-notify-class.php:159
+msgid "Delete it: %s"
+msgstr ""
+
+#: includes/reports/report-notify-class.php:162
+msgid ""
+"You will not receive further notification for this post until report has "
+"been deleted. However all future reports will be logged and can be viewed on "
+"each edit post page."
+msgstr ""
+
+#: includes/search-index/class-search-index.php:24
+#: includes/search-index/class-search-index.php:25
+msgid "Search Index Updater"
+msgstr ""
+
+#: includes/search-index/class-search-index.php:62
+#: includes/search-index/class-search-index.php:78
+msgid "Search Index"
+msgstr ""
+
+#: includes/search-index/class-search-index.php:74
+msgid "Built"
+msgstr ""
+
+#: includes/search-index/class-search-index.php:83
+msgid ""
+"You are about to completely delete the search index. Are you sure you want "
+"to proceed?"
+msgstr ""
+
+#: includes/search-index/class-search-index.php:85
+msgid "Delete Search Index"
+msgstr ""
+
+#: includes/search-index/class-search-index.php:86
+msgid "Flush out your index. You can always rebuild it again."
+msgstr ""
+
+#: includes/search-index/class-search-index.php:100
+msgid "The search index is being built..."
+msgstr ""
+
+#: includes/search-index/class-search-index.php:108
+msgid "Build Speed"
+msgstr ""
+
+#: includes/search-index/class-search-index.php:112
+msgid "Slow"
+msgstr ""
+
+#: includes/search-index/class-search-index.php:113
+msgid "Medium"
+msgstr ""
+
+#: includes/search-index/class-search-index.php:114
+msgid "Fast"
+msgstr ""
+
+#: includes/search-index/class-search-index.php:117
+msgid "If you're not on a dedicated server, use the slow or medium option."
+msgstr ""
+
+#: includes/search-index/class-search-index.php:126
+msgid "Create Search Index"
+msgstr ""
+
+#: includes/search-index/class-search-index.php:188
+msgid "Sorry, only post method allowed"
+msgstr ""
+
+#: includes/search-index/class-search-index.php:192
+msgid "Sorry, invalid request"
+msgstr ""
+
+#: includes/search-index/class-search-index.php:196
+msgid "The search index has been built"
+msgstr ""
+
+#: includes/search-index/class-search-index.php:203
+msgid "This has already run"
+msgstr ""
+
+#: includes/search-index/search-index.php:80
+msgid "Search Index Update Progress: %g%s complete."
+msgstr ""
+
+#: includes/search.php:38 includes/search.php:50
+msgid "Sorry, need at least two characters."
+msgstr ""
+
+#: includes/search.php:62
+msgid "Sorry, no stores found."
+msgstr ""
+
+#: includes/search.php:157 searchform.php:23
+msgid "Search for coupon codes"
+msgstr ""
+
+#: includes/security.php:32
+msgid "Site administrator has blocked your access to the back-office."
+msgstr ""
+
+#: includes/stats/stats.php:295
+msgid "Stats have been reset!"
+msgstr ""
+
+#: includes/stats/stats.php:390
+msgid "%d total views, %d today"
+msgstr ""
+
+#: includes/stats/stats.php:392
+msgid "No views yet"
+msgstr ""
+
+#: includes/stats/stats.php:502
+msgid "Reset listing statistics"
+msgstr ""
+
+#: includes/stats/stats.php:502
+msgid "Reset stats"
+msgstr ""
+
+#: includes/views-checkout.php:142
+msgid "Return to my dashboard"
+msgstr ""
+
+#: includes/views-checkout.php:143
+msgid "Your coupon has been successfully updated."
+msgstr ""
+
+#: includes/views-checkout.php:233
+msgid "Error: %s"
+msgstr ""
+
+#: includes/views-checkout.php:263
+msgid "There was an error while adding printable coupon."
+msgstr ""
+
+#: includes/views-checkout.php:290
+msgid "Invalid file type."
+msgstr ""
+
+#: includes/views-checkout.php:294
+msgid "Please upload printable coupon file."
+msgstr ""
+
+#: includes/views-checkout.php:338
+msgid "Coupon Title"
+msgstr ""
+
+#: includes/views-checkout.php:650 includes/views-checkout.php:652
+msgid "New Store URL"
+msgstr ""
+
+#: includes/views-checkout.php:671
+msgid "The reCaptcha anti-spam response was incorrect."
+msgstr ""
+
+#: includes/views.php:22
+msgid "Blog"
+msgstr ""
+
+#: includes/views.php:48
+msgid "Coupon Listings"
+msgstr ""
+
+#: includes/views.php:142
+msgid "Share Coupon"
+msgstr ""
+
+#: includes/views.php:167
+msgid "You must first login to add a coupon."
+msgstr ""
+
+#: includes/views.php:168
+msgid "You must first login or <a href=\"%s\">register</a> to add a coupon."
+msgstr ""
+
+#: includes/views.php:172
+msgid "You are not allowed to add a coupon."
+msgstr ""
+
+#: includes/views.php:238
+msgid "Renew Coupon"
+msgstr ""
+
+#: includes/views.php:258
+msgid "You must first login to renew coupon."
+msgstr ""
+
+#: includes/views.php:259
+msgid "You must first login or <a href=\"%s\">register</a> to renew coupon."
+msgstr ""
+
+#: includes/views.php:263
+msgid "You are not allowed to renew coupons."
+msgstr ""
+
+#: includes/views.php:306 includes/views.php:313
+msgid "You can not relist this coupon. Invalid ID of coupon."
+msgstr ""
+
+#: includes/views.php:319
+msgid "You can not renew this coupon. This is not a coupon."
+msgstr ""
+
+#: includes/views.php:325
+msgid "You can not renew this coupon. It's not your coupon."
+msgstr ""
+
+#: includes/views.php:335
+msgid "You can not relist this coupon. Coupon is not expired."
+msgstr ""
+
+#: includes/views.php:376
+msgid "You must first login to edit coupon."
+msgstr ""
+
+#: includes/views.php:377
+msgid "You must first login or <a href=\"%s\">register</a> to edit coupon."
+msgstr ""
+
+#: includes/views.php:381
+msgid "You are not allowed to edit coupons."
+msgstr ""
+
+#: includes/views.php:430 includes/views.php:443
+msgid "You can not edit this coupon. Invalid ID of a coupon."
+msgstr ""
+
+#: includes/views.php:436
+msgid "You can not edit this coupon. Editing is currently disabled."
+msgstr ""
+
+#: includes/views.php:449
+msgid "You can not edit this coupon. Coupon is not yet approved."
+msgstr ""
+
+#: includes/views.php:455
+msgid "You can not edit this coupon. This is not a coupon."
+msgstr ""
+
+#: includes/views.php:461
+msgid "You can not edit this coupon. It's not your coupon."
+msgstr ""
+
+#: includes/views.php:468
+msgid "You can not edit this coupon. Coupon is expired."
+msgstr ""
+
+#: includes/views.php:533
+msgid "Your coupon has been paused."
+msgstr ""
+
+#: includes/views.php:539
+msgid "Your coupon has been restarted."
+msgstr ""
+
+#: includes/views.php:545
+msgid "Your coupon has been deleted."
+msgstr ""
+
+#: includes/views.php:567 sidebar-user.php:30
+msgid "My Orders"
+msgstr ""
+
+#: includes/views.php:590
+msgid "Payments are currently disabled. You cannot purchase anything."
+msgstr ""
+
+#: includes/views.php:610 sidebar-user.php:31
+#: theme-framework/kernel/view-edit-profile.php:14 tpl-profile.php:23
+msgid "Edit Profile"
+msgstr ""
+
+#: includes/views.php:649
+msgid ""
+"This coupon listing is currently pending and must be approved by an "
+"administrator."
+msgstr ""
+
+#: includes/voting.php:271
+msgid "Votes has been reseted!"
+msgstr ""
+
+#: includes/voting.php:273
+msgid "Reset Coupon Votes"
+msgstr ""
+
+#: includes/voting.php:288
+msgid "Thanks for your response!"
+msgstr ""
+
+#: includes/voting.php:297
+msgid "Did this coupon work for you?"
+msgstr ""
+
+#: includes/voting.php:347 includes/voting.php:423
+msgid "success"
+msgstr ""
+
+#: includes/voting.php:383
+msgid "Results:"
+msgstr ""
+
+#: includes/voting.php:407
+msgid "Thanks for voting!"
+msgstr ""
+
+#: includes/widgets/templates/content-recent-posts.php:46
+msgid "Read More"
+msgstr ""
+
+#: includes/widgets/widget-125-ads.php:15
+msgid "AppThemes 125x125 Ads"
+msgstr ""
+
+#: includes/widgets/widget-125-ads.php:29
+msgid "Places an ad space in the sidebar for 125x125 ads"
+msgstr ""
+
+#: includes/widgets/widget-125-ads.php:89
+msgid "Ads:"
+msgstr ""
+
+#: includes/widgets/widget-125-ads.php:94
+msgid "Open ads in a new window?:"
+msgstr ""
+
+#: includes/widgets/widget-125-ads.php:112
+msgid "Enter one ad entry per line in the following format:"
+msgstr ""
+
+#: includes/widgets/widget-125-ads.php:112
+msgid "URL|Image URL|Image Alt Text|rel"
+msgstr ""
+
+#: includes/widgets/widget-125-ads.php:113
+msgid ""
+"<strong>Note:</strong> You must hit your &quot;enter/return&quot; key after "
+"each ad entry otherwise the ads will not display properly."
+msgstr ""
+
+#: includes/widgets/widget-breadcrumbs.php:13
+msgid "AppThemes Breadcrumbs"
+msgstr ""
+
+#: includes/widgets/widget-breadcrumbs.php:36
+msgid "Displays the Breadcrumbs"
+msgstr ""
+
+#: includes/widgets/widget-breadcrumbs.php:66
+msgid "Crumbs Separator:"
+msgstr ""
+
+#: includes/widgets/widget-breadcrumbs.php:71
+msgid "Network"
+msgstr ""
+
+#: includes/widgets/widget-breadcrumbs.php:76
+msgid "Show Title"
+msgstr ""
+
+#: includes/widgets/widget-breadcrumbs.php:81
+msgid "Show Browse"
+msgstr ""
+
+#: includes/widgets/widget-facebook.php:15
+msgid "AppThemes Facebook Like Box"
+msgstr ""
+
+#: includes/widgets/widget-facebook.php:29
+msgid ""
+"This places a Facebook page Like Box in your sidebar to attract and gain "
+"Likes from visitors."
+msgstr ""
+
+#: includes/widgets/widget-facebook.php:107
+msgid "Facebook Page ID (e.g: appthemes):"
+msgstr ""
+
+#: includes/widgets/widget-facebook.php:112
+msgid "Width (Min. is 180 & Max. is 500):"
+msgstr ""
+
+#: includes/widgets/widget-facebook.php:117
+msgid "Height (Min. is 70):"
+msgstr ""
+
+#: includes/widgets/widget-facebook.php:122
+msgid "Hide Cover Photo"
+msgstr ""
+
+#: includes/widgets/widget-facebook.php:127
+msgid "Show Friend's Faces"
+msgstr ""
+
+#: includes/widgets/widget-facebook.php:132
+msgid "Show Page Posts"
+msgstr ""
+
+#: includes/widgets/widget-facebook.php:137
+msgid "Hide Custom Call to Action Button (if available)"
+msgstr ""
+
+#: includes/widgets/widget-facebook.php:142
+msgid "Use Small Header"
+msgstr ""
+
+#: includes/widgets/widget-facebook.php:147
+msgid "Adapt to Container Width"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:45
+msgid "AppThemes Recent Posts"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:47
+msgid "Recent Posts"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:65
+msgid "Show recent posts any public types."
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:105
+msgid "Select Post Type:"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:110
+msgid "Number of posts to show:"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:115
+msgid "Enter posts IDs delimited by comma:"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:120
+msgid "Posts content template name:"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:125
+msgid "Display only sticky posts (if post type supports):"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:130
+msgid "Display Rating (requires \"StarStruck\" plugin):"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:135
+msgid "Display \"Read More\" button:"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:140
+msgid "Display post date:"
+msgstr ""
+
+#: includes/widgets/widget-recent-posts.php:145
+msgid "Display post thumbnail:"
+msgstr ""
+
+#: includes/widgets/widget-social-connect.php:36
+msgid "AppThemes Social Connect"
+msgstr ""
+
+#: includes/widgets/widget-social-connect.php:38
+msgid "Social Connect"
+msgstr ""
+
+#: includes/widgets/widget-social-connect.php:46
+msgid "A set of icons to link to many social networks."
+msgstr ""
+
+#: includes/widgets/widget-social-connect.php:89
+msgid "Use descriptions as tooltips (hides descriptions)"
+msgstr ""
+
+#: includes/widgets/widget-social-connect.php:110
+msgid "Show %s button"
+msgstr ""
+
+#: includes/widgets/widget-social-connect.php:115
+msgid "%s URL"
+msgstr ""
+
+#: includes/widgets/widget-social-connect.php:120
+msgid "%s Description"
+msgstr ""
+
+#: includes/widgets/widget-taxonomy-list.php:13
+msgid "AppThemes Taxonomy List"
+msgstr ""
+
+#: includes/widgets/widget-taxonomy-list.php:15
+msgid "Taxonomy Terms"
+msgstr ""
+
+#: includes/widgets/widget-taxonomy-list.php:39
+msgid "Displays the list of selected taxonomy terms"
+msgstr ""
+
+#: includes/widgets/widget-taxonomy-list.php:82
+msgid "Select Taxonomy:"
+msgstr ""
+
+#: includes/widgets/widget-taxonomy-list.php:87
+msgid "Number of Columns:"
+msgstr ""
+
+#: includes/widgets/widget-taxonomy-list.php:92
+msgid "Menu Depth:"
+msgstr ""
+
+#: includes/widgets/widget-taxonomy-list.php:97
+msgid "Number of Sub Menus:"
+msgstr ""
+
+#: includes/widgets/widget-taxonomy-list.php:102
+msgid "Show Parent Count"
+msgstr ""
+
+#: includes/widgets/widget-taxonomy-list.php:107
+msgid "Show Childs Count"
+msgstr ""
+
+#: includes/widgets/widget-taxonomy-list.php:112
+msgid "Hide Empty"
+msgstr ""
+
+#: includes/widgets/widget-taxonomy-list.php:117
+msgid "Hide \"No categories\" text"
+msgstr ""
+
+#: includes/widgets/widget-taxonomy-list.php:122
+msgid "Show Only List of Childs on Taxonomy Acrhive"
+msgstr ""
+
+#: includes/widgets.php:25
+msgid "Clipper Facebook Like Box"
+msgstr ""
+
+#: includes/widgets.php:51
+msgid "Clipper Coupons in Your Inbox!"
+msgstr ""
+
+#: includes/widgets.php:53
+msgid "Coupons in Your Inbox!"
+msgstr ""
+
+#: includes/widgets.php:54
+msgid "Receive coupons by email, subscribe now!"
+msgstr ""
+
+#: includes/widgets.php:71
+msgid "Display The Coupons in Your Inbox Box."
+msgstr ""
+
+#: includes/widgets.php:97
+msgid "Text:"
+msgstr ""
+
+#: includes/widgets.php:102 includes/widgets.php:2342
+msgid "Form Post Action:"
+msgstr ""
+
+#: includes/widgets.php:108 includes/widgets.php:2352
+msgid "Email field name:"
+msgstr ""
+
+#: includes/widgets.php:115
+msgid "Hidden Field Name 1:"
+msgstr ""
+
+#: includes/widgets.php:120
+msgid "Hidden Field Value 1:"
+msgstr ""
+
+#: includes/widgets.php:125
+msgid "Hidden Field Name 2:"
+msgstr ""
+
+#: includes/widgets.php:130
+msgid "Hidden Field Value 2:"
+msgstr ""
+
+#: includes/widgets.php:135
+msgid "Hidden Field Name 3:"
+msgstr ""
+
+#: includes/widgets.php:140
+msgid "Hidden Field Value 3:"
+msgstr ""
+
+#: includes/widgets.php:145
+msgid "Hidden Field Name 4:"
+msgstr ""
+
+#: includes/widgets.php:150
+msgid "Hidden Field Value 4:"
+msgstr ""
+
+#: includes/widgets.php:155
+msgid "Hidden Field Name 5:"
+msgstr ""
+
+#: includes/widgets.php:160
+msgid "Hidden Field Value 5:"
+msgstr ""
+
+#: includes/widgets.php:165
+msgid "Hidden Field Name 6:"
+msgstr ""
+
+#: includes/widgets.php:170
+msgid "Hidden Field Value 6:"
+msgstr ""
+
+#: includes/widgets.php:194
+msgid "Enter Email Address"
+msgstr ""
+
+#: includes/widgets.php:197
+msgid "Subscribe"
+msgstr ""
+
+#: includes/widgets.php:232
+msgid "Clipper Share Coupon Button"
+msgstr ""
+
+#: includes/widgets.php:238
+msgid "Share a coupon button for use in sidebar."
+msgstr ""
+
+#: includes/widgets.php:264
+msgid "Description:"
+msgstr ""
+
+#: includes/widgets.php:323
+msgid "Clipper Popular Coupons"
+msgstr ""
+
+#: includes/widgets.php:330
+msgid "Display the most commented on coupons."
+msgstr ""
+
+#: includes/widgets.php:357 includes/widgets.php:491 includes/widgets.php:671
+#: includes/widgets.php:867 includes/widgets.php:997
+msgid "Number of coupons to show:"
+msgstr ""
+
+#: includes/widgets.php:364 includes/widgets.php:498 includes/widgets.php:678
+#: includes/widgets.php:874 includes/widgets.php:1004
+msgid "Hide unreliable coupons"
+msgstr ""
+
+#: includes/widgets.php:423
+msgid "%1$s comment"
+msgid_plural "%1$s comments"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/widgets.php:428
+msgid "No popular coupons yet."
+msgstr ""
+
+#: includes/widgets.php:457
+msgid "Clipper Expiring Coupons"
+msgstr ""
+
+#: includes/widgets.php:459
+msgid "Expiring Coupons"
+msgstr ""
+
+#: includes/widgets.php:464
+msgid "Display the expiring soon coupons."
+msgstr ""
+
+#: includes/widgets.php:580
+msgid "expires in %s"
+msgstr ""
+
+#: includes/widgets.php:582
+msgid "expires today"
+msgstr ""
+
+#: includes/widgets.php:589
+msgid "No expiring coupons yet."
+msgstr ""
+
+#: includes/widgets.php:637
+msgid "Clipper Related Coupons"
+msgstr ""
+
+#: includes/widgets.php:639
+msgid "Related Coupons"
+msgstr ""
+
+#: includes/widgets.php:644
+msgid "Display the related coupons. Use in Coupon Sidebar."
+msgstr ""
+
+#: includes/widgets.php:760
+msgid "from %s"
+msgstr ""
+
+#: includes/widgets.php:765
+msgid "No related coupons found."
+msgstr ""
+
+#: includes/widgets.php:821
+msgid "Clipper Top Coupons Today"
+msgstr ""
+
+#: includes/widgets.php:823
+msgid "Top Coupons Today"
+msgstr ""
+
+#: includes/widgets.php:828
+msgid "Display the top coupons today."
+msgstr ""
+
+#: includes/widgets.php:915 includes/widgets.php:1045
+msgid "%1$s view"
+msgid_plural "%1$s views"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/widgets.php:921 includes/widgets.php:1051
+msgid "No views yet."
+msgstr ""
+
+#: includes/widgets.php:951
+msgid "Clipper Top Coupons Overall"
+msgstr ""
+
+#: includes/widgets.php:953
+msgid "Top Coupons Overall"
+msgstr ""
+
+#: includes/widgets.php:958
+msgid "Display the top coupons overall."
+msgstr ""
+
+#: includes/widgets.php:1080
+msgid "Clipper Related Stores"
+msgstr ""
+
+#: includes/widgets.php:1082
+msgid "Related Stores"
+msgstr ""
+
+#: includes/widgets.php:1087
+msgid "Display the related stores."
+msgstr ""
+
+#: includes/widgets.php:1088
+msgid "Use in Store Sidebar."
+msgstr ""
+
+#: includes/widgets.php:1089
+msgid ""
+"Widget will be visible only on store archive page when current store has an "
+"sub stores."
+msgstr ""
+
+#: includes/widgets.php:1116
+msgid "Number of stores to show (0 for all):"
+msgstr ""
+
+#: includes/widgets.php:1239
+msgid "Clipper Popular Stores"
+msgstr ""
+
+#: includes/widgets.php:1245
+msgid "Display the most popular stores."
+msgstr ""
+
+#: includes/widgets.php:1272
+msgid "Number of stores to show:"
+msgstr ""
+
+#: includes/widgets.php:1337
+msgid "%1$d coupon"
+msgid_plural "%1$d coupons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/widgets.php:1343
+msgid "No stores found."
+msgstr ""
+
+#: includes/widgets.php:1370
+msgid "Clipper Featured Stores"
+msgstr ""
+
+#: includes/widgets.php:1372
+msgid "Featured Stores"
+msgstr ""
+
+#: includes/widgets.php:1376
+msgid "Display stores that are marked as featured."
+msgstr ""
+
+#: includes/widgets.php:1403
+msgid "Number of stores to rotate:"
+msgstr ""
+
+#: includes/widgets.php:1498
+msgid "Clipper Coupon Categories"
+msgstr ""
+
+#: includes/widgets.php:1504
+msgid "Display the coupon categories."
+msgstr ""
+
+#: includes/widgets.php:1531 includes/widgets.php:1680
+msgid "Number of categories to show (0 for all):"
+msgstr ""
+
+#: includes/widgets.php:1644
+msgid "Clipper Coupon Sub Categories"
+msgstr ""
+
+#: includes/widgets.php:1646
+msgid "Sub Categories"
+msgstr ""
+
+#: includes/widgets.php:1651
+msgid "Display the coupon sub categories."
+msgstr ""
+
+#: includes/widgets.php:1652
+msgid "Use in Coupon Sidebar."
+msgstr ""
+
+#: includes/widgets.php:1653
+msgid ""
+"Widget will be visible only on category archive page when current category "
+"has an subcategories."
+msgstr ""
+
+#: includes/widgets.php:1795
+msgid "Clipper Coupon Tag Cloud"
+msgstr ""
+
+#: includes/widgets.php:1802
+msgid "Your most used coupon tags in cloud format."
+msgstr ""
+
+#: includes/widgets.php:1829
+msgid "Taxonomy:"
+msgstr ""
+
+#: includes/widgets.php:1835 includes/widgets.php:2054
+msgid "Number of items to show:"
+msgstr ""
+
+#: includes/widgets.php:1864
+msgid "%s coupon"
+msgid_plural "%s coupons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/widgets.php:1915
+msgid "Clipper Popular Searches"
+msgstr ""
+
+#: includes/widgets.php:1921
+msgid "Display the most searched phrases."
+msgstr ""
+
+#: includes/widgets.php:1960
+msgid "Number of phrases to show:"
+msgstr ""
+
+#: includes/widgets.php:1995
+msgid "%s time"
+msgid_plural "%s times"
+msgstr[0] ""
+msgstr[1] ""
+
+#: includes/widgets.php:2000
+msgid "No searches yet."
+msgstr ""
+
+#: includes/widgets.php:2027
+msgid "Clipper Tabbed Blog Widget"
+msgstr ""
+
+#: includes/widgets.php:2032
+msgid "Display a tabbed widget for blog posts."
+msgstr ""
+
+#: includes/widgets.php:2081
+msgid "Recent"
+msgstr ""
+
+#: includes/widgets.php:2083
+msgid "Comments"
+msgstr ""
+
+#: includes/widgets.php:2093
+msgid "There are no blog articles yet."
+msgstr ""
+
+#: includes/widgets.php:2105
+msgid "There are no popular blog posts yet."
+msgstr ""
+
+#: includes/widgets.php:2117
+msgid "There are no blog comments yet."
+msgstr ""
+
+#: includes/widgets.php:2165
+msgid "%1$s on %2$s"
+msgstr ""
+
+#: includes/widgets.php:2305
+msgid "Clipper Footer Contact Form"
+msgstr ""
+
+#: includes/widgets.php:2307
+msgid "Contact Form"
+msgstr ""
+
+#: includes/widgets.php:2316
+msgid "A simple contact form designed for the footer."
+msgstr ""
+
+#: includes/widgets.php:2347
+msgid "Name field name:"
+msgstr ""
+
+#: includes/widgets.php:2357
+msgid "Message field name:"
+msgstr ""
+
+#: includes/widgets.php:2362
+msgid "Hidden Field Name:"
+msgstr ""
+
+#: includes/widgets.php:2367
+msgid "Hidden Field Value:"
+msgstr ""
+
+#: includes/widgets.php:2387
+msgid "Your name"
+msgstr ""
+
+#: includes/widgets.php:2388
+msgid "Your email address"
+msgstr ""
+
+#: includes/widgets.php:2389
+msgid "Enter message"
+msgstr ""
+
+#: includes/widgets.php:2391
+msgid "Send"
+msgstr ""
+
+#: loop-coupon.php:33 loop-search.php:39
+msgid "Sorry, no coupons found"
+msgstr ""
+
+#: loop.php:45
+msgid "No Posts Found"
+msgstr ""
+
+#: loop.php:49
+msgid "Sorry, no posts found."
+msgstr ""
+
+#: order-select.php:30
+msgid "Please select a method for processing your payment:"
+msgstr ""
+
+#: search.php:23
+msgid "Search for '%s' returned %s results"
+msgstr ""
+
+#: search.php:34
+msgid "Sorry, no coupons could be found for \"%s\"."
+msgstr ""
+
+#: searchform.php:22
+msgid "Search for:"
+msgstr ""
+
+#: sidebar-user.php:25
+msgid "User Options"
+msgstr ""
+
+#: sidebar-user.php:32
+msgid "WordPress Admin"
+msgstr ""
+
+#: sidebar-user.php:33
+msgid "Log Out"
+msgstr ""
+
+#: sidebar-user.php:50
+msgid "Account Information"
+msgstr ""
+
+#: sidebar-user.php:58
+msgid "Last Login:"
+msgstr ""
+
+#: sidebar-user.php:82
+msgid "Account Statistics"
+msgstr ""
+
+#: sidebar-user.php:96
+msgid "Live Coupons:"
+msgstr ""
+
+#: sidebar-user.php:97
+msgid "Pending Coupons:"
+msgstr ""
+
+#: sidebar-user.php:98
+msgid "Offline Coupons:"
+msgstr ""
+
+#: sidebar-user.php:99
+msgid "Total Coupons:"
+msgstr ""
+
+#: single-coupon.php:43
+msgid " - Expires: "
+msgstr ""
+
+#: single-coupon.php:126
+msgid "Coupon Comments RSS"
+msgstr ""
+
+#: single-coupon.php:159
+msgid "Sorry, no coupons yet."
+msgstr ""
+
+#: taxonomy-coupon_category.php:23
+msgid "Coupon Category RSS"
+msgstr ""
+
+#: taxonomy-coupon_category.php:24
+msgid "Coupons in the \"%s\" category"
+msgstr ""
+
+#: taxonomy-coupon_category.php:43 taxonomy-coupon_tag.php:43
+#: taxonomy-coupon_type.php:43 taxonomy-stores.php:58
+msgid "Active Coupons"
+msgstr ""
+
+#: taxonomy-coupon_category.php:57 taxonomy-coupon_tag.php:57
+#: taxonomy-coupon_type.php:57 taxonomy-stores.php:72
+msgid "Currently %s active coupon"
+msgid_plural "Currently %s active coupons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: taxonomy-coupon_category.php:91 taxonomy-coupon_tag.php:91
+#: taxonomy-coupon_type.php:91 taxonomy-stores.php:106
+msgid "Currently %s unreliable coupon"
+msgid_plural "Currently %s unreliable coupons"
+msgstr[0] ""
+msgstr[1] ""
+
+#: taxonomy-coupon_tag.php:23
+msgid "Coupon Tag RSS"
+msgstr ""
+
+#: taxonomy-coupon_tag.php:24
+msgid "Coupons tagged with \"%s\""
+msgstr ""
+
+#: taxonomy-coupon_type.php:23
+msgid "Coupon Type RSS"
+msgstr ""
+
+#: taxonomy-coupon_type.php:24
+msgid "Coupon Type: %s"
+msgstr ""
+
+#: taxonomy-stores.php:31
+msgid "Store RSS"
+msgstr ""
+
+#: theme-framework/includes/views-login.php:132
+msgid "<strong>ERROR</strong>: The username field is empty."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:136
+msgid "<strong>ERROR</strong>: The password field is empty."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:176
+msgid ""
+"Cookies are blocked or not supported by your browser. You must enable "
+"cookies to continue."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:180
+msgid "You are now logged out."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:183
+msgid "User registration is currently not allowed."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:186
+msgid "Check your email for the confirmation link."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:189
+msgid "Check your email for your new password."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:192
+msgid "Registration complete. Please check your e-mail."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:195
+msgid "Your password has been reset. Please login."
+msgstr ""
+
+#. #-#-#-#-#  clipper.pot (Clipper 1.6.3)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: theme-framework/includes/views-login.php:228 tpl-password-recovery.php:20
+msgid "Password Recovery"
+msgstr ""
+
+#: theme-framework/includes/views-login.php:261
+msgid "Sorry, that key does not appear to be valid. Please try again."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:280
+msgid "<strong>ERROR</strong>: Enter a username or e-mail address."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:284
+msgid ""
+"<strong>ERROR</strong>: There is no user registered with that email address."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:298
+msgid "<strong>ERROR</strong>: Invalid username or e-mail."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:312
+msgid "Password reset is not allowed for this user"
+msgstr ""
+
+#: theme-framework/includes/views-login.php:330
+msgid "Someone requested that the password be reset for the following account:"
+msgstr ""
+
+#: theme-framework/includes/views-login.php:333
+msgid "If this was a mistake, just ignore this email and nothing will happen."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:334
+msgid "To reset your password, visit the following address:"
+msgstr ""
+
+#: theme-framework/includes/views-login.php:349
+msgid "[%s] Password Reset"
+msgstr ""
+
+#: theme-framework/includes/views-login.php:355
+msgid "The e-mail could not be sent."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:355
+msgid "Possible reason: your host may have disabled the mail() function..."
+msgstr ""
+
+#. #-#-#-#-#  clipper.pot (Clipper 1.6.3)  #-#-#-#-#
+#. Template Name of the plugin/theme
+#: theme-framework/includes/views-login.php:375 tpl-password-reset.php:21
+msgid "Password Reset"
+msgstr ""
+
+#: theme-framework/includes/views-login.php:417
+msgid "The passwords do not match."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:546
+msgid "<strong>ERROR</strong>: Please enter a username."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:548
+msgid ""
+"<strong>ERROR</strong>: This username is invalid because it uses illegal "
+"characters. Please enter a valid username."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:551
+msgid ""
+"<strong>ERROR</strong>: This username is already registered, please choose "
+"another one."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:556
+msgid "<strong>ERROR</strong>: Please type your e-mail address."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:558
+msgid "<strong>ERROR</strong>: The email address isn&#8217;t correct."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:561
+msgid ""
+"<strong>ERROR</strong>: This email is already registered, please choose "
+"another one."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:570
+msgid "<strong>ERROR</strong>: Please enter a password."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:572
+msgid "<strong>ERROR</strong>: Please enter the password twice."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:574
+msgid "<strong>ERROR</strong>: The passwords do not match."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:592
+msgid ""
+"<strong>ERROR</strong>: Couldn&#39;t register you... please contact the <a "
+"href=\"mailto:%s\">webmaster</a> !"
+msgstr ""
+
+#: theme-framework/includes/views-login.php:680
+msgid "The default WordPress login page is still accessible."
+msgstr ""
+
+#: theme-framework/includes/views-login.php:681
+msgid ""
+"After you ensure that permalinks on your site are working correctly and you "
+"are not using any \"maintenance mode\" plugins, please disable it in your <a "
+"href=\"%s\">theme settings</a>."
+msgstr ""
+
+#: theme-framework/js/localization.php:12
+msgid "image {current} of {total}"
+msgstr ""
+
+#: theme-framework/js/localization.php:13
+msgid "previous"
+msgstr ""
+
+#: theme-framework/js/localization.php:14
+msgid "next"
+msgstr ""
+
+#: theme-framework/js/localization.php:15
+msgid "close"
+msgstr ""
+
+#: theme-framework/js/localization.php:16
+msgid "This content failed to load."
+msgstr ""
+
+#: theme-framework/js/localization.php:17
+msgid "This image failed to load."
+msgstr ""
+
+#: theme-framework/js/localization.php:18
+msgid "start slideshow"
+msgstr ""
+
+#: theme-framework/js/localization.php:19
+msgid "stop slideshow"
+msgstr ""
+
+#: theme-framework/kernel/breadcrumb-trail.php:178
+msgid "Browse:"
+msgstr ""
+
+#: theme-framework/kernel/breadcrumb-trail.php:180
+msgid "Search results for \"%s\""
+msgstr ""
+
+#: theme-framework/kernel/breadcrumb-trail.php:181
+msgid "404 Not Found"
+msgstr ""
+
+#: theme-framework/kernel/breadcrumb-trail.php:182
+msgid "Page %d"
+msgstr ""
+
+#: theme-framework/kernel/breadcrumb-trail.php:184
+msgid "g:i a"
+msgstr ""
+
+#: theme-framework/kernel/breadcrumb-trail.php:185
+msgid "Minute %d"
+msgstr ""
+
+#: theme-framework/kernel/breadcrumb-trail.php:186
+msgid "g a"
+msgstr ""
+
+#: theme-framework/kernel/breadcrumb-trail.php:187
+msgid "d"
+msgstr ""
+
+#: theme-framework/kernel/breadcrumb-trail.php:188
+msgid "Week %d"
+msgstr ""
+
+#: theme-framework/kernel/breadcrumb-trail.php:189
+msgid "F"
+msgstr ""
+
+#: theme-framework/kernel/breadcrumb-trail.php:190
+#: theme-framework/kernel/breadcrumb-trail.php:1034
+msgid "Y"
+msgstr ""
+
+#: theme-framework/kernel/breadcrumb-trail.php:1038
+msgid "F Y"
+msgstr ""
+
+#: theme-framework/kernel/breadcrumb-trail.php:1042
+msgid "F j, Y"
+msgstr ""
+
+#: theme-framework/kernel/breadcrumb-trail.php:1162
+msgid "Split"
+msgstr ""
+
+#: theme-framework/kernel/breadcrumb-trail.php:1166
+msgid "Merge"
+msgstr ""
+
+#: theme-framework/kernel/functions.php:73
+msgid "Page %s"
+msgstr ""
+
+#: theme-framework/kernel/mail-from.php:287
+msgid ""
+"Email provider of \"%1$s\" address do not allow to use their email addresses "
+"by other servers. The \"%2$s\" address will be used to send out emails."
+msgstr ""
+
+#: theme-framework/kernel/social.php:75
+msgid "(i.e. %1$s)"
+msgstr ""
+
+#: theme-framework/kernel/social.php:112
+msgid "LinkedIn"
+msgstr ""
+
+#: theme-framework/kernel/social.php:117
+msgid "Google+"
+msgstr ""
+
+#: theme-framework/kernel/social.php:123
+msgid "YouTube"
+msgstr ""
+
+#: theme-framework/kernel/social.php:128
+msgid "Instagram"
+msgstr ""
+
+#: theme-framework/kernel/social.php:132
+msgid "Pinterest"
+msgstr ""
+
+#: theme-framework/kernel/social.php:136
+msgid "Github"
+msgstr ""
+
+#: theme-framework/kernel/social.php:140
+msgid "Path"
+msgstr ""
+
+#: theme-framework/kernel/social.php:144
+msgid "Vimeo"
+msgstr ""
+
+#: theme-framework/kernel/social.php:148
+msgid "Flickr"
+msgstr ""
+
+#: theme-framework/kernel/social.php:152
+msgid "Picasa"
+msgstr ""
+
+#: theme-framework/kernel/social.php:158
+msgid "Foursquare"
+msgstr ""
+
+#: theme-framework/kernel/social.php:162
+msgid "WordPress"
+msgstr ""
+
+#: theme-framework/kernel/view-edit-profile.php:41
+msgid "Your profile has been updated."
+msgstr ""
+
+#: theme-framework/templates/form-login.php:7
+#: theme-framework/templates/form-registration.php:8 tpl-login.php:40
+#: tpl-profile.php:46 tpl-registration.php:54
+msgid "Username:"
+msgstr ""
+
+#: theme-framework/templates/form-login.php:27 tpl-login.php:57
+msgid "Remember me"
+msgstr ""
+
+#: theme-framework/templates/form-login.php:31 tpl-login.php:61
+msgid "Lost your password?"
+msgstr ""
+
+#: theme-framework/templates/form-password-recovery.php:3
+#: tpl-password-recovery.php:24
+msgid ""
+"Please enter your username or email address. A new password will be emailed "
+"to you."
+msgstr ""
+
+#: theme-framework/templates/form-password-recovery.php:9
+#: tpl-password-recovery.php:40
+msgid "Username or Email:"
+msgstr ""
+
+#: theme-framework/templates/form-password-recovery.php:17
+#: theme-framework/templates/form-password-reset.php:23
+#: tpl-password-recovery.php:45 tpl-password-reset.php:78
+msgid "Reset Password"
+msgstr ""
+
+#: theme-framework/templates/form-password-reset.php:2
+#: tpl-password-reset.php:25
+msgid "Enter your new password below."
+msgstr ""
+
+#: theme-framework/templates/form-password-reset.php:8
+#: tpl-password-reset.php:43
+msgid "New password"
+msgstr ""
+
+#: theme-framework/templates/form-password-reset.php:13
+#: tpl-password-reset.php:48
+msgid "Confirm new password"
+msgstr ""
+
+#: theme-framework/templates/form-password-reset.php:18
+#: theme-framework/templates/form-registration.php:35 tpl-password-reset.php:73
+#: tpl-profile.php:117 tpl-profile.php:148 tpl-registration.php:100
+msgid "Strength indicator"
+msgstr ""
+
+#: theme-framework/templates/form-password-reset.php:19
+#: theme-framework/templates/form-registration.php:36 tpl-password-reset.php:74
+#: tpl-registration.php:101
+msgid ""
+"Hint: The password should be at least seven characters long. To make it "
+"stronger, use upper and lower case letters, numbers and symbols like ! \" ? "
+"$ % ^ &amp; )."
+msgstr ""
+
+#: theme-framework/templates/form-registration.php:3
+msgid "Complete the fields below to register."
+msgstr ""
+
+#: theme-framework/templates/form-registration.php:29 tpl-profile.php:110
+#: tpl-registration.php:73
+msgid "Password Again:"
+msgstr ""
+
+#: tpl-coupon-cats.php:20
+msgid "Browse by Coupon Category"
+msgstr ""
+
+#: tpl-dashboard.php:36
+msgid ""
+"Below you will find a listing of all your submitted coupons. Click on one of "
+"the options to perform a specific task. If you have any questions, please "
+"contact the site administrator."
+msgstr ""
+
+#: tpl-dashboard.php:45
+msgid "Views"
+msgstr ""
+
+#: tpl-dashboard.php:48 tpl-user-orders.php:58
+msgid "Options"
+msgstr ""
+
+#: tpl-dashboard.php:69
+msgid "You currently have no coupons."
+msgstr ""
+
+#: tpl-login.php:24
+msgid "Complete the fields below to login."
+msgstr ""
+
+#: tpl-login.php:61
+msgid "Password Lost and Found"
+msgstr ""
+
+#: tpl-password-reset.php:56 tpl-profile.php:124
+msgid "New Password"
+msgstr ""
+
+#: tpl-password-reset.php:63 tpl-profile.php:137 tpl-registration.php:89
+msgid "Hide password"
+msgstr ""
+
+#: tpl-password-reset.php:65 tpl-profile.php:139 tpl-registration.php:91
+msgid "Hide"
+msgstr ""
+
+#: tpl-profile.php:29
+msgid "Update your user profile below."
+msgstr ""
+
+#: tpl-profile.php:51
+msgid "First Name:"
+msgstr ""
+
+#: tpl-profile.php:56
+msgid "Last Name:"
+msgstr ""
+
+#: tpl-profile.php:61
+msgid "Nickname:"
+msgstr ""
+
+#: tpl-profile.php:66
+msgid "Display Name:"
+msgstr ""
+
+#: tpl-profile.php:85
+msgid "About Me:"
+msgstr ""
+
+#: tpl-profile.php:104
+msgid "New Password:"
+msgstr ""
+
+#: tpl-profile.php:106
+msgid "Leave this field blank unless you would like to change your password."
+msgstr ""
+
+#: tpl-profile.php:112
+msgid "Type your new password again."
+msgstr ""
+
+#: tpl-profile.php:118 tpl-profile.php:149
+msgid "Your password should be at least seven characters long."
+msgstr ""
+
+#: tpl-profile.php:126
+msgid "Generate Password"
+msgstr ""
+
+#: tpl-profile.php:141
+msgid "Cancel password change"
+msgstr ""
+
+#: tpl-profile.php:163
+msgid "Update Profile &raquo;"
+msgstr ""
+
+#: tpl-registration.php:36
+msgid "Complete the fields below to become a member."
+msgstr ""
+
+#: tpl-registration.php:125
+msgid "User registration has been disabled."
+msgstr ""
+
+#: tpl-stores.php:20
+msgid "Browse by Store"
+msgstr ""
+
+#: tpl-user-orders.php:38
+msgid ""
+"Below is your Order history. Click on one of the options to perform a "
+"specific task. If you have any questions, please contact the site "
+"administrator."
+msgstr ""
+
+#: tpl-user-orders.php:42
+msgid "Statuses Legend:"
+msgstr ""
+
+#: tpl-user-orders.php:43
+msgid "Pending:"
+msgstr ""
+
+#: tpl-user-orders.php:43
+msgid "Order not processed."
+msgstr ""
+
+#: tpl-user-orders.php:44
+msgid "Failed:"
+msgstr ""
+
+#: tpl-user-orders.php:44
+msgid "Order failed or manually canceled."
+msgstr ""
+
+#: tpl-user-orders.php:45
+msgid "Completed:"
+msgstr ""
+
+#: tpl-user-orders.php:45
+msgid "Order processed succesfully but pending moderation before activation."
+msgstr ""
+
+#: tpl-user-orders.php:46
+msgid "Activated:"
+msgstr ""
+
+#: tpl-user-orders.php:46
+msgid "Order processed succesfully and activated."
+msgstr ""
+
+#: tpl-user-orders.php:57
+msgid "Payment/Status"
+msgstr ""
+
+#: tpl-user-orders.php:79
+msgid "You currently have no orders."
+msgstr ""
+
+#. Theme URI of the plugin/theme
+msgid "http://www.appthemes.com/themes/clipper/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "A premium coupon management theme for WordPress."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "AppThemes"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "http://www.appthemes.com/"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Add Coupon Listing"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Edit Coupon Listing"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Coupons Home Template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Blog Template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Renew Coupon Listing"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Categories Template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "User Dashboard"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Full Width Page"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "User Profile"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "Stores Template"
+msgstr ""
+
+#. Template Name of the plugin/theme
+msgid "User Orders"
+msgstr ""

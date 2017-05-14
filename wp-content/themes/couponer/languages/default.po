@@ -1,0 +1,3030 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Couponer\n"
+"POT-Creation-Date: 2015-08-20 12:29+0100\n"
+"PO-Revision-Date: 2015-08-20 12:29+0100\n"
+"Last-Translator: \n"
+"Language-Team: powerthemes <support@powerthemes.club>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.7.4\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;esc_attr__;esc_attr_e\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\couponer\\wp-content\\themes"
+"\\couponer\n"
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/author.php:136
+msgid "Error updating the profile."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/comments.php:52
+msgid "Leave Comment"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/comments.php:57
+msgid "Post comment"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/comments.php:61
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/code_category_taxonomy.php:71
+msgid "Name"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/comments.php:64
+msgid "Email"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/comments.php:69
+msgid "Comment"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/comments.php:71
+msgid "or cancel reply"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/comments.php:72
+#, php-format
+msgid ""
+"You may use these <abbr title=\"HyperText Markup Language\">HTML</abbr> tags "
+"and attributes: %s"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/comments.php:73
+#, php-format
+msgid "You must be <a href=\"%s\">logged in</a> to post a comment."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/comments.php:74
+#, php-format
+msgid ""
+"Logged in as <a href=\"%1$s\">%2$s</a>. <a href=\"%3$s\" title=\"Log out of "
+"this account\">Log out?</a>"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/comments.php:75
+msgid "Your email address will not be published."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/footer.php:93
+msgid "Code is copied"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:14
+msgid "Please enter your first name."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:15
+msgid "Please enter your last name."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:16
+msgid "Sorry, no spaces allowed in username."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:17
+msgid "Please enter a username."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:18
+msgid "Username already exists, please try another."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:19
+msgid "Please enter a valid email."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:20
+msgid "This email address is already in use."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:21
+msgid "Password must be at least six characters."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:22
+msgid "Passwords do not match."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:23
+msgid "You must input your city."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:24
+msgid "You must select your gender."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:25
+msgid "You must input your age."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:26
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_password_rec.php:10
+msgid "Sorry, but this request is invalid."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:27
+msgid "This account needs email verification."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:28
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:56
+msgid "Username is invalid."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:29
+msgid "Password is invalid."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:30
+msgid "Error singin you in."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:32
+msgid "Empty conditions."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:33
+msgid "Empty discount."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:34
+msgid "Empty ofer text."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:35
+msgid "Invalid coupon label."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:36
+msgid "Empty coupon code."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:37
+msgid "Empty content."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:38
+msgid "Invalid expire date."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:39
+msgid "Input coupon title."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:40
+msgid "Input shop link."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:41
+msgid "Captcha is wrong."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:97
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:161
+msgid "Install Required Plugins"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:98
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:162
+msgid "Install Plugins"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:99
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:163
+#, php-format
+msgid "Installing Plugin: %s"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:100
+msgid "Something went wrong with the plugin API."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:111
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:175
+msgid "Return to Required Plugins Installer"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:112
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:177
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1956
+msgid "Plugin activated successfully."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:113
+#, php-format
+msgid "All plugins installed and activated successfully. %s"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:132
+msgid "Coupon Options"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:133
+msgid "Coupon Settings"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:142
+msgid "Overall"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:144
+msgid ""
+"This is basic section where you can set up main settings for your website."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:150
+msgid "Site Main Image"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:151
+msgid "Upload image for the home page background image."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:157
+msgid "Site Main Slider Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:158
+msgid "Select main slider background color if no image is used."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:165
+msgid "Site Favicon"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:166
+msgid ""
+"Please upload favicon here in PNG or JPG format. <small>(18px 18px maximum "
+"size recommended)</small>)"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:172
+msgid "Navigation Style"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:173
+msgid "<br />Select navigation style"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:184
+msgid "Enable Membership Login"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:185
+msgid ""
+"<br />Enable or disable membership login (This option will also affect "
+"registration)"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:196
+msgid "Enable Ajax Search And Categories"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:197
+msgid "<br />Enable or disable ajax search and category list in the header"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:208
+msgid "Lost Password Message"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:209
+msgid ""
+"<br />Input %USERNAME% where you wish for the username to show and input "
+"%PASSWORD% where you want for the password to show."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:216
+msgid "Left To Right"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:217
+msgid "Right To Left"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:219
+msgid "Site Text Direction"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:220
+msgid "Select site text direction"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:227
+msgid "Show Ratings On"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:228
+msgid "<br />Select where you would like to display ratings."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:230
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1794
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/code_category_taxonomy.php:74
+msgid "Codes"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:231
+msgid "Dailly Offers"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:239
+msgid "Registration Message"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:240
+msgid "<br />Input %LINK% where you wish for the confirmation link to show."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:246
+msgid "Registration And Paswword Recovery Sender Name"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:247
+msgid ""
+"<br />Input name of the sender for the registration and password recover "
+"messages."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:253
+msgid "Registration And Paswword Recovery Sender Email"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:254
+msgid ""
+"<br />Input email of the sender for the registration and password recover "
+"messages."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:260
+msgid "Site Top Bar Logo"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:261
+msgid "Upload top bar logo"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:267
+msgid "Top Bar Logo Padding"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:268
+msgid ""
+"<br />Tweak up logo padding in the form TOP(px) RIGHT(px) BOTTOM(px) "
+"LEFT(px) (navigation style 1 only)"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:275
+msgid "Top Bar Logo Width"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:276
+msgid "<br />Tweak up logo width in pixels (navigation style 1 only)."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:283
+msgid "Copyright"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:284
+msgid "<br />Type copyright text here"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:294
+msgid "SEO"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:296
+msgid "This is important part for search engines."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:302
+msgid "Keywords"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:303
+msgid ""
+"<br />Type here website keywords separated by comma. <small>(eg. lorem, "
+"ipsum, adiscipit)</small>."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:310
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/code_category_taxonomy.php:72
+msgid "Description"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:311
+msgid "<br />Type here website description."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:322
+msgid "Listing"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:324
+msgid "Listing page template options."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:330
+msgid "Order Categories By"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:331
+msgid ""
+"<br />Select by which field to order the categories on the category listing "
+"page."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:333
+msgid "Category Name"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:334
+msgid "Category ID"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:335
+msgid "Code Count "
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:336
+msgid "Category Slug"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:337
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3281
+msgid "None"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:345
+msgid "Order Categories"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:346
+msgid "<br />Select how to order the categories on the category listing page."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:348
+msgid "Ascending"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:349
+msgid "Descending"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:357
+msgid "Text On Show Code Button"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:358
+msgid "<br />Input text which will be displayed on the show code button."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:365
+msgid "Text On Pack And Open Button"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:366
+msgid ""
+"<br />Input text which will be displayed on the pack code and open button."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:373
+msgid "Text On Check Discount Button"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:374
+msgid "<br />Input text which will be displayed on the check discount button."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:382
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:535
+msgid "Select Tabs"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:384
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_top_20.php:272
+msgid "Top 20"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:385
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:537
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2578
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_home.php:77
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_top_20.php:276
+msgid "Featured"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:386
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:538
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_home.php:80
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_top_20.php:280
+msgid "Popular"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:387
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_top_20.php:284
+msgid "Newest"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:389
+msgid "<br />Select tabs you want to show on listing page."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:395
+msgid "Sort Popular By"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:396
+msgid "<br />Select how the popular codes will be calculated."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:398
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3641
+msgid "Clicks"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:399
+msgid "Ratings"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:407
+msgid "Search Results Per Page"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:408
+msgid "<br />Input number of search result codes to show per page."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:415
+msgid "Expiring Per Page"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:416
+msgid "<br />Input number of expiring codes to show per page."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:423
+msgid "Featured Per Page"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:424
+msgid "<br />Input number of featured codes to show per page."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:431
+msgid "Newest Per Page"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:432
+msgid "<br />Input number of newest codes to show per page."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:439
+msgid "Popular Per Page"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:440
+msgid "<br />Input number of popular codes to show per page."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:447
+msgid "Shop Listing Per Page"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:448
+msgid "<br />Input number of codes to show in the shop listing."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:455
+msgid "Daily Offers Per Page"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:456
+msgid "<br />Input number of daily offers to show per page."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:467
+msgid "New Code"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:469
+msgid "New code information settings."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:475
+msgid "New code email"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:476
+msgid "<br />Input email where the information about new codes should arrive."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:482
+msgid "Required Fields"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:483
+msgid "<br />Select Additional required Fields."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:485
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:215
+msgid "Coupon Or Discount Description"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:486
+msgid "Code Condition"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:487
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2549
+msgid "Code Discount"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:488
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2554
+msgid "Code Text"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:499
+msgid "Subscription"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:501
+msgid "Set up subscription API key and list ID."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:507
+msgid "API Key"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:508
+msgid "<br />Type your mail chimp api key."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:514
+msgid "List ID"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:515
+msgid "<br />Type here ID of the list on which users will subscribe."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:527
+msgid "Home Page"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:529
+msgid "Home page settings."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:539
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1849
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:549
+msgid "Daily Offer"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:540
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_home.php:86
+msgid "Latest"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:542
+msgid "<br />Select tabs you want to show on home page."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:548
+msgid "Site Slogan"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:549
+msgid "<br />Type in site Slogan which will appear on the home page."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:555
+msgid "Site Subtitle"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:556
+msgid ""
+"<br />Type in site subtitle use %COUPONS% and %USERS% to place the number of "
+"coupons and registered users."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:562
+msgid "Codes In Groups"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:563
+msgid "<br />Input how many codes should each group have."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:573
+msgid "Promo Category"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:574
+msgid "<br />Select promo category."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:581
+msgid "Promo Category Boxes"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:582
+msgid "Input how many subcategories from the category to show."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:592
+msgid "Latest Blogs"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:593
+msgid "Input how many latest blogs to show on home page."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:608
+msgid "Contact Page"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:610
+msgid "Contact page settings."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:616
+msgid "Contact Form Title"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:617
+msgid "<br />Type in contact form title."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:623
+msgid "Contact Email"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:624
+msgid "<br />Type in email address on which the messages should arrive."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:634
+msgid "Common Colors"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:636
+msgid "Set up colors which are common for more than two section."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:642
+msgid "Site Main Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:645
+msgid "Select main color for the site."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:652
+msgid "Main Buttons Hover Background Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:655
+msgid "Select background color for the buttons with main color on hover."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:662
+msgid "Borders Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:665
+msgid ""
+"Select color of the border for all items with the boredr ( featured box, "
+"widgets, tabs in the TOP 20, ... )."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:674
+msgid "Form Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:677
+msgid "Select font color for the text in the input fields."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:689
+msgid "Navigation Colors"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:691
+msgid "Set up colors for the navigation section."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:697
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1158
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1357
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1567
+msgid "Background Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:700
+msgid "Select background color for the navgation section."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:708
+msgid "Border Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:711
+msgid "Select border color for the navgation section."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:719
+msgid "First Level Links Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:722
+msgid "Select font color for the first level links in the navigation."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:730
+msgid "Sublevel Background Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:733
+msgid "Select background color for the sublevels."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:741
+msgid "Sublevel Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:744
+msgid "Select font color for the sublevels."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:752
+msgid "Sublevel Background Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:755
+msgid "Select background color for the sublevels on hover."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:763
+msgid "Sublevel Font Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:766
+msgid "Select font color for the sublevels on hover."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:777
+msgid "Inner Header Colors"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:779
+msgid "Set up colors for the inner header section."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:785
+msgid "Slogan Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:788
+msgid "Select font color for the site slogan."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:796
+msgid "Ajax Search Background Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:799
+msgid "Select background color for the ajax search content."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:807
+msgid "Ajax Search Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:810
+msgid "Select font color for the ajax search content."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:818
+msgid "Ajax Search Background Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:821
+msgid "Select background color for the ajax search on item hover."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:829
+msgid "Ajax Search Font Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:832
+msgid "Select font color for the ajax search on item hover."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:840
+msgid "Ajax Search Placeholder Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:843
+msgid "Select font color for the ajax search placeholder."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:850
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1257
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1468
+msgid "Dropdown Background Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:853
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1260
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1471
+msgid "Select background color for the dropdown."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:861
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1279
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1490
+msgid "Dropdown Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:864
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1282
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1493
+msgid "Select font color for the dropdown."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:872
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1301
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1512
+msgid "Dropdown Content Background Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:875
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1304
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1515
+msgid "Select background color for the dropdown content."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:883
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1312
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1523
+msgid "Dropdown Content Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:886
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1315
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1526
+msgid "Select font color for the dropdown content."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:894
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1323
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1534
+msgid "Dropdown Content Background Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:897
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1326
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1537
+msgid "Select background color for the dropdown content on hover."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:905
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1334
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1545
+msgid "Dropdown Content Font Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:908
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1337
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1548
+msgid "Select font color for the dropdown content on hover."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:919
+msgid "Body Colors"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:921
+msgid "Set up colors for the body section."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:927
+msgid "Body Background Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:930
+msgid "Select body background color."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:938
+msgid "Page Title Divider Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:941
+msgid "Select color of the divider page title"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:949
+msgid "Titles And Labels Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:952
+msgid "Select font color for the titles and labels."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:960
+msgid "Content Text Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:963
+msgid "Select font color for the content text."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:971
+msgid "Discount Arrow Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:974
+msgid "Select color for the dsicount arrow."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:982
+msgid "Shop Filter Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:985
+msgid "Select font color for the shop filter."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:993
+msgid "Top 20 Tabs Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:996
+msgid "Select font color for the tabs in the TOP 20 listing."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1004
+msgid "Top 20 Active Tab Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1007
+msgid "Select font color for the active tabs in the TOP 20 listing."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1015
+msgid "Pagination Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1018
+msgid "Select font color for the pagination."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1026
+msgid "Active Pagination Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1029
+msgid "Select font color for the active pagination."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1037
+msgid "Featured Label Background Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1040
+msgid "Select background color for the featured label."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1047
+msgid "Featured Label Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1050
+msgid "Select font color for the featured label."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1058
+msgid "Coupon / Blog Information Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1061
+msgid "Select font color for the coupon and blog information."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1069
+msgid "Coupon / Blog Information Icon Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1072
+msgid "Select font color for the coupon and blog icons in the information."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1080
+msgid "Countdown Information Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1083
+msgid "Select font color for the countdown information box text."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1091
+msgid "Pack And Open Button Background Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1094
+msgid "Select background color for the pack and open button."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1102
+msgid "Show Code / Pack And Open Button Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1105
+msgid "Select font color for the pack and open button."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1113
+msgid "Show Code / Pack And Open Button Arrows Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1116
+msgid "Select color for the side arrows of Show Code / Pack And Open button."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1124
+msgid "Form Error Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1127
+msgid "Select font color for the form error messages."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1135
+msgid "Promo Discount Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1138
+msgid "Select font color for the promo discount text."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1150
+msgid "Footer Colors"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1152
+msgid "Set up colors for the footer section."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1161
+msgid "Select background color for the footer section."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1169
+msgid "Widget Title Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1172
+msgid "Select font color for the footer widget titles."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1180
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1391
+msgid "Widget Text Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1183
+msgid "Select font color for the footer widget text."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1191
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1402
+msgid "Widget Link Font Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1194
+msgid "Select font color for the footer widget links on hover."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1202
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1413
+msgid "Newsletter Text Input Background Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1205
+msgid "Select background color for the widget newsletter in the footer."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1213
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1424
+msgid "Newsletter Input Border Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1216
+msgid ""
+"Select border color for the widget newsletter input field in the footer."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1224
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1435
+msgid "Social Icons Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1227
+msgid "Select color for the widget social icons in the footer."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1235
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1446
+msgid "Badge Background Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1238
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1449
+msgid ""
+"Select background color for the badge in the widget list (badge next to the "
+"categories or shops)."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1246
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1457
+msgid "Badge Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1249
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1460
+msgid ""
+"Select font color for the badge in the widget list (badge next to the "
+"categories or shops)."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1268
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1479
+msgid "Dropdown Background Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1271
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1482
+msgid "Select background color for the dropdown on hover."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1290
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1501
+msgid "Dropdown Font Color On Hover"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1293
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1504
+msgid "Select font color for the dropdown on hover."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1349
+msgid "Copyright Colors"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1351
+msgid "Set up colors for the copyright section."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1360
+msgid "Select background color for the copyright section."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1368
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1578
+msgid "Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1371
+msgid "Select font color for the copyright section."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1383
+msgid "Right Sidebar Colors"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1385
+msgid "Set up colors for the right sidebar section."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1394
+msgid "Select font color for the text in the right sidebar widgets."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1405
+msgid "Select font color for the sidebar widget links on hover."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1416
+msgid "Select background color for the widget newsletter in the right sidebar."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1427
+msgid ""
+"Select border color for the widget newsletter input field in the right "
+"sidebar."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1438
+msgid "Select color for the widget social icons in the right sidebar."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1559
+msgid "Modal Colors"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1561
+msgid "Set up colors for the modal section."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1570
+msgid "Select background color for the modal window."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1581
+msgid "Select font color for the modal window."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1589
+msgid "Modal Close Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1592
+msgid "Select font color for the modal window close link."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1603
+msgid "Home Page Colors"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1605
+msgid "Set up colors for the home page section."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1611
+msgid "Special Category Section Background Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1614
+msgid "Select background color for the special category section."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1622
+msgid "Special Item Background Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1625
+msgid "Select background color for the special item."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1633
+msgid "Special Item Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1636
+msgid "Select font color for the special item."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1644
+msgid "Tabs Background Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1647
+msgid "Select background color for the tabs."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1655
+msgid "Tabs Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1658
+msgid "Select font color for the tabs."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1666
+msgid "Active Tab Font Color"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1669
+msgid "Select font color for the active tab."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1713
+msgid "Blog Sidebar"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1719
+msgid "Appears on the right side of the blog."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1723
+msgid "Page Sidebar"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1729
+msgid "Appears on the right side of the page."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1733
+msgid "Bottom Sidebar 1"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1739
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1749
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1759
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1769
+msgid "Appears at the bottom of the page."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1743
+msgid "Bottom Sidebar 2"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1753
+msgid "Bottom Sidebar 3"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1763
+msgid "Bottom Sidebar 4"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1779
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:489
+msgid "Shops"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1780
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3637
+msgid "Shop"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1795
+msgid "Code"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1808
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1811
+msgid "Code Categories"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1812
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1813
+msgid "Code Category"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1814
+msgid "All Code Categories"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1815
+msgid "Edit Code Category"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1816
+msgid "View Code Category"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1817
+msgid "Update Code Category"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1818
+msgid "Add New Code Category"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1819
+msgid "New Code Category Name"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1820
+msgid "Parent Code Category"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1821
+msgid "Parent Code Category:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1822
+msgid "Search Code Categories"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1823
+msgid "Popular Code Categories"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1824
+msgid "Separate code categories with commas"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1825
+msgid "Add or remove code categories"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1826
+msgid "Choose from the most used code categories"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1827
+msgid "No code categories found"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1834
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1835
+msgid "FAQ"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1848
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_home.php:83
+msgid "Daily Offers"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1930
+msgid "Activation Status"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1941
+msgid "Activated"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1944
+msgid "Need Confirmation"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1959
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1963
+msgid "User Status"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1966
+msgid "Inactive"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:1967
+msgid "Active"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2025
+msgid "Pending"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2229
+msgid "Top Navigation"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2301
+msgid "rate"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2301
+msgid "rates"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2423
+msgid "FEATURED"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2474
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2559
+msgid "Expire date"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2479
+msgid "Add Offer Shop Logo"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2484
+msgid "Add Offer Shop URL"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2489
+msgid "Add Offer Images"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2495
+msgid "Buy URL"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2500
+msgid "Promo Text"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2505
+msgid "Add daily offer data"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2514
+msgid "Link to the shop if the code is frontend submited"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2519
+msgid "Select code type"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2522
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2851
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:505
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:205
+msgid "Coupon"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2523
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2854
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:507
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:206
+msgid "Discount"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2528
+msgid "Select shop from which the code is"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2534
+msgid "Link to the shop's API for direct access with the code"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2539
+msgid "Coupon code"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2544
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/code_list_complete.php:72
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/code_list_complete.php:73
+msgid "Conditions"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2564
+msgid "Code for"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2567
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:233
+msgid "All Users"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2568
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:234
+msgid "Members Only"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2574
+msgid "Code Type"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2577
+msgid "Normal"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2583
+msgid "Where to be in TOP 20 (leave empty to not force to TOP 20)"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2588
+msgid "Add coupon data"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2597
+msgid "Shop Link"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2602
+msgid "Add shop data"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2610
+msgid "Input page html title"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2615
+msgid "Input page subtitle"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2620
+msgid "Add page data"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2896
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/content-daily_offer.php:61
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:580
+#: C:\wamp\www\couponer\wp-content\themes\couponer/single-daily_offer.php:105
+msgid "day"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2899
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/content-daily_offer.php:61
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:580
+#: C:\wamp\www\couponer\wp-content\themes\couponer/single-daily_offer.php:105
+msgid "days"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2904
+msgid "hour"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2907
+msgid "hours"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2912
+msgid "minute"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2915
+msgid "minutes"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2920
+msgid "second"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2923
+msgid "seconds"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:2928
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/code_list_complete.php:65
+msgid "Expired"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3212
+msgid "&raquo;"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3213
+msgid "&laquo;"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3380
+msgid "Coupon does not exists"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3424
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3467
+msgid "There was an error contacting the API, please try again."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3430
+msgid "You have successuffly subscribed to the newsletter."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3435
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3478
+msgid "API data are not yet set."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3439
+msgid "Email is empty or invalid."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3473
+msgid "You have successuffly unsubscribed to the newsletter."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3496
+msgid "Name: "
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3497
+msgid "Subject: "
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3498
+msgid "Email: "
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3499
+msgid "Message: "
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3504
+msgid "Your message was successfully submitted."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3510
+msgid "Unexpected error while attempting to send e-mail."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3517
+msgid "Message is not send since the recepient email is not yet set."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3524
+msgid "Email is not valid."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3531
+msgid "All fields are required."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3600
+msgid "@"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3608
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3638
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:211
+msgid "Coupon Code"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3639
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3718
+msgid "Expire Date"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3640
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3719
+msgid "Coupon Ratings"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/functions.php:3740
+msgid "Manage Ratings"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/header.php:38
+#, php-format
+msgid "Page %s"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/header.php:122
+#: C:\wamp\www\couponer\wp-content\themes\couponer/header.php:142
+msgid "Toggle navigation"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/header.php:172
+msgid "Login "
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/header.php:173
+#: C:\wamp\www\couponer\wp-content\themes\couponer/header.php:180
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:245
+msgid "Submit Coupon"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/header.php:174
+msgid "Register "
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/header.php:179
+msgid "Hi "
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/header.php:181
+msgid "Logout "
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:164
+msgid "Something went wrong."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:176
+msgid "Return to the dashboard"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:178
+msgid "The following plugin was activated successfully:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:179
+#, php-format
+msgid "All plugins installed and activated successfully. %1$s"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:180
+msgid "Dismiss this notice"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:532
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:2173
+msgid "Return to the Dashboard"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1167
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1348
+msgid "Private Repository"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1170
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1351
+msgid "Pre-Packaged"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1175
+msgid "WordPress Repository"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1178
+msgid "Required"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1178
+msgid "Recommended"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1181
+msgid "Not Installed"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1183
+msgid "Installed But Not Activated"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1288
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1409
+msgid "Install"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1312
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1410
+msgid "Activate"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1372
+#, php-format
+msgid ""
+"No plugins to install or activate. <a href=\"%1$s\" title=\"Return to the "
+"Dashboard\">Return to the Dashboard</a>"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1388
+msgid "Plugin"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1389
+msgid "Source"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1390
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:501
+msgid "Type"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1391
+msgid "Status"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1939
+msgid "Install package not available."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1940
+#, php-format
+msgid "Downloading install package from <span class=\"code\">%s</span>&#8230;"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1941
+msgid "Unpacking the package&#8230;"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1942
+msgid "Installing the plugin&#8230;"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1943
+msgid "Plugin install failed."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1944
+msgid "Plugin installed successfully."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:1955
+msgid "Plugin activation failed."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:2069
+msgid ""
+"The installation and activation process is starting. This process may take a "
+"while on some hosts, so please be patient."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:2070
+#, php-format
+msgid "%1$s installed and activated successfully."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:2070
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:2079
+msgid "Show Details"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:2070
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:2079
+msgid "Hide Details"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:2071
+msgid "All installations and activations have been completed."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:2072
+#, php-format
+msgid "Installing and Activating Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:2076
+msgid ""
+"The installation process is starting. This process may take a while on some "
+"hosts, so please be patient."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:2077
+#, php-format
+msgid "An error occurred while installing %1$s: <strong>%2$s</strong>."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:2078
+#, php-format
+msgid "The installation of %1$s failed."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:2079
+#, php-format
+msgid "%1$s installed successfully."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:2080
+msgid "All installations have been completed."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/class-tgm-plugin-activation.php:2081
+#, php-format
+msgid "Installing Plugin %1$s (%2$d/%3$d)"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/code_category_taxonomy.php:11
+msgid "Icon:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/code_category_taxonomy.php:15
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/code_category_taxonomy.php:35
+msgid "Select icon for the code category"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/code_category_taxonomy.php:30
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/code_category_taxonomy.php:75
+msgid "Icon"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/code_category_taxonomy.php:73
+msgid "Slug"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/content-daily_offer.php:39
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:70
+msgid "Details"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/content-daily_offer.php:52
+msgid "Buy Now "
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:12
+msgid "Coupon Text"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:12
+msgid "Coupon Text Widget"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:32
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:74
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:126
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:173
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:238
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:307
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:367
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:533
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:608
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:675
+msgid "Title:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:35
+msgid "Text:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:50
+msgid "Coupon List"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:50
+msgid "Coupon List Widget"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:77
+msgid "List (one in a line):"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:93
+msgid "Coupon FAQ"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:93
+msgid "Coupon FAQ Widget"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:129
+msgid "Number of FAQ:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:145
+msgid "Coupon Social"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:145
+msgid "Coupon Social Widget"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:176
+msgid "Twitter page link:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:179
+msgid "Facebook page link:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:182
+msgid "Google+ page link:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:200
+msgid "Coupon Categories"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:200
+msgid "Coupon Categories Widget"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:241
+msgid "Select categories:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:272
+msgid "Coupon Newsletter"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:272
+msgid "Coupon Newsletter Widget"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:276
+msgid "Newsletter"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:277
+msgid "Latest discounts and coupons"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:278
+msgid "Email Address"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:279
+msgid "Subscribe"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:310
+msgid "Subtitle:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:313
+msgid "Placeholder:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:316
+msgid "Button Text:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:334
+msgid "Coupon Popular Shops"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:334
+msgid "Coupon Popular Shops Widget"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:370
+msgid "Number of shops:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:386
+msgid "Coupon Search"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:386
+msgid "Coupon Search Widget"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:391
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:520
+msgid "Search Coupons"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:466
+msgid "Days Range:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:477
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/inner_header.php:89
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_home.php:54
+msgid "Categories"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:545
+msgid "Coupon Daily Offer"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:545
+msgid "Coupon Daily Offer Widget"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:578
+#: C:\wamp\www\couponer\wp-content\themes\couponer/single-daily_offer.php:103
+msgid "Time Left To Buy"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:580
+#: C:\wamp\www\couponer\wp-content\themes\couponer/single-daily_offer.php:105
+msgid "Buy Now"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:611
+msgid "Select Offer:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:650
+msgid "Coupon Daily Offers"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:650
+msgid "Coupon Daily Offers Widget"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/coupon_widgets.php:678
+msgid "Select daily offers:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/inner_header.php:23
+msgid "404 Nothing Found"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/inner_header.php:27
+msgid "Code Category: "
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/inner_header.php:30
+msgid "Search by tag: "
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/inner_header.php:33
+msgid "Profile"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/inner_header.php:36
+msgid "Archive for:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/inner_header.php:39
+msgid "Search results for: "
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/inner_header.php:74
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_home.php:41
+msgid "Type shop name"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:36
+msgid "Hi"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:38
+msgid "Manage your profile, look at the member only codes."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:51
+msgid "My Profile"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:53
+msgid "Members only codes"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:70
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:199
+msgid "Member"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:72
+msgid "Update your profile settings."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:81
+msgid "Change profile picture"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:88
+msgid "Delete avatar"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:99
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:366
+msgid "First name"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:105
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:371
+msgid "Last name"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:111
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_contact.php:52
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:376
+msgid "Your email"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:117
+msgid "How old you are?"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:122
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:385
+msgid "Your Gender"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:131
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:392
+msgid "Male"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:137
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:397
+msgid "Female"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:141
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:400
+msgid "Where do you live?"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:147
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:410
+msgid "Choose password"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:149
+msgid "Click Here to retreive your password"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:154
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:415
+msgid "Repeat password"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:159
+msgid "Receive Newsletter"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:166
+msgid "Yes"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:172
+msgid "No"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:177
+msgid "About You"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:183
+msgid "UPDATE YOUR SETTINGS"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:199
+msgid "Coupons"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:201
+msgid "This is the list of all codes for the members only."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:281
+msgid "All"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:281
+msgid "codes"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/my_profile.php:283
+msgid "Expires"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/parsers.php:42
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/parsers.php:63
+msgid "There was an error when reading this WXR file"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/parsers.php:43
+msgid ""
+"Details are shown above. The importer will now try again with a different "
+"parser..."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/parsers.php:67
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/parsers.php:72
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/parsers.php:262
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/parsers.php:451
+msgid ""
+"This does not appear to be a WXR file, missing/invalid WXR version number"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/radium-importer.php:240
+msgid "Theme options Import file could not be found. Please try again."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/radium-importer.php:255
+msgid ""
+"Theme options import data could not be read. Please try a different file."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/radium-importer.php:318
+msgid "Widget Import file could not be found. Please try again."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/radium-importer.php:354
+msgid "Widget import data could not be read. Please try a different file."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/radium-importer.php:395
+msgid "Sidebar does not exist in theme (using Inactive)"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/radium-importer.php:417
+msgid "Site does not support widget"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/radium-importer.php:440
+msgid "Widget already exists"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/radium-importer.php:489
+msgid "Imported"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/radium-importer.php:492
+msgid "Imported to Inactive"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/radium-importer.php:499
+msgid "No Title"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:134
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:143
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:194
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:198
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:207
+msgid "Sorry, there has been an error."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:135
+msgid "The file does not exist, please try again."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:178
+msgid "All done."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:178
+msgid "Have fun!"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:179
+msgid "Remember to update the passwords and roles of imported users."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:199
+#, php-format
+msgid ""
+"The export file could not be found at <code>%s</code>. It is likely that "
+"this was caused by a permissions problem."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:215
+#, php-format
+msgid ""
+"This WXR file (version %s) may not be supported by this version of the "
+"importer. Please consider updating."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:240
+#, php-format
+msgid ""
+"Failed to import author %s. Their posts will be attributed to the current "
+"user."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:266
+msgid "Assign Authors"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:267
+msgid ""
+"To make it easier for you to edit and save the imported content, you may "
+"want to reassign the author of the imported item to an existing user of this "
+"site. For example, you may want to import all the entries as <code>admin</"
+"code>s entries."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:269
+#, php-format
+msgid ""
+"If a new user is created by WordPress, a new password will be randomly "
+"generated and the new user&#8217;s role will be set as %s. Manually changing "
+"the new user&#8217;s details will be necessary."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:279
+msgid "Import Attachments"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:282
+msgid "Download and import file attachments"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:286
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:186
+msgid "Submit"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:299
+msgid "Import author:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:310
+msgid "or create new user with login name:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:313
+msgid "as a new user:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:321
+msgid "assign posts to an existing user:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:323
+msgid "or assign posts to an existing user:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:324
+msgid "- Select -"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:374
+#, php-format
+msgid ""
+"Failed to create new user for %s. Their posts will be attributed to the "
+"current user."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:423
+#, php-format
+msgid "Failed to import category %s"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:461
+#, php-format
+msgid "Failed to import post tag %s"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:505
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:631
+#, php-format
+msgid "Failed to import %s %s"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:527
+#, php-format
+msgid "Failed to import &#8220;%s&#8221;: Invalid post type %s"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:548
+#, php-format
+msgid "%s &#8220;%s&#8221; already exists."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:603
+#, php-format
+msgid "Failed to import %s &#8220;%s&#8221;"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:749
+msgid "Menu item skipped due to missing menu slug"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:756
+#, php-format
+msgid "Menu item skipped due to invalid menu slug: %s"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:819
+msgid "Fetching attachments is not enabled"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:832
+msgid "Invalid file type"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:876
+msgid "Remote server did not respond"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:882
+#, php-format
+msgid "Remote server returned error response %1$d %2$s"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:889
+msgid "Remote file is incorrect size"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:894
+msgid "Zero size file downloaded"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:900
+#, php-format
+msgid "Remote file is too large, limit is %s"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:999
+msgid "Import WordPress"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:1006
+#, php-format
+msgid ""
+"A new version of this importer is available. Please update to version %s to "
+"ensure compatibility with newer export files."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:1021
+msgid ""
+"Howdy! Upload your WordPress eXtended RSS (WXR) file and we&#8217;ll import "
+"the posts, pages, comments, custom fields, categories, and tags into this "
+"site."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/radium-one-click-demo-install/importer/wordpress-importer.php:1022
+msgid "Choose a WXR (.xml) file to upload, then click Upload file and import."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:84
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:89
+msgid "An unknown error occurred"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:102
+msgid "PowerThemes Updates"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:181
+msgid "Theme Updates"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:183
+msgid "Input your data to receive information about theme updates"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:192
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:213
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:451
+msgid "Username"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:192
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:196
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:200
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:213
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:217
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:221
+msgid "required"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:196
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:217
+msgid "API"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:200
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:221
+msgid "Purchase Code"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:205
+msgid "Connect"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/includes/update.php:226
+msgid "Disconnect"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/index.php:120
+msgid "No blog posts yet!"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_contact.php:48
+msgid "Your name"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_contact.php:56
+msgid "Subject"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_contact.php:60
+msgid "Message"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_contact.php:64
+msgid "Send Message"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_home.php:247
+msgid "See All"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_home.php:315
+msgid "Blog Latest"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_password_rec.php:9
+msgid "Illegal action"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_password_rec.php:16
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_password_rec.php:120
+msgid "Email is invalid"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_password_rec.php:28
+msgid "Login Credentials"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_password_rec.php:46
+msgid "Credentials sent"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_password_rec.php:47
+msgid "Your username and new password have been sent to your email."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_password_rec.php:53
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:185
+msgid "Email sending failed"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_password_rec.php:54
+msgid "Could not send credentials to you, try again!"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_password_rec.php:61
+msgid "Wrong email"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_password_rec.php:62
+msgid "There is no registered user with that email!"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_password_rec.php:115
+msgid "Please enter your email below"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_password_rec.php:120
+msgid "Type your email..."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_password_rec.php:122
+msgid "Recover Password"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:31
+msgid "Memebership approved!"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:32
+msgid "Thanks a lot for registering, now you are a member!"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:38
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:46
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:55
+msgid "Confirmation error!"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:39
+msgid "Confirmation code is not valid."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:47
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:49
+msgid "Confirmation code is already used."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:159
+msgid "Confirm Registration"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:178
+msgid "Confirmation email sent"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:179
+msgid ""
+"Please <span class=\"theme-color\">check your email and click registration "
+"link</span> in order to confirm your membership!"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:186
+msgid "Could not send a confirmation email, try again!"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:233
+msgid "Confirmation error"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:234
+msgid ""
+"This account is still not activated. Please check your email, and click on "
+"the verification link!"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:268
+msgid "Member login is disabled"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:269
+msgid "Member are currently not allowed to login by the administration"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:357
+msgid "Register here"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:381
+msgid "How old are you?"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:405
+msgid "Choose username"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:422
+msgid "Register"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:441
+msgid "Login here"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:457
+msgid "Password"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:467
+msgid "Remember me"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:471
+msgid "Forgot password?"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_register_login.php:478
+msgid "Login"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:100
+msgid "New code has been submited. Here are the details:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:101
+msgid "Coupon name:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:102
+msgid "Shop URL:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:103
+msgid "Code type:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:104
+msgid "Coupon code:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:105
+msgid "Offer Conditions:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:106
+msgid "Offer Text:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:107
+msgid "Offer Discount:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:108
+msgid "Content:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:109
+msgid "Code expire:"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:110
+msgid "New Code Submited"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:115
+msgid "Code has been submited"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:116
+msgid ""
+"After <span class=\"green\">review</span> it will be accepted or declined!"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:195
+msgid "Coupon Or Discount Name"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:199
+msgid "Store Website"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:203
+msgid "Offer Type"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:219
+msgid "Coupon Or Discount Conditions"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:223
+msgid "Offer Text"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:227
+msgid "Offer Discount"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:231
+msgid "Code For"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:239
+msgid "Expiration Date"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:241
+msgid "Date must be in the form mm/dd/yyyy"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:256
+msgid "Register To Submit Code"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/page-tpl_submit_code.php:261
+msgid "Register Here"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/searchform.php:3
+msgid "Search..."
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/single-shop.php:168
+msgid "Shop Recommended by"
+msgstr ""
+
+#: C:\wamp\www\couponer\wp-content\themes\couponer/single-shop.php:195
+msgid "View profile"
+msgstr ""
