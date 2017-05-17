@@ -61,7 +61,7 @@ function clpr_remove_media_library_tab( $tabs ) {
 class CLPR_Listing_Info_Metabox extends APP_Meta_Box {
 
 	/**
-	 * Setups metabox.
+	 * Sets up metabox.
 	 *
 	 * @return void
 	 */
@@ -74,7 +74,7 @@ class CLPR_Listing_Info_Metabox extends APP_Meta_Box {
 	 *
 	 * @return array
 	 */
-	public function form_fields() {
+	public function form() {
 		$form_fields = array(
 			array(
 				'title' => __( 'Reference ID', APP_TD ),
@@ -220,25 +220,6 @@ class CLPR_Listing_Info_Metabox extends APP_Meta_Box {
 		return $chart;
 	}
 
-	/**
-	 * Returns current post ID.
-	 *
-	 * @return int
-	 */
-	public function get_post_id() {
-		global $post;
-
-		if ( isset( $post ) && is_object( $post ) ) {
-			return $post->ID;
-		} else if ( ! empty( $_GET['post'] ) ) {
-			return $_GET['post'];
-		} else if ( ! empty( $_POST['ID'] ) ) {
-			return $_POST['ID'];
-		} else {
-			return 0;
-		}
-	}
-
 }
 
 
@@ -249,7 +230,7 @@ class CLPR_Listing_Info_Metabox extends APP_Meta_Box {
 class CLPR_Listing_Custom_Forms_Metabox extends APP_Meta_Box {
 
 	/**
-	 * Setups metabox.
+	 * Sets up metabox.
 	 *
 	 * @return void
 	 */
@@ -273,7 +254,7 @@ class CLPR_Listing_Custom_Forms_Metabox extends APP_Meta_Box {
 	 *
 	 * @return array
 	 */
-	public function form_fields() {
+	public function form() {
 		$form_fields = array(
 			array(
 				'title' => __( 'Coupon Type', APP_TD ),
@@ -532,25 +513,6 @@ class CLPR_Listing_Custom_Forms_Metabox extends APP_Meta_Box {
 		return $type;
 	}
 
-	/**
-	 * Returns current post ID.
-	 *
-	 * @return int
-	 */
-	public function get_post_id() {
-		global $post;
-
-		if ( isset( $post ) && is_object( $post ) ) {
-			return $post->ID;
-		} else if ( ! empty( $_GET['post'] ) ) {
-			return $_GET['post'];
-		} else if ( ! empty( $_POST['ID'] ) ) {
-			return $_POST['ID'];
-		} else {
-			return 0;
-		}
-	}
-
 }
 
 
@@ -561,7 +523,7 @@ class CLPR_Listing_Custom_Forms_Metabox extends APP_Meta_Box {
 class CLPR_Listing_Author_Metabox extends APP_Meta_Box {
 
 	/**
-	 * Setups metabox.
+	 * Sets up metabox.
 	 *
 	 * @return void
 	 */
@@ -615,7 +577,7 @@ class CLPR_Listing_Author_Metabox extends APP_Meta_Box {
 class CLPR_Listing_Publish_Moderation extends APP_Meta_Box {
 
 	/**
-	 * Setups metabox.
+	 * Sets up metabox.
 	 *
 	 * @return void
 	 */
@@ -643,7 +605,7 @@ class CLPR_Listing_Publish_Moderation extends APP_Meta_Box {
 	 *
 	 * @return void
 	 */
-	function display( $post ) {
+	public function display( $post ) {
 
 		echo html( 'p', array(), __( 'You must approve this coupon before it can be published.', APP_TD ) );
 

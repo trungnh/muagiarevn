@@ -16,13 +16,6 @@
 function clpr_load_scripts() {
 	global $clpr_options;
 
-	$protocol = is_ssl() ? 'https' : 'http';
-	// load google cdn hosted libraries if enabled
-	if ( $clpr_options->google_jquery ) {
-		wp_deregister_script( 'jquery' );
-		wp_register_script( 'jquery', $protocol . '://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js', false, '1.10.2' );
-	}
-
 	wp_enqueue_script( 'jquery' );
 	wp_enqueue_script( 'jquery-ui-core' );
 	wp_enqueue_script( 'jquery-ui-autocomplete' );
@@ -32,8 +25,8 @@ function clpr_load_scripts() {
 
 	wp_enqueue_script( 'jqueryeasing', get_template_directory_uri() . '/includes/js/easing.js', array( 'jquery' ), '1.3' );
 	wp_enqueue_script( 'jcarousellite', get_template_directory_uri() . '/includes/js/jcarousellite.min.js', array( 'jquery' ), '1.8.5' );
-	wp_enqueue_script( 'zeroclipboard', get_template_directory_uri() . '/includes/js/zeroclipboard/ZeroClipboard.min.js', array( 'jquery' ), '2.2.0' );
-	wp_enqueue_script( 'theme-scripts', get_template_directory_uri() . '/includes/js/theme-scripts.js', array( 'jquery', 'zeroclipboard' ), '1.5.1' );
+	wp_enqueue_script( 'clipboardjs', get_template_directory_uri() . '/includes/js/clipboard.min.js', array( 'jquery' ), '1.5.15' );
+	wp_enqueue_script( 'theme-scripts', get_template_directory_uri() . '/includes/js/theme-scripts.js', array( 'jquery', 'clipboardjs' ), CLPR_VERSION );
 	wp_enqueue_script( 'colorbox' );
 
 	wp_enqueue_script( 'validate' );

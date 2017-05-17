@@ -87,17 +87,12 @@ jQuery(document).ready(function() {
 
 
 	/* coupons links behaviour */
-	if ( clipper_params.direct_links == '1' && ( false === ZeroClipboard.isFlashUnusable() || ! clipper_params.coupon_code_hide ) ) {
-		ZeroClipboard.config({
-			zIndex : 0
-		});
-		jQuery(".coupon_type-coupon-code a.coupon-code-link").each(function() {
-			var client = new ZeroClipboard( jQuery(this) );
-			client.on( "aftercopy", function( event ) {
-				//Add a complete event to let the user know the text was copied
-				jQuery(event.target).fadeOut('fast').html('<span>' + event.data["text/plain"] + '</span>').fadeIn('fast');
-			} );
-		});
+	if ( clipper_params.direct_links == '1' && ( jQuery.isFunction( Clipboard ) || ! clipper_params.coupon_code_hide ) ) {
+		var client = new Clipboard( ".coupon_type-coupon-code a.coupon-code-link" );
+		client.on( 'success', function( event ) {
+			// Add a complete event to let the user know the text was copied
+			jQuery(event.trigger).fadeOut('fast').html('<span>' + event.text + '</span>').fadeIn('fast');
+		} );
 
 	} else if ( jQuery.isFunction(jQuery.colorbox) ) {
 		jQuery( document ).on('click', '.coupon_type-coupon-code a.coupon-code-link', function() {
@@ -109,29 +104,24 @@ jQuery(document).ready(function() {
 				href: clipper_params.ajax_url + "?action=coupon-code-popup&id=" + linkID,
 				transition:'fade',
 				maxWidth:'100%',
+				trapFocus:false,
 				onLoad: function() {
 					if ( clipper_params.is_mobile ) {
 						jQuery('#cboxOverlay, #wrapper').hide();
 					}
 				},
 				onComplete: function() {
-					var clip = new ZeroClipboard( jQuery('#copy-button') );
-					clip.on( 'ready', function( readyEvent ) {
-						jQuery('.coupon-code-popup').addClass('zeroclipboard-ready');
-					});
-					clip.on( 'aftercopy', function( event ) {
-						jQuery("#copy-button").html(clipper_params.text_copied);
-						jQuery('.coupon-code-popup').addClass('zeroclipboard-aftercopy');
+					var clip = new Clipboard( 'button#copy-button' );
+					clip.on( 'success', function( event ) {
+						jQuery("button#copy-button").html(clipper_params.text_copied);
 						jQuery('.coupon-code-popup .popup-code-info a').fadeOut().addClass('btn').fadeIn();
 					});
 					clip.on( 'error', function( event ) {
-						jQuery("#copy-button").remove();
-						jQuery('.coupon-code-popup').addClass('zeroclipboard-error');
-						ZeroClipboard.destroy();
+						jQuery("button#copy-button").remove();
+						jQuery('.coupon-code-popup').addClass('clipboard-error');
 					});
 				},
 				onCleanup: function() {
-					ZeroClipboard.destroy();
 					if ( clipper_params.is_mobile ) {
 						jQuery('#wrapper').show();
 					}

@@ -77,7 +77,6 @@ $GLOBALS['clpr_options'] = new scbOptions( 'clpr_options', false, array(
 	// Advanced Options
 	'disable_stylesheet' => 0,
 	'debug_mode' => 0,
-	'google_jquery' => 0,
 	'disable_wp_login' => 0,
 	'remove_wp_generator' => 0,
 	'remove_admin_bar' => 0,
@@ -146,6 +145,7 @@ $GLOBALS['clpr_options'] = new scbOptions( 'clpr_options', false, array(
 		'%siteurl%',
 
 	// Payments & Gateways
+	'allow_view_orders' => false,
 	'currency_code' => 'USD',
 	'currency_identifier' => 'symbol',
 	'currency_position' => 'left',

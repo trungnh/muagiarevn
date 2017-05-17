@@ -503,13 +503,6 @@ class CLPR_Theme_Settings_General extends APP_Tabs_Page {
 					'tip' => '',
 				),
 				array(
-					'title' => __( 'Use Google CDN', APP_TD ),
-					'name' => 'google_jquery',
-					'type' => 'checkbox',
-					'desc' => __( "Speed up your website and save bandwidth by using their hosted jQuery", APP_TD ),
-					'tip' => '',
-				),
-				array(
 					'title' => __( 'Hide Version', APP_TD ),
 					'name' => 'remove_wp_generator',
 					'type' => 'checkbox',

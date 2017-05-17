@@ -1,6 +1,6 @@
 /*
-Theme Name: Clipper Themekiller.com
-Version: 1.6.3
+Theme Name: Clipper
+Version: 1.6.4
 Theme URI: http://www.appthemes.com/themes/clipper/
 Description: A premium coupon management theme for WordPress.
 Author: AppThemes
@@ -14,9 +14,7 @@ AppThemes ID: clipper
 /* =Reset default browser CSS.
 ** Based on work by Eric Meyer
 -------------------------------------------------------------- */
-.TK{
-display: none;
-}
+
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,

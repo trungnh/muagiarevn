@@ -45,7 +45,12 @@ function clpr_handle_transaction_completed( $order ) {
 		}
 		return;
 	} else {
-		clpr_update_post_status( $coupon_id, 'pending' );
+		// set coupon as pending
+		wp_update_post( array(
+			'ID' => $coupon_id,
+			'post_status' => 'pending',
+		) );
+
 		if ( ! is_admin() ) {
 			if ( did_action( 'wp_head' ) ) {
 				clpr_js_redirect( $order_url );
@@ -118,8 +123,11 @@ function clpr_activate_moderated_transaction( $post_id ) {
 function clpr_handle_coupon_listing( $order ) {
 
 	foreach ( $order->get_items( CLPR_COUPON_LISTING_TYPE ) as $item ) {
-
-		clpr_update_post_status( $item['post_id'], 'publish' );
+		// publish coupon
+		wp_update_post( array(
+			'ID' => $item['post_id'],
+			'post_status' => 'publish',
+		) );
 	}
 
 }

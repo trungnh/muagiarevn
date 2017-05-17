@@ -342,6 +342,7 @@ jQuery(document).ready(function($) {
 		});
 
 		// open the media manager modal
+		file_frame.modal.$el.hide();
 		file_frame.open();
 
 		// display file upload/embed restrictions on each tab change

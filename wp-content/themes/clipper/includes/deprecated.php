@@ -512,3 +512,37 @@ function clpr_set_ad_thumbnail( $post_id, $thumbnail_id ) {
 }
 
 
+/**
+ * Updates post status.
+ *
+ * @deprecated 1.6.4
+ * @deprecated Use wp_update_post()
+ * @see wp_update_post()
+ *
+ * @param int $post_id
+ * @param string $new_status
+ *
+ * @return void
+ */
+function clpr_update_post_status( $post_id, $new_status ) {
+	_deprecated_function( __FUNCTION__, '1.6.4', 'wp_update_post()' );
+
+	wp_update_post( array(
+		'ID' => $post_id,
+		'post_status' => $new_status,
+	) );
+}
+
+
+/**
+ * Was adding CSS3 support for old IE web browsers.
+ *
+ * @deprecated 1.6.4
+ *
+ * @return void
+ */
+function clpr_pie_styles() {
+	_deprecated_function( __FUNCTION__, '1.6.4' );
+}
+
+

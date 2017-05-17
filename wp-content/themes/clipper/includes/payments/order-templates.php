@@ -25,9 +25,8 @@ class APP_Order_Summary extends APP_View {
 
 		appthemes_auth_redirect_login();
 		$order = get_order();
-		$currentuser = wp_get_current_user();
 
-		if ( $order->get_author() != $currentuser->ID ) {
+		if ( ! current_user_can( 'edit_post', $order->get_id() ) ) {
 			return appthemes_locate_template( '404.php' );
 		}
 

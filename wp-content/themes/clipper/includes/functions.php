@@ -432,8 +432,9 @@ function clpr_get_store_image_url( $id, $type = 'post_id', $width = 110 ) {
 		}
 	}
 
+	$mshots_url = is_ssl() ? 'https://s0.wordpress.com/mshots/v1/' : 'http://s.wordpress.com/mshots/v1/';
 	if ( ! empty( $store_url ) ) {
-		$store_image_url = "http://s.wordpress.com/mshots/v1/" . urlencode( $store_url ) . "?w=" . $width;
+		$store_image_url = $mshots_url . urlencode( $store_url ) . "?w=" . $width;
 		return apply_filters( 'clpr_store_image', $store_image_url, $width, $id, $type );
 	} else {
 		$store_image_url = apply_filters( 'clpr_store_default_image', appthemes_locate_template_uri( 'images/clpr_default.jpg' ), $width );
@@ -861,22 +862,6 @@ function clpr_load_all_page_templates() {
 		'no_found_rows' => true,
 	) );
 
-}
-
-
-/**
- * Updates post status.
- *
- * @param int $post_id
- * @param string $new_status
- *
- * @return void
- */
-function clpr_update_post_status( $post_id, $new_status ) {
-	wp_update_post( array(
-		'ID' => $post_id,
-		'post_status' => $new_status
-	) );
 }
 
 

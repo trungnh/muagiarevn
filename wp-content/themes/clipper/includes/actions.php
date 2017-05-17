@@ -20,23 +20,6 @@ add_action( 'wp_head', 'clpr_generator' );
 
 
 /**
- * Adds CSS3 support for IE.
- *
- * @return void
- */
-function clpr_pie_styles() {
-?>
-	<!-- PIE active classes -->
-	<style type="text/css">
-		#nav .active, #nav li { behavior: url(<?php echo get_template_directory_uri(); ?>/includes/js/pie.htc); }
-	</style>
-	<!-- end PIE active classes -->
-<?php
-}
-add_action( 'wp_head', 'clpr_pie_styles' );
-
-
-/**
  * Adds the google analytics tracking code in the footer.
  *
  * @return void

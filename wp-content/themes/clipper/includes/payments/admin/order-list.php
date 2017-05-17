@@ -9,17 +9,6 @@ add_filter( 'manage_' . APPTHEMES_ORDER_PTYPE . '_posts_columns', 'appthemes_ord
 add_filter( 'manage_edit-' . APPTHEMES_ORDER_PTYPE . '_sortable_columns', 'appthemes_order_manage_sortable_columns' );
 add_action( 'manage_' . APPTHEMES_ORDER_PTYPE . '_posts_custom_column', 'appthemes_order_add_column_data', 10, 2 );
 add_action( 'admin_print_styles', 'appthemes_order_table_css' );
-add_action( 'post_row_actions', 'appthemes_transaction_row_actions', 10, 2 );
-
-function appthemes_transaction_row_actions( $actions, $post ) {
-	if ( APPTHEMES_ORDER_PTYPE != $post->post_type )
-		return $actions;
-
-	if ( ! current_user_can( 'edit_post', $post->ID ) ) {
-		unset( $actions['view'] );
-	}
-	return $actions;
-}
 
 /**
  * Sets the columns for the orders page
@@ -168,6 +157,7 @@ function appthemes_order_table_css() {
 	<style type="text/css">
 		.post-type-transaction .top .actions:first-child,
 		.post-type-transaction .bottom .actions:first-child,
+		.post-type-transaction .wrap .page-title-action,
 		.post-type-transaction .wrap .add-new-h2 {
 			display: none;
 		}

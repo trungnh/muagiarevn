@@ -1,3 +1,25 @@
+1.6.4 - 2016/12/16
+
+fixes:
+	- Fixed incompatibility with WordPress 4.7
+	- Fixed missing icons on Theme Dashboard
+	- Fixed issue with registration form
+	- Fixed issue with not saving empty fields while editing stores
+	- Fixed errors in "Coupon Sub Category" widget
+	- Fixed issue where contributor could enter shortcodes in the description field
+	- Fixed "Allow users to view their order list" option that was not saving it's state
+	- Fixed issue with copying coupon code when "Direct Links" option was enabled
+	- Fixed issue with not unrevealing coupon code when "Direct Links" option was enabled
+	- Fixed issue with https and images from mShots service
+
+changes:
+	- Replaced library used for coupon code copy functionality - ZeroClipboard with Clipboard.js 
+	- Updated Font Awesome library to 4.7.0
+	- Removed Google CDN option which often was causing conflicts
+	- Removed PIE.htc script for adding CSS3 support in old IE browsers
+	- Deprecated `clpr_update_post_status()` function
+
+
 1.6.3 - 2016/02/08
 
 fixes:

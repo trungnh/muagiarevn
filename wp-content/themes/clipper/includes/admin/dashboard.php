@@ -16,7 +16,7 @@ class CLPR_Theme_Dashboard extends APP_DashBoard {
 	const SUPPORT_FORUM = 'http://forums.appthemes.com/external.php?type=RSS2';
 
 	/**
-	 * Setups page.
+	 * Sets up page.
 	 *
 	 * @return void
 	 */
@@ -28,10 +28,10 @@ class CLPR_Theme_Dashboard extends APP_DashBoard {
 			'icon_url' => appthemes_locate_template_uri( 'images/menu.png' ),
 		) );
 
-		$this->boxes[] = array( 'stats_30_days', $this->box_icon( 'dashicons-chart-bar' ) . __( 'Last 30 Days', APP_TD ), 'side', 'high' );
-		$this->boxes[] = array( 'support_forum', $this->box_icon( 'dashicons-format-chat' ) . __( 'Forums', APP_TD ), 'normal', 'low' );
+		$this->boxes[] = array( 'stats_30_days', $this->box_icon( 'at-chart-bar' ) . __( 'Last 30 Days', APP_TD ), 'side', 'high' );
+		$this->boxes[] = array( 'support_forum', $this->box_icon( 'at-discussion' ) . __( 'Forums', APP_TD ), 'normal', 'low' );
 
-		$stats_icon = $this->box_icon( 'dashicons-chart-pie' );
+		$stats_icon = $this->box_icon( 'at-chart-pie' );
 		$stats = array( 'stats', $stats_icon . __( 'Overview', APP_TD ), 'normal' );
 		array_unshift( $this->boxes, $stats );
 

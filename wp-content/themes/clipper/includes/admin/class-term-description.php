@@ -105,7 +105,7 @@ class CLPR_Term_Description {
 	 */
 	public function render_field_edit( $term, $taxonomy ) {
 	?>
-		<tr>
+		<tr class="form-field term-description-wrap">
 			<th scope="row" valign="top"><label for="description"><?php _e( 'Description', APP_TD ); ?></label></th>
 			<td><?php wp_editor( htmlspecialchars_decode( $term->description ), 'html-description', $this->editor_settings ); ?>
 			<span class="description"><?php _e( 'The description is not prominent by default, however some themes may show it.', APP_TD ); ?></span></td>

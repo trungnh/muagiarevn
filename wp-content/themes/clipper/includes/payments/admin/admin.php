@@ -34,14 +34,18 @@ function appthemes_register_payments_settings() {
  * @return void
  */
 function appthemes_admin_menu_setup() {
-	$options    = APP_Gateway_Registry::get_options();
-	$capability = 'edit_others_posts';
+	$capability = apply_filters( 'appthemes_map_view_orders_capability', 'edit_others_posts');
+	add_menu_page( __( 'Orders', APP_TD ), __( 'Payments', APP_TD ), $capability, 'app-payments', null, 'dashicons-at-payments', 4 );
+}
 
+add_filter( 'appthemes_map_view_orders_capability', 'appthemes_admin_view_orders_setting' );
+function appthemes_admin_view_orders_setting( $capability ) {
+	$options    = APP_Gateway_Registry::get_options();
 	if ( $options->allow_view_orders ) {
 		$capability = 'edit_posts';
 	}
 
-	add_menu_page( __( 'Orders', APP_TD ), __( 'Payments', APP_TD ), $capability, 'app-payments', null, 'dashicons-at-payments', 4 );
+	return $capability;
 }
 
 /**

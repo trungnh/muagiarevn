@@ -1,0 +1,104 @@
+body {
+  direction: rtl;
+  unicode-bidi: embed;
+}
+
+.top-offer .tittle, .filter, .portfolio .items-info h5, .portfolio .free-ship, .com-feature, .contact .success-msg, #contact_form li,
+.skills-bar .progress-bar, .top-offer .tittle, .filter, .portfolio .items-info h5, .portfolio .free-ship, .stores .tittle, .com-feature,
+ .contact .success-msg, #contact_form li {
+	text-align:right;
+}
+
+.portfolio .up-to, .blog .post-date-big, .portfolio .up-to, .blog .post-date-big {
+	text-align: left;
+}
+
+.top-bar .right-bar-side, header .search, header .search button, .sub-nav-co, .nav-post .nav-text, .slide-products, .great-deals .coupon-inner .star,
+.featured .owl-theme .owl-controls .owl-next, .sub-nav, .pricing .price-tag, .portfolio .free-ship, .portfolio .up-to, .stores .finde,.cou-type .calen,
+.blog .blog-post img, .blog .post-date-big, .blog-side-bar ul.wid-in li:nth-child(2), .contact .error:before, .alert span, #accordion .panel-default > .panel-heading .panel-title a:before, .skills-bar .progress-bar span, footer button, .top-bar .right-bar-side   {
+	float: left;
+}
+
+header .logo, header .search select, header nav li a, .nav-post .img-nav, .great-deals .coupon-inner, .great-deals .coupon-inner .ribn-red, 
+.great-deals .coupon-inner .ribn-pur, .featured .owl-theme .owl-controls .owl-prev, .top-w-deal li, .clients .clients-detail .avatar img, .stores .finde select, .blog-side-bar .cate-side li .img-side, .blog-side-bar ul.wid-in li:nth-child(1), .blog-side-bar .search button, .error-page .search button, 
+.contact-info .con-det i, .drop-cobs p span, #tabs .nav-tabs > li a, .skills-bar .progress-bar, .top-bar .left-bar-side, .social_icons li  
+{
+	float: right;
+}
+
+.top-bar li:nth-last-child(1) a {
+	border-right:none;
+}
+
+.right-bar-side.social_icons > li:first-child a {
+	border-right: 1px solid #dddddd;	
+}
+
+header .search button {
+    right:353px;
+	top:12px;	
+}
+
+.clients .clients-detail::before {
+	left:50px;
+	right:auto;
+	
+}
+
+.ownmenu li {
+    float:right;	
+}
+.blog .post-date-big {
+	left:0px;
+	right:auto;
+	
+}
+
+.error-page input {
+	padding:0 50px 0 0;
+	
+}
+.great-deals .coupon-inner .ribn-red {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	padding-left: 15px;
+    padding-right: 0;
+    position: relative;
+}
+
+.great-deals .coupon-inner .ribn-red > span::before {
+    background: rgba(0, 0, 0, 0) url("../images/ribn-red.png") no-repeat scroll 0 0;
+    content: "";
+    height: 24px;
+    left: 0;
+    position: absolute;
+    transform: scaleX(-1);
+    width: 15px;
+}
+
+.blog .post-date-big {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	padding-left: 20px;
+}
+
+.blog .post-date-big::after {
+    background: rgba(0, 0, 0, 0) url("../images/l-date-bg.png") no-repeat scroll 0 0;
+    color: #fff;
+    content: "";
+    height: 180px;
+    position: absolute;
+    right: 0;
+    top: 0;
+    transform: scaleX(-1);
+    width: 127px;
+    z-index: -1;
+}
+
+.error-page .search button[type=submit]
+{
+	border-right-width: 0;
+	border-left: 1px solid #ddd;
+}
+
+.blog .blog-post ul.small-tag span {
+			display:inline-block;	
+}

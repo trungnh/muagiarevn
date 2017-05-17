@@ -317,7 +317,6 @@ function clpr_upgrade_150_convert_settings() {
 		'adcode_336x280_enable',
 		'disable_stylesheet',
 		'debug_mode',
-		'google_jquery',
 		'disable_wp_login',
 		'remove_wp_generator',
 		'remove_admin_bar',

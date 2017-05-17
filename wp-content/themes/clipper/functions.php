@@ -10,8 +10,8 @@
  */
 
 // Constants
-define( 'CLPR_VERSION', '1.6.3' );
-define( 'CLPR_DB_VERSION', '1178' );
+define( 'CLPR_VERSION', '1.6.4' );
+define( 'CLPR_DB_VERSION', '1351' );
 
 define( 'APP_POST_TYPE', 'coupon' );
 define( 'APP_TAX_CAT', 'coupon_category' );
@@ -29,8 +29,8 @@ global $clpr_options;
 // Legacy variables - some plugins rely on them
 $app_theme = 'Clipper';
 $app_abbr = 'clpr';
-$app_version = '1.6.3';
-$app_db_version = 1178;
+$app_version = '1.6.4';
+$app_db_version = 1351;
 $app_edition = '';
 
 // Framework

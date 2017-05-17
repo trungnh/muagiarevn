@@ -48,5 +48,4 @@
 		</div>
 
 	</div>
-	<p class="TK"><a href="http://www.themekiller.com/" title="themekiller" rel="follow"></a><a href="http://www.watchop.online/" title="themekiller" rel="follow"></a></p>
 </div> <!-- #footer -->

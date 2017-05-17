@@ -402,6 +402,11 @@ class CLPR_Coupon_Form_Edit extends CLPR_Coupon_Checkout_Step {
 				} else {
 					$posted[ $field ] = wp_kses_post( $posted[ $field ] );
 				}
+
+				// Strip shortcodes
+				if ( ! current_user_can( 'edit_others_posts' ) && ! is_admin() ) {
+					$posted[ $field ] = strip_shortcodes( $posted[ $field ] );
+				}
 			}
 
 			if ( $field == 'post_title' ) {

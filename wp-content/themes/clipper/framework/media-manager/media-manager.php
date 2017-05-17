@@ -330,7 +330,7 @@ class APP_Media_Manager {
 		}
 
 		// Clear previous attachments by checking if they are present on the updated attachments list.
-		if ( 'post' == $type && ! empty( $attachs ) ) {
+		if ( 'post' == $type ) {
 			self::maybe_clear_old_attachments( $object_id, $attachs );
 		}
 
@@ -348,12 +348,7 @@ class APP_Media_Manager {
 		if ( empty( $_POST[ $field ] ) ) {
 
 			// Delete the embed url's from the user/post meta.
-			if ( 'user' == $type  ) {
-				delete_user_meta( $object_id, $field );
-			} else {
-				delete_post_meta( $object_id, $field );
-			}
-
+			delete_metadata( $type, $object_id, $field );
 			$media = array();
 
 		} else {
@@ -426,17 +421,13 @@ class APP_Media_Manager {
 		if ( empty( $_POST[ $field ] ) ) {
 
 			// Delete the attachments from the user/post meta.
-			if ( 'user' == $type ) {
-				delete_user_meta( $object_id, $field );
-			} else {
-				delete_post_meta( $object_id, $field );
-			}
-
+			delete_metadata( $type, $object_id, $field );
 			$media = array();
 
 		} else {
 
 			$attachments = explode( ',', wp_strip_all_tags( $_POST[ $field ] ) );
+			$menu_order  = 0;
 
 			foreach( $attachments as $attachment_id ) {
 
@@ -486,6 +477,11 @@ class APP_Media_Manager {
 				}
 
 				$media[] = (int) $attach_id;
+
+				wp_update_post( array(
+					'ID'         => $attach_id,
+					'menu_order' => $menu_order++,
+				) );
 
 				update_post_meta( $attach_id, '_app_attachment_type', $meta_type );
 			}
@@ -732,12 +728,16 @@ class APP_Media_Manager {
 	/**
 	 * Unassigns or deletes any previous attachments that are not present on the current attachment enqueue list.
 	 */
-	static function maybe_clear_old_attachments( $object_id, $attachments, $delete = false ) {
+	static function maybe_clear_old_attachments( $object_id, $attachments = array(), $delete = false ) {
 
 		$args = array(
 			'meta_value' => appthemes_get_mm_allowed_meta_types(),
-			'post__not_in' => $attachments,
 		);
+
+		if ( ! empty( $attachments ) ) {
+			$args['post__not_in'] = $attachments;
+		}
+
 		$old_attachments = self::get_post_attachments( $object_id, $args );
 
 		// Unattach or delete.

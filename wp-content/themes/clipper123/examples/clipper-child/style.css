@@ -1,0 +1,23 @@
+/*
+Theme Name: Clipper Example Child Theme
+Theme URI: http://www.appthemes.com/themes/clipper/
+Description: Example child theme for the Clipper theme 
+Version: 0.2.0
+Author: AppThemes
+Author URI: http://www.appthemes.com/
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Template: clipper
+*/
+
+@import url("../clipper/style.css");
+
+body {
+	background: none repeat scroll 0 0 #4E040F;
+}
+#wrapper {
+	background: none repeat scroll 0 0 transparent;
+}
+.w1 {
+	background: none repeat scroll 0 0 transparent;
+}

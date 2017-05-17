@@ -164,22 +164,38 @@ function clpr_save_stores( $term_id, $tt_id ) {
 		return;
 	}
 
-	if ( isset( $_POST['clpr_store_image_id'] ) && is_numeric( $_POST['clpr_store_image_id'] ) ) {
-		clpr_update_store_meta( $term_id, 'clpr_store_image_id', $_POST['clpr_store_image_id'] );
+	// Store Image
+	if ( isset( $_POST['clpr_store_image_id'] ) ) {
+		$image_id = is_numeric( $_POST['clpr_store_image_id'] ) ? absint( $_POST['clpr_store_image_id'] ) : '';
+		clpr_update_store_meta( $term_id, 'clpr_store_image_id', $image_id );
 	}
 
-	if ( isset( $_POST['clpr_store_url'] ) && $url = wp_http_validate_url( $_POST['clpr_store_url'] ) ) {
-		clpr_update_store_meta( $term_id, 'clpr_store_url', $url );
+	// Store URL
+	if ( isset( $_POST['clpr_store_url'] ) ) {
+		$url = wp_http_validate_url( $_POST['clpr_store_url'] );
+		if ( $url ) {
+			clpr_update_store_meta( $term_id, 'clpr_store_url', $url );
+		} else {
+			clpr_update_store_meta( $term_id, 'clpr_store_url', '' );
+		}
 	}
 
-	if ( isset( $_POST['clpr_store_aff_url'] ) && $url = wp_http_validate_url( $_POST['clpr_store_aff_url'] ) ) {
-		clpr_update_store_meta( $term_id, 'clpr_store_aff_url', $url );
+	// Store Affiliate URL
+	if ( isset( $_POST['clpr_store_aff_url'] ) ) {
+		$url = wp_http_validate_url( $_POST['clpr_store_aff_url'] );
+		if ( $url ) {
+			clpr_update_store_meta( $term_id, 'clpr_store_aff_url', $url );
+		} else {
+			clpr_update_store_meta( $term_id, 'clpr_store_aff_url', '' );
+		}
 	}
 
-	if ( isset( $_POST['clpr_store_active'] ) ) {
+	// Store Active
+	if ( isset( $_POST['clpr_store_active'] ) && in_array( $_POST['clpr_store_active'], array( 'yes', 'no' ) ) ) {
 		clpr_update_store_meta( $term_id, 'clpr_store_active', $_POST['clpr_store_active'] );
 	}
 
+	// Store Featured
 	if ( isset( $_POST['clpr_store_featured'] ) ) {
 		clpr_update_store_meta( $term_id, 'clpr_store_featured', $_POST['clpr_store_featured'] );
 	} else {
