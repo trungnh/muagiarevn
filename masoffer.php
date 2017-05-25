@@ -2,24 +2,29 @@
 ini_set('display_errors', 1);
 include "./wp-load.php";
 include dirname(__FILE__) . "/wp-content/themes/clipper/framework/admin/importer.php";
+echo date('h:i:s')."\n";
+define('PUB_ID', 'dunghy7');
+define('TOKEN', '3zYsjOLpNu/jObLJ8vpWjw==');
 
-$pub_id 	= 'trungnh28';
-$token 		= 'dbTlHFu7lhM6F4Ms68Ggdg==';
+wp_set_current_user(1);
 
-$offers	=	getAllOffer($pub_id, $token);
-foreach($offers as $offer){
-	$promo = getPromotionsByOffer($offer);
-	
-	// Check if coupon is non-exist and coupon data is not empty then create coupon post
-	if(!empty($promo) 
-		&& !clpr_get_listing_by_coupon_aff_url($promo['coupon_aff_url']))
+$offers	=	getAllOffer(PUB_ID, TOKEN);
+foreach($offers as $offer) {
+	$promotions = getPromotionsByOffer($offer);
+	if(!empty($promotions))
 	{
 		//import promotion/coupon
-		import($promo);
+		foreach ($promotions as $promo){
+			// Check if coupon is non-exist and coupon data is not empty then create coupon post
+			if(!clpr_get_listing_by_coupon_aff_url($promo['coupon_aff_url'])){
+				echo $promo['id'].'--'.$promo['coupon_type']."\n";
+				import($promo);
+			}
+		}
 	}
 }
 
-
+echo date('h:i:s')."\n";
 /*============ Functions ============*/
 
 /**
@@ -33,13 +38,21 @@ foreach($offers as $offer){
  */
 function getAllOffer($pub_id, $token)
 {
+	$ignoreOffers = array('zalora-sg', 'zalora-id', 'tokopedia-ticket-id',
+		'blibli-id', 'elevenia-id', 'tokopedia-epay-id',
+		'lazada-id', 'lazada-th', 'lazada-mobile-id');
+
 	$requestUrl = "https://api.masoffer.com/offer/all?pub_id={$pub_id}&token={$token}";
-	$response = file_get_contents($requestUrl);
-	$offerData = json_decode($response)->data;
+	$response   = file_get_contents($requestUrl);
+	$offerData  = json_decode($response)->data;
 	
 	$offers = array();
 	
 	foreach($offerData as $item){
+		if(in_array($item->offer_id, $ignoreOffers)){
+			continue;
+		}
+
 		$offers[$item->offer_id] = array('id'	=>	$item->offer_id,
 										'name'	=>	$item->name,
 										'about'	=>	$item->about,
@@ -58,33 +71,40 @@ function getAllOffer($pub_id, $token)
  */
 function getPromotionsByOffer($offer)
 {
-	$requestUrl = "https://api.masoffer.com/promotions/{$offer['id']}?coupon=yes";
-	$response = file_get_contents($requestUrl);
-	$promoData = json_decode($response)->data->promotions;
+	$requestUrl = "https://api.masoffer.com/promotions/{$offer['id']}";
+	$response   = file_get_contents($requestUrl);
+	$promoData  = json_decode($response)->data->promotions;
 	
 	$promotions = array();
 	foreach($promoData as $item){
-		$tmp = array();
-		$tmp['coupon_title']			=	$item->title;
-		$tmp['coupon_description']		= 	$item->content;
-		$tmp['coupon_excerpt']			= 	$item->description;
-		$tmp['coupon_status']			= 	'publish';
-		$tmp['author']					=	1;
-		$tmp['date']					=	date('m/d/Y H:m');
-		$tmp['slug']					= 	sanitize_title($item->title);
-		$tmp['coupon_code']				= 	$item->coupon_code;
-		$tmp['expire_date']				= 	date('m/d/Y', $item->expired_date);
-		$tmp['print_url']				= 	"";
-		$tmp['id']						=	$item->id ? $item->id : clpr_generate_id();
-		$tmp['coupon_aff_url']			= 	$item->aff_url;
-		$tmp['coupon_category']			=	$item->category_name;
-		$tmp['coupon_tag']				= 	$item->category_name.',muagiare';
-		$tmp['coupon_type']				=	'Coupon Code';
-		$tmp['stores']					=	$offer['name'];
-		$tmp['store_desc']				=	$offer['about'];
-		$tmp['store_url']				=	$offer['url'];
-		$tmp['store_aff_url']			=	$offer['url'];
-		$tmp['clpr_featured']			=	1;
+		$aff_url            =   str_replace('{publisher_id}', PUB_ID, $item->aff_url);
+		$count              = preg_match_all('|<a href="(.+?)">T|s', $item->content, $matches, PREG_SET_ORDER);
+		if($count > 0){
+			$description    = str_replace($matches[0][1], $aff_url, $item->content);
+		}
+
+		$tmp = array (
+			'coupon_title'          => $item->title,
+			'coupon_description'    => $description,
+			'coupon_excerpt'        => '',
+			'coupon_status'         => 'publish',
+			'author'                => '1',
+			'date'                  => date('m/d/Y H:m'),
+			'slug'                  => null,//sanitize_title($item->title),
+			'coupon_code'           => $item->coupon_code,
+			'expire_date'           => is_null($item->expired_date) ? null : date('m/d/Y', $item->expired_date),
+			'print_url'             => '',
+			'id'                    => $item->id ? $item->id : clpr_generate_id(),
+			'coupon_aff_url'        => $aff_url,
+			'coupon_category'       => $item->category_name,
+			'coupon_tag'            => $item->category_name.',muagiare',
+			'coupon_type'           => ($item->coupon_code == '') ? 'Khuyến Mại' : 'Mã Giảm Giá',
+			'stores'                => $offer['name'],
+			'store_desc'            => $offer['about'],
+			'store_url'             => $offer['url'],
+			'store_aff_url'         => $offer['url'],
+			'clpr_featured'         => '0',
+		);
 		
 		$promotions[]	=	$tmp;
 	}
@@ -137,7 +157,7 @@ function import($data)
 	$appImport = new APP_Importer('coupon', $fields, $args );
 	
 	// import single coupon
-	$appImport->import_row($data);
+	$appImport->import_row_from_outside($data);
 }
 
 /**
@@ -157,18 +177,18 @@ function clpr_get_listing_by_coupon_aff_url( $coupon_aff_url ) {
 	$coupon_aff_url = appthemes_numbers_letters_only( $coupon_aff_url );
 
 	$listing_q = new WP_Query( array(
-		'post_type' => 'coupon',
-		'post_status' => 'any',
-		'meta_key' => 'clpr_id',
-		'meta_value' => $coupon_aff_url,
-		'posts_per_page' => 1,
-		'suppress_filters' => true,
-		'no_found_rows' => true,
+		'post_type'         => 'coupon',
+		'post_status'       => 'any',
+		'meta_key'          => 'clpr_id',
+		'meta_value'        => $coupon_aff_url,
+		'posts_per_page'    => 1,
+		'suppress_filters'  => true,
+		'no_found_rows'     => true,
 	) );
 
 	if ( empty( $listing_q->posts ) ) {
 		return false;
 	}
 
-	return $listing_q->posts[0];
+	return true;
 }
