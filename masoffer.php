@@ -18,6 +18,7 @@ foreach($offers as $offer) {
 			// Check if coupon is non-exist and coupon data is not empty then create coupon post
 			if(!clpr_get_listing_by_coupon_aff_url($promo['coupon_aff_url']))
 			{
+				echo $promo['id'].'--'.$promo['coupon_aff_url']."\n";
 				import($promo);
 			}
 		}
@@ -76,6 +77,9 @@ function getPromotionsByOffer($offer)
 	
 	$promotions = array();
 	foreach($promoData as $item){
+		if($item->aff_url == ''){
+			continue;
+		}
 		$aff_url            =   str_replace('{publisher_id}', PUB_ID, $item->aff_url);
 		$count              = preg_match_all('|<a href="(.+?)">T|s', $item->content, $matches, PREG_SET_ORDER);
 		if($count > 0){
@@ -177,17 +181,15 @@ function clpr_get_listing_by_coupon_aff_url( $coupon_aff_url ) {
 
 	$listing_q = new WP_Query( array(
 		'post_type'         => 'coupon',
-		'post_status'       => 'any',
-		'meta_key'          => 'clpr_id',
-		'meta_value'        => $coupon_aff_url,
-		'posts_per_page'    => 1,
-		'suppress_filters'  => true,
-		'no_found_rows'     => true,
+		'meta_query'        => array(
+			'key'   =>  'clpr_id',
+			'value' =>  $coupon_aff_url
+		)
 	) );
 
 	if ( empty( $listing_q->posts ) ) {
 		return false;
 	}
 
-	return true;
+	return $listing_q->posts[0];
 }
