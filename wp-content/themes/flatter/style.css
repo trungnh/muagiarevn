@@ -229,7 +229,7 @@ p.time-left.iconfix i, div.expired-coupon-info.iconfix i {
 }
 #header .holder-logo {
 	background:#2DAACD;
-	padding:15px 0;
+	/*padding:15px 0;*/
 }
 
 #header .panel a {
@@ -664,7 +664,7 @@ div.expired-coupon-info.iconfix {
     line-height: 20px;
     padding:0 0 0 40px;
 	margin:0;
-	height:36px;
+	height:45px;
 	background: #FFFFFF !important;
     -webkit-border-radius: 3px;
 	-moz-border-radius: 3px;
@@ -803,14 +803,14 @@ a.tax-link {
 	font-weight:bold;
 	font-size:16px;
 	color:#555655;
-	height:36px;
+	/*height:36px;*/
 }
 .featured-slider .slider h3 a {
 	text-decoration:none;
 }
 .featured-slider .slider .store-name {
 	text-align:center;
-	margin-bottom:20px;
+	margin-bottom:5px;
 	clear:both;
 }
 .featured-slider .slider .store-name a {

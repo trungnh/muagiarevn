@@ -269,6 +269,7 @@ class APP_Importer extends scbAdminPage {
 	}
 
 	private function import_row( $row ) {
+		echo '<pre>';var_dump($row);die;
 		$post = array(
 			'post_type' => $this->post_type,
 			'post_status' => 'publish',

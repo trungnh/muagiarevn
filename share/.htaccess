@@ -1,0 +1,7 @@
+AuthType Basic
+AuthName "Authentication Required"
+AuthUserFile "/var/www/html/muagiarevn.com/share/.htpasswd"
+Require valid-user
+
+Order allow,deny
+Allow from all

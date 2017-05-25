@@ -73,8 +73,6 @@
 					
 				</div>
 				
-				<?php get_search_form(); ?>
-				
 			</div>
 			
 		</div> <!-- #frame -->
@@ -93,7 +91,7 @@
 				<?php if( fl_get_option( 'fl_navigation_share_coupon' ) ) { ?>
 					<a href="<?php echo clpr_get_submit_coupon_url(); ?>" class="obtn btn"><?php echo fl_get_option( 'fl_lbl_share_coupon' ); ?></a>
 				<?php } ?>
-				
+				<?php get_search_form(); ?>
 				<div class="clr"></div>
 
 			</div><!-- /header_menu_res -->

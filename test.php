@@ -1,1 +1,2 @@
-<?php echo $_SERVER['SERVER_NAME'];
+<?php 
+echo exec('whoami');
