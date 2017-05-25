@@ -16,8 +16,8 @@ foreach($offers as $offer) {
 		//import promotion/coupon
 		foreach ($promotions as $promo){
 			// Check if coupon is non-exist and coupon data is not empty then create coupon post
-			if(!clpr_get_listing_by_coupon_aff_url($promo['coupon_aff_url'])){
-				echo $promo['id'].'--'.$promo['coupon_type']."\n";
+			if(!clpr_get_listing_by_coupon_aff_url($promo['coupon_aff_url']))
+			{
 				import($promo);
 			}
 		}
