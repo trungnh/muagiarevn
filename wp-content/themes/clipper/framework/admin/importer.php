@@ -269,7 +269,6 @@ class APP_Importer extends scbAdminPage {
 	}
 
 	private function import_row( $row ) {
-		echo '<pre>';var_dump($row);die;
 		$post = array(
 			'post_type' => $this->post_type,
 			'post_status' => 'publish',
@@ -484,5 +483,10 @@ class APP_Importer extends scbAdminPage {
 	function cmpr_strlen( $a, $b ) {
 		return strlen( $b ) - strlen( $a );
 	}
+
+	public function import_row_from_outside($row)
+    {
+        $this->import_row($row);
+    }
 
 }
