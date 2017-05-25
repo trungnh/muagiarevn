@@ -2,7 +2,7 @@
 ini_set('display_errors', 1);
 include "./wp-load.php";
 include dirname(__FILE__) . "/wp-content/themes/clipper/framework/admin/importer.php";
-echo date('h:i:s')."\n";
+
 define('PUB_ID', 'dunghy7');
 define('TOKEN', '3zYsjOLpNu/jObLJ8vpWjw==');
 
@@ -24,7 +24,6 @@ foreach($offers as $offer) {
 	}
 }
 
-echo date('h:i:s')."\n";
 /*============ Functions ============*/
 
 /**
