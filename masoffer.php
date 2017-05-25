@@ -182,7 +182,7 @@ function clpr_get_listing_by_coupon_aff_url( $coupon_aff_url ) {
 	$listing_q = new WP_Query( array(
 		'post_type'         => 'coupon',
 		'meta_query'        => array(
-			'key'   =>  'clpr_id',
+			'key'   =>  'coupon_aff_url',
 			'value' =>  $coupon_aff_url
 		)
 	) );
